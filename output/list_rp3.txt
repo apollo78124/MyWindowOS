@@ -1,4 +1,4 @@
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              		.arch armv8-a
@@ -58,7 +58,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   55 00a0 00000090 		adrp	x0, .LC14
   56 00a4 00000091 		add	x0, x0, :lo12:.LC14
   57 00a8 F37BC1A8 		ldp	x19, x30, [sp], 16
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   58 00ac 00000014 		b	printf
@@ -118,7 +118,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  110 0128 41040091 		add	x1, x2, 1
  111 012c 83686138 		ldrb	w3, [x4, x1]
  112 0130 A3FFFF35 		cbnz	w3, .L24
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  113 0134 0000028B 		add	x0, x0, x2
@@ -178,7 +178,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  167 01cc 05108052 		mov	w5, 128
  168 01d0 64008052 		mov	w4, 3
  169 01d4 03008052 		mov	w3, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  170 01d8 02008052 		mov	w2, 0
@@ -238,7 +238,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  224 0288 010040F9 		ldr	x1, [x0, #:lo12:currentDir]
  225 028c E00313AA 		mov	x0, x19
  226 0290 00000094 		bl	strcpy
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  227 0294 00000090 		adrp	x0, .LANCHOR0
@@ -277,7 +277,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  260 0310 823E8052 		mov	w2, 500
  261 0314 00000094 		bl	sdReadFile
  262 0318 1F1C0072 		tst	w0, 255
- 263 031c 60050054 		beq	.L45
+ 263 031c 20050054 		beq	.L45
  264 0320 E25740B9 		ldr	w2, [sp, 84]
  265 0324 E103152A 		mov	w1, w21
  266 0328 F76302A9 		stp	x23, x24, [sp, 32]
@@ -293,887 +293,1010 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  276 0350 00000091 		add	x0, x0, :lo12:.LC19
  277 0354 00000094 		bl	printf
  278 0358 BF020071 		cmp	w21, 0
- 279 035c 8D040054 		ble	.L57
+ 279 035c 4D040054 		ble	.L57
  280 0360 F8018052 		mov	w24, 15
  281 0364 F96B03A9 		stp	x25, x26, [sp, 48]
  282 0368 1A000090 		adrp	x26, .LC21
  283 036c 5A030091 		add	x26, x26, :lo12:.LC21
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  284 0370 39119152 		mov	w25, 34953
  285 0374 1911B172 		movk	w25, 0x8888, lsl 16
- 286 0378 04000014 		b	.L46
+ 286 0378 03000014 		b	.L46
  287              		.p2align 2
  288              	.L48:
- 289 037c 73060091 		add	x19, x19, 1
- 290 0380 BF02136B 		cmp	w21, w19
- 291 0384 CD010054 		ble	.L59
- 292              	.L46:
- 293 0388 816A7338 		ldrb	w1, [x20, x19]
- 294 038c E00317AA 		mov	x0, x23
- 295 0390 00000094 		bl	printf
- 296 0394 607EB99B 		umull	x0, w19, w25
- 297 0398 00FC63D3 		lsr	x0, x0, 35
- 298 039c 00CC181B 		msub	w0, w0, w24, w19
+ 289 037c BF02136B 		cmp	w21, w19
+ 290 0380 AD010054 		ble	.L59
+ 291              	.L46:
+ 292 0384 816A7338 		ldrb	w1, [x20, x19]
+ 293 0388 E00317AA 		mov	x0, x23
+ 294 038c 00000094 		bl	printf
+ 295 0390 607EB99B 		umull	x0, w19, w25
+ 296 0394 00FC63D3 		lsr	x0, x0, 35
+ 297 0398 00CC181B 		msub	w0, w0, w24, w19
+ 298 039c 73060091 		add	x19, x19, 1
  299 03a0 E0FEFF35 		cbnz	w0, .L48
- 300 03a4 816A7338 		ldrb	w1, [x20, x19]
- 301 03a8 E0031AAA 		mov	x0, x26
- 302 03ac 73060091 		add	x19, x19, 1
- 303 03b0 00000094 		bl	printf
- 304 03b4 BF02136B 		cmp	w21, w19
- 305 03b8 8CFEFF54 		bgt	.L46
- 306              	.L59:
- 307 03bc F76342A9 		ldp	x23, x24, [sp, 32]
- 308 03c0 F96B43A9 		ldp	x25, x26, [sp, 48]
- 309 03c4 04000014 		b	.L47
- 310              		.p2align 2
- 311              	.L45:
- 312 03c8 00000090 		adrp	x0, .LC17
- 313 03cc 00000091 		add	x0, x0, :lo12:.LC17
- 314 03d0 00000094 		bl	printf
- 315              	.L47:
- 316 03d4 E003162A 		mov	w0, w22
- 317 03d8 00000094 		bl	sdCloseHandle
- 318 03dc F55B41A9 		ldp	x21, x22, [sp, 16]
- 319 03e0 FE2340F9 		ldr	x30, [sp, 64]
- 320 03e4 F353DEA8 		ldp	x19, x20, [sp], 480
- 321 03e8 C0035FD6 		ret
- 322              		.p2align 2
- 323              	.L57:
- 324 03ec F76342A9 		ldp	x23, x24, [sp, 32]
- 325 03f0 F9FFFF17 		b	.L47
- 326              		.size	ReadFileBinary, .-ReadFileBinary
- 327              		.align	2
- 328 03f4 1F2003D5 		.p2align 4,,15
- 328      1F2003D5 
- 328      1F2003D5 
- 329              		.global	DisplayDirectory
- 330              		.type	DisplayDirectory, %function
- 331              	DisplayDirectory:
- 332 0400 FFC309D1 		sub	sp, sp, #624
- 333 0404 F35305A9 		stp	x19, x20, [sp, 80]
- 334 0408 F30300AA 		mov	x19, x0
- 335 040c 00000090 		adrp	x0, .LC22
- 336 0410 00000091 		add	x0, x0, :lo12:.LC22
- 337 0414 F55B06A9 		stp	x21, x22, [sp, 96]
- 338 0418 F5230291 		add	x21, sp, 136
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+ 300 03a4 E0031AAA 		mov	x0, x26
+ 301 03a8 00000094 		bl	printf
+ 302 03ac BF02136B 		cmp	w21, w19
+ 303 03b0 ACFEFF54 		bgt	.L46
+ 304              	.L59:
+ 305 03b4 F76342A9 		ldp	x23, x24, [sp, 32]
+ 306 03b8 F96B43A9 		ldp	x25, x26, [sp, 48]
+ 307 03bc 04000014 		b	.L47
+ 308              		.p2align 2
+ 309              	.L45:
+ 310 03c0 00000090 		adrp	x0, .LC17
+ 311 03c4 00000091 		add	x0, x0, :lo12:.LC17
+ 312 03c8 00000094 		bl	printf
+ 313              	.L47:
+ 314 03cc E003162A 		mov	w0, w22
+ 315 03d0 00000094 		bl	sdCloseHandle
+ 316 03d4 F55B41A9 		ldp	x21, x22, [sp, 16]
+ 317 03d8 FE2340F9 		ldr	x30, [sp, 64]
+ 318 03dc F353DEA8 		ldp	x19, x20, [sp], 480
+ 319 03e0 C0035FD6 		ret
+ 320              		.p2align 2
+ 321              	.L57:
+ 322 03e4 F76342A9 		ldp	x23, x24, [sp, 32]
+ 323 03e8 F9FFFF17 		b	.L47
+ 324              		.size	ReadFileBinary, .-ReadFileBinary
+ 325              		.align	2
+ 326 03ec 1F2003D5 		.p2align 4,,15
+ 327              		.global	loadApp
+ 328              		.type	loadApp, %function
+ 329              	loadApp:
+ 330 03f0 F353A5A9 		stp	x19, x20, [sp, -432]!
+ 331 03f4 F40300AA 		mov	x20, x0
+ 332 03f8 E1A30091 		add	x1, sp, 40
+ 333 03fc F57B01A9 		stp	x21, x30, [sp, 16]
+ 334 0400 00000094 		bl	sdFindFirstFile
+ 335 0404 800C8052 		mov	w0, 100
+ 336 0408 00000094 		bl	malloc
+ 337 040c 137C4093 		sxtw	x19, w0
+ 338 0410 00000090 		adrp	x0, currentDir
+ 339 0414 010040F9 		ldr	x1, [x0, #:lo12:currentDir]
+ 340 0418 E00313AA 		mov	x0, x19
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
- 339 041c F77B07A9 		stp	x23, x30, [sp, 112]
- 340 0420 00000094 		bl	printf
- 341 0424 020C80D2 		mov	x2, 96
- 342 0428 E00315AA 		mov	x0, x21
- 343 042c 01000090 		adrp	x1, .LANCHOR1
- 344 0430 21000091 		add	x1, x1, :lo12:.LANCHOR1
- 345 0434 00000094 		bl	memcpy
- 346 0438 E00313AA 		mov	x0, x19
- 347 043c E1A30391 		add	x1, sp, 232
- 348 0440 13000090 		adrp	x19, .LC25
- 349 0444 73020091 		add	x19, x19, :lo12:.LC25
- 350 0448 00000094 		bl	sdFindFirstFile
- 351 044c 16000090 		adrp	x22, .LC24
- 352 0450 D6020091 		add	x22, x22, :lo12:.LC24
- 353 0454 F4830591 		add	x20, sp, 352
- 354 0458 F703002A 		mov	w23, w0
- 355 045c 1F2003D5 		.p2align 3
- 356              	.L61:
- 357 0460 E15741B9 		ldr	w1, [sp, 340]
- 358 0464 E00313AA 		mov	x0, x19
- 359 0468 3F400071 		cmp	w1, 16
- 360 046c E0040054 		beq	.L66
- 361 0470 E9FB80B9 		ldrsw	x9, [sp, 248]
- 362 0474 E8F740B9 		ldr	w8, [sp, 244]
- 363 0478 EBAB4939 		ldrb	w11, [sp, 618]
- 364 047c ECA74939 		ldrb	w12, [sp, 617]
- 365 0480 EDA34939 		ldrb	w13, [sp, 616]
- 366 0484 EE9F4939 		ldrb	w14, [sp, 615]
- 367 0488 EA5F41B9 		ldr	w10, [sp, 348]
- 368 048c EE0300B9 		str	w14, [sp]
- 369 0490 ED0B00B9 		str	w13, [sp, 8]
- 370 0494 EC1300B9 		str	w12, [sp, 16]
- 371 0498 EB1B00B9 		str	w11, [sp, 24]
- 372 049c EA1300F9 		str	x10, [sp, 32]
- 373 04a0 E82B00B9 		str	w8, [sp, 40]
- 374 04a4 E8FF40B9 		ldr	w8, [sp, 252]
- 375 04a8 E1834939 		ldrb	w1, [sp, 608]
- 376 04ac E79B4939 		ldrb	w7, [sp, 614]
- 377 04b0 08B11D11 		add	w8, w8, 1900
- 378 04b4 E6974939 		ldrb	w6, [sp, 613]
- 379 04b8 E5934939 		ldrb	w5, [sp, 612]
- 380 04bc E48F4939 		ldrb	w4, [sp, 611]
- 381 04c0 E38B4939 		ldrb	w3, [sp, 610]
- 382 04c4 E2874939 		ldrb	w2, [sp, 609]
- 383 04c8 A97A69F8 		ldr	x9, [x21, x9, lsl 3]
- 384 04cc E91B00F9 		str	x9, [sp, 48]
- 385 04d0 E83B00B9 		str	w8, [sp, 56]
- 386 04d4 F42300F9 		str	x20, [sp, 64]
- 387 04d8 00000094 		bl	printf
- 388 04dc E1A30391 		add	x1, sp, 232
- 389 04e0 E003172A 		mov	w0, w23
- 390 04e4 00000094 		bl	sdFindNextFile
- 391 04e8 C0FBFF35 		cbnz	w0, .L61
- 392 04ec E003172A 		mov	w0, w23
- 393 04f0 00000094 		bl	sdFindClose
- 394 04f4 F35345A9 		ldp	x19, x20, [sp, 80]
- 395 04f8 F55B46A9 		ldp	x21, x22, [sp, 96]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+ 341 041c 00000094 		bl	strcpy
+ 342 0420 00000090 		adrp	x0, .LANCHOR0
+ 343 0424 010040F9 		ldr	x1, [x0, #:lo12:.LANCHOR0]
+ 344 0428 E00313AA 		mov	x0, x19
+ 345 042c 00000094 		bl	strcat
+ 346 0430 E10314AA 		mov	x1, x20
+ 347 0434 E00313AA 		mov	x0, x19
+ 348 0438 00000094 		bl	strcat
+ 349 043c E10313AA 		mov	x1, x19
+ 350 0440 00000090 		adrp	x0, .LC15
+ 351 0444 00000091 		add	x0, x0, :lo12:.LC15
+ 352 0448 00000094 		bl	printf
+ 353 044c E00313AA 		mov	x0, x19
+ 354 0450 06008052 		mov	w6, 0
+ 355 0454 05108052 		mov	w5, 128
+ 356 0458 64008052 		mov	w4, 3
+ 357 045c 03008052 		mov	w3, 0
+ 358 0460 02008052 		mov	w2, 0
+ 359 0464 0100B052 		mov	w1, -2147483648
+ 360 0468 F59F40B9 		ldr	w21, [sp, 156]
+ 361 046c 00000094 		bl	sdCreateFile
+ 362 0470 80000035 		cbnz	w0, .L68
+ 363 0474 F57B41A9 		ldp	x21, x30, [sp, 16]
+ 364 0478 F353DBA8 		ldp	x19, x20, [sp], 432
+ 365 047c C0035FD6 		ret
+ 366              		.p2align 2
+ 367              	.L68:
+ 368 0480 14000090 		adrp	x20, buffer
+ 369 0484 94020091 		add	x20, x20, :lo12:buffer
+ 370 0488 F303002A 		mov	w19, w0
+ 371 048c E10314AA 		mov	x1, x20
+ 372 0490 040080D2 		mov	x4, 0
+ 373 0494 E3930091 		add	x3, sp, 36
+ 374 0498 823E8052 		mov	w2, 500
+ 375 049c 00000094 		bl	sdReadFile
+ 376 04a0 1F1C0072 		tst	w0, 255
+ 377 04a4 21010054 		bne	.L69
+ 378 04a8 00000090 		adrp	x0, .LC17
+ 379 04ac 00000091 		add	x0, x0, :lo12:.LC17
+ 380 04b0 00000094 		bl	printf
+ 381              	.L63:
+ 382 04b4 E003132A 		mov	w0, w19
+ 383 04b8 00000094 		bl	sdCloseHandle
+ 384 04bc F57B41A9 		ldp	x21, x30, [sp, 16]
+ 385 04c0 F353DBA8 		ldp	x19, x20, [sp], 432
+ 386 04c4 C0035FD6 		ret
+ 387              		.p2align 2
+ 388              	.L69:
+ 389 04c8 E22740B9 		ldr	w2, [sp, 36]
+ 390 04cc E103152A 		mov	w1, w21
+ 391 04d0 00000090 		adrp	x0, .LC18
+ 392 04d4 00000091 		add	x0, x0, :lo12:.LC18
+ 393 04d8 42040051 		sub	w2, w2, #1
+ 394 04dc 9F4A2238 		strb	wzr, [x20, w2, uxtw]
+ 395 04e0 00000094 		bl	printf
+ 396 04e4 00000090 		adrp	x0, .LC22
+ 397 04e8 00000091 		add	x0, x0, :lo12:.LC22
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
- 396 04fc F77B47A9 		ldp	x23, x30, [sp, 112]
- 397 0500 FFC30991 		add	sp, sp, 624
- 398 0504 C0035FD6 		ret
- 399              		.p2align 2
- 400              	.L66:
- 401 0508 E10314AA 		mov	x1, x20
- 402 050c E00316AA 		mov	x0, x22
- 403 0510 00000094 		bl	printf
- 404 0514 E1A30391 		add	x1, sp, 232
- 405 0518 E003172A 		mov	w0, w23
- 406 051c 00000094 		bl	sdFindNextFile
- 407 0520 00FAFF35 		cbnz	w0, .L61
- 408 0524 E003172A 		mov	w0, w23
- 409 0528 00000094 		bl	sdFindClose
- 410 052c F35345A9 		ldp	x19, x20, [sp, 80]
- 411 0530 F55B46A9 		ldp	x21, x22, [sp, 96]
- 412 0534 F77B47A9 		ldp	x23, x30, [sp, 112]
- 413 0538 FFC30991 		add	sp, sp, 624
- 414 053c C0035FD6 		ret
- 415              		.size	DisplayDirectory, .-DisplayDirectory
- 416              		.align	2
- 417              		.p2align 4,,15
- 418              		.global	execute
- 419              		.type	execute, %function
- 420              	execute:
- 421 0540 F353AEA9 		stp	x19, x20, [sp, -288]!
- 422 0544 140080D2 		mov	x20, 0
- 423 0548 F96B03A9 		stp	x25, x26, [sp, 48]
- 424 054c 19000090 		adrp	x25, .LC22
- 425 0550 39030091 		add	x25, x25, :lo12:.LC22
- 426 0554 F55B01A9 		stp	x21, x22, [sp, 16]
- 427 0558 9A0C80D2 		mov	x26, 100
- 428 055c 150080D2 		mov	x21, 0
- 429 0560 F76302A9 		stp	x23, x24, [sp, 32]
- 430 0564 F80300AA 		mov	x24, x0
- 431 0568 E00319AA 		mov	x0, x25
- 432 056c FE2300F9 		str	x30, [sp, 64]
- 433 0570 00000094 		bl	printf
- 434 0574 E10319AA 		mov	x1, x25
- 435 0578 00008052 		mov	w0, 0
- 436 057c 00000094 		bl	hal_io_serial_puts
- 437 0580 16008052 		mov	w22, 0
- 438 0584 E00318AA 		mov	x0, x24
- 439 0588 17008052 		mov	w23, 0
- 440 058c 00000094 		bl	strlen
- 441 0590 E0830491 		add	x0, sp, 288
- 442 0594 016B7438 		ldrb	w1, [x24, x20]
- 443 0598 A3021A9B 		madd	x3, x21, x26, x0
- 444 059c 20781A12 		and	w0, w1, -33
- 445 05a0 40020035 		cbnz	w0, .L69
- 446 05a4 1F2003D5 		.p2align 3
- 447              	.L97:
- 448 05a8 73C0338B 		add	x19, x3, x19, sxtw
- 449 05ac D6060011 		add	w22, w22, 1
- 450 05b0 94060091 		add	x20, x20, 1
- 451 05b4 E00318AA 		mov	x0, x24
- 452 05b8 D57E4093 		sxtw	x21, w22
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+ 398 04ec 00000094 		bl	printf
+ 399 04f0 00000094 		bl	buffer
+ 400 04f4 E103002A 		mov	w1, w0
+ 401 04f8 02000090 		adrp	x2, .LC23
+ 402 04fc 40000091 		add	x0, x2, :lo12:.LC23
+ 403 0500 00000094 		bl	printf
+ 404 0504 ECFFFF17 		b	.L63
+ 405              		.size	loadApp, .-loadApp
+ 406              		.align	2
+ 407 0508 1F2003D5 		.p2align 4,,15
+ 407      1F2003D5 
+ 408              		.global	DisplayDirectory
+ 409              		.type	DisplayDirectory, %function
+ 410              	DisplayDirectory:
+ 411 0510 FFC309D1 		sub	sp, sp, #624
+ 412 0514 F35305A9 		stp	x19, x20, [sp, 80]
+ 413 0518 F30300AA 		mov	x19, x0
+ 414 051c 00000090 		adrp	x0, .LC24
+ 415 0520 00000091 		add	x0, x0, :lo12:.LC24
+ 416 0524 F55B06A9 		stp	x21, x22, [sp, 96]
+ 417 0528 F5230291 		add	x21, sp, 136
+ 418 052c F77B07A9 		stp	x23, x30, [sp, 112]
+ 419 0530 00000094 		bl	printf
+ 420 0534 020C80D2 		mov	x2, 96
+ 421 0538 E00315AA 		mov	x0, x21
+ 422 053c 01000090 		adrp	x1, .LANCHOR1
+ 423 0540 21000091 		add	x1, x1, :lo12:.LANCHOR1
+ 424 0544 00000094 		bl	memcpy
+ 425 0548 E00313AA 		mov	x0, x19
+ 426 054c E1A30391 		add	x1, sp, 232
+ 427 0550 13000090 		adrp	x19, .LC27
+ 428 0554 73020091 		add	x19, x19, :lo12:.LC27
+ 429 0558 00000094 		bl	sdFindFirstFile
+ 430 055c 16000090 		adrp	x22, .LC26
+ 431 0560 D6020091 		add	x22, x22, :lo12:.LC26
+ 432 0564 F4830591 		add	x20, sp, 352
+ 433 0568 F703002A 		mov	w23, w0
+ 434 056c 1F2003D5 		.p2align 3
+ 435              	.L71:
+ 436 0570 E15741B9 		ldr	w1, [sp, 340]
+ 437 0574 E00313AA 		mov	x0, x19
+ 438 0578 3F400071 		cmp	w1, 16
+ 439 057c E0040054 		beq	.L76
+ 440 0580 E9FB80B9 		ldrsw	x9, [sp, 248]
+ 441 0584 E8F740B9 		ldr	w8, [sp, 244]
+ 442 0588 EBAB4939 		ldrb	w11, [sp, 618]
+ 443 058c ECA74939 		ldrb	w12, [sp, 617]
+ 444 0590 EDA34939 		ldrb	w13, [sp, 616]
+ 445 0594 EE9F4939 		ldrb	w14, [sp, 615]
+ 446 0598 EA5F41B9 		ldr	w10, [sp, 348]
+ 447 059c EE0300B9 		str	w14, [sp]
+ 448 05a0 ED0B00B9 		str	w13, [sp, 8]
+ 449 05a4 EC1300B9 		str	w12, [sp, 16]
+ 450 05a8 EB1B00B9 		str	w11, [sp, 24]
+ 451 05ac EA1300F9 		str	x10, [sp, 32]
+ 452 05b0 E82B00B9 		str	w8, [sp, 40]
+ 453 05b4 E8FF40B9 		ldr	w8, [sp, 252]
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
- 453 05bc 7F821338 		strb	wzr, [x19, -200]
- 454 05c0 00000094 		bl	strlen
- 455 05c4 9F0200EB 		cmp	x20, x0
- 456 05c8 08020054 		bhi	.L71
- 457              	.L70:
- 458 05cc E0830491 		add	x0, sp, 288
- 459 05d0 016B7438 		ldrb	w1, [x24, x20]
- 460 05d4 F303172A 		mov	w19, w23
- 461 05d8 17008052 		mov	w23, 0
- 462 05dc A3021A9B 		madd	x3, x21, x26, x0
- 463 05e0 20781A12 		and	w0, w1, -33
- 464 05e4 20FEFF34 		cbz	w0, .L97
- 465              	.L69:
- 466 05e8 77060011 		add	w23, w19, 1
- 467 05ec 73C0338B 		add	x19, x3, x19, sxtw
- 468 05f0 94060091 		add	x20, x20, 1
- 469 05f4 E00318AA 		mov	x0, x24
- 470 05f8 61821338 		strb	w1, [x19, -200]
- 471 05fc 00000094 		bl	strlen
- 472 0600 1F0014EB 		cmp	x0, x20
- 473 0604 42FEFF54 		bcs	.L70
- 474              	.L71:
- 475 0608 01000090 		adrp	x1, .LC26
- 476 060c E0630191 		add	x0, sp, 88
- 477 0610 21000091 		add	x1, x1, :lo12:.LC26
- 478 0614 00000094 		bl	strcmp
- 479 0618 400F0034 		cbz	w0, .L98
- 480 061c 01000090 		adrp	x1, .LC27
- 481 0620 21000091 		add	x1, x1, :lo12:.LC27
- 482 0624 E0630191 		add	x0, sp, 88
- 483 0628 00000094 		bl	strcmp
- 484 062c 80110034 		cbz	w0, .L99
- 485              	.L73:
- 486 0630 01000090 		adrp	x1, .LC29
- 487 0634 21000091 		add	x1, x1, :lo12:.LC29
- 488 0638 E0630191 		add	x0, sp, 88
- 489 063c 00000094 		bl	strcmp
- 490 0640 20130034 		cbz	w0, .L100
- 491              	.L74:
- 492 0644 01000090 		adrp	x1, .LC30
- 493 0648 21000091 		add	x1, x1, :lo12:.LC30
- 494 064c E0630191 		add	x0, sp, 88
- 495 0650 00000094 		bl	strcmp
- 496 0654 600C0034 		cbz	w0, .L101
- 497              	.L75:
- 498 0658 01000090 		adrp	x1, .LC31
- 499 065c 21000091 		add	x1, x1, :lo12:.LC31
- 500 0660 E0630191 		add	x0, sp, 88
- 501 0664 00000094 		bl	strcmp
- 502 0668 600B0034 		cbz	w0, .L102
- 503              	.L76:
- 504 066c 01000090 		adrp	x1, .LC32
- 505 0670 21000091 		add	x1, x1, :lo12:.LC32
- 506 0674 E0630191 		add	x0, sp, 88
- 507 0678 00000094 		bl	strcmp
- 508 067c 400A0035 		cbnz	w0, .L77
- 509 0680 13000090 		adrp	x19, currentDir
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 10
+ 454 05b8 E1834939 		ldrb	w1, [sp, 608]
+ 455 05bc E79B4939 		ldrb	w7, [sp, 614]
+ 456 05c0 08B11D11 		add	w8, w8, 1900
+ 457 05c4 E6974939 		ldrb	w6, [sp, 613]
+ 458 05c8 E5934939 		ldrb	w5, [sp, 612]
+ 459 05cc E48F4939 		ldrb	w4, [sp, 611]
+ 460 05d0 E38B4939 		ldrb	w3, [sp, 610]
+ 461 05d4 E2874939 		ldrb	w2, [sp, 609]
+ 462 05d8 A97A69F8 		ldr	x9, [x21, x9, lsl 3]
+ 463 05dc E91B00F9 		str	x9, [sp, 48]
+ 464 05e0 E83B00B9 		str	w8, [sp, 56]
+ 465 05e4 F42300F9 		str	x20, [sp, 64]
+ 466 05e8 00000094 		bl	printf
+ 467 05ec E1A30391 		add	x1, sp, 232
+ 468 05f0 E003172A 		mov	w0, w23
+ 469 05f4 00000094 		bl	sdFindNextFile
+ 470 05f8 C0FBFF35 		cbnz	w0, .L71
+ 471 05fc E003172A 		mov	w0, w23
+ 472 0600 00000094 		bl	sdFindClose
+ 473 0604 F35345A9 		ldp	x19, x20, [sp, 80]
+ 474 0608 F55B46A9 		ldp	x21, x22, [sp, 96]
+ 475 060c F77B47A9 		ldp	x23, x30, [sp, 112]
+ 476 0610 FFC30991 		add	sp, sp, 624
+ 477 0614 C0035FD6 		ret
+ 478              		.p2align 2
+ 479              	.L76:
+ 480 0618 E10314AA 		mov	x1, x20
+ 481 061c E00316AA 		mov	x0, x22
+ 482 0620 00000094 		bl	printf
+ 483 0624 E1A30391 		add	x1, sp, 232
+ 484 0628 E003172A 		mov	w0, w23
+ 485 062c 00000094 		bl	sdFindNextFile
+ 486 0630 00FAFF35 		cbnz	w0, .L71
+ 487 0634 E003172A 		mov	w0, w23
+ 488 0638 00000094 		bl	sdFindClose
+ 489 063c F35345A9 		ldp	x19, x20, [sp, 80]
+ 490 0640 F55B46A9 		ldp	x21, x22, [sp, 96]
+ 491 0644 F77B47A9 		ldp	x23, x30, [sp, 112]
+ 492 0648 FFC30991 		add	sp, sp, 624
+ 493 064c C0035FD6 		ret
+ 494              		.size	DisplayDirectory, .-DisplayDirectory
+ 495              		.align	2
+ 496              		.p2align 4,,15
+ 497              		.global	execute
+ 498              		.type	execute, %function
+ 499              	execute:
+ 500 0650 F353AEA9 		stp	x19, x20, [sp, -288]!
+ 501 0654 140080D2 		mov	x20, 0
+ 502 0658 F96B03A9 		stp	x25, x26, [sp, 48]
+ 503 065c 19000090 		adrp	x25, .LC24
+ 504 0660 39030091 		add	x25, x25, :lo12:.LC24
+ 505 0664 F55B01A9 		stp	x21, x22, [sp, 16]
+ 506 0668 9A0C80D2 		mov	x26, 100
+ 507 066c 150080D2 		mov	x21, 0
+ 508 0670 F76302A9 		stp	x23, x24, [sp, 32]
+ 509 0674 F80300AA 		mov	x24, x0
+ 510 0678 E00319AA 		mov	x0, x25
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 10
 
 
- 510 0684 600240F9 		ldr	x0, [x19, #:lo12:currentDir]
- 511 0688 15000090 		adrp	x21, .LANCHOR0
- 512 068c B4020091 		add	x20, x21, :lo12:.LANCHOR0
- 513 0690 00000094 		bl	strlen
- 514 0694 800800B4 		cbz	x0, .L93
- 515              	.L78:
- 516 0698 810A40F9 		ldr	x1, [x20, 16]
- 517 069c F6F30291 		add	x22, sp, 188
- 518 06a0 E00316AA 		mov	x0, x22
- 519 06a4 00000094 		bl	strcmp
- 520 06a8 E0100035 		cbnz	w0, .L80
- 521 06ac 00000090 		adrp	x0, .LC34
- 522 06b0 00000091 		add	x0, x0, :lo12:.LC34
- 523 06b4 00000094 		bl	printf
- 524 06b8 750240F9 		ldr	x21, [x19, #:lo12:currentDir]
- 525 06bc 00000090 		adrp	x0, .LC13
- 526 06c0 00000091 		add	x0, x0, :lo12:.LC13
- 527 06c4 E10315AA 		mov	x1, x21
- 528 06c8 00000094 		bl	printf
- 529 06cc E00315AA 		mov	x0, x21
- 530 06d0 00000094 		bl	strlen
- 531 06d4 E403002A 		mov	w4, w0
- 532 06d8 00040071 		subs	w0, w0, #1
- 533 06dc C4020054 		bmi	.L82
- 534 06e0 A1CA6038 		ldrb	w1, [x21, w0, sxtw]
- 535 06e4 007C4093 		sxtw	x0, w0
- 536 06e8 A502008B 		add	x5, x21, x0
- 537 06ec 3F700171 		cmp	w1, 92
- 538 06f0 800F0054 		beq	.L103
- 539 06f4 010400D1 		sub	x1, x0, #1
- 540 06f8 A30600D1 		sub	x3, x21, #1
- 541 06fc 000005CB 		sub	x0, x0, x5
- 542 0700 84080051 		sub	w4, w4, #2
- 543 0704 6300008B 		add	x3, x3, x0
- 544 0708 A102018B 		add	x1, x21, x1
- 545 070c E00305AA 		mov	x0, x5
- 546 0710 04000014 		b	.L85
- 547              		.p2align 2
- 548              	.L86:
- 549 0714 22F45F38 		ldrb	w2, [x1], -1
- 550 0718 5F700171 		cmp	w2, 92
- 551 071c 600E0054 		beq	.L83
- 552              	.L85:
- 553 0720 1F000039 		strb	wzr, [x0]
- 554 0724 0200054B 		sub	w2, w0, w5
- 555 0728 5F00042B 		cmn	w2, w4
- 556 072c 0000038B 		add	x0, x0, x3
- 557 0730 25FFFF54 		bpl	.L86
- 558              	.L82:
- 559 0734 00000090 		adrp	x0, .LC14
- 560 0738 00000091 		add	x0, x0, :lo12:.LC14
- 561 073c E10315AA 		mov	x1, x21
- 562 0740 00000094 		bl	printf
- 563              	.L79:
- 564 0744 800C8052 		mov	w0, 100
- 565 0748 00000094 		bl	malloc
- 566 074c 610240F9 		ldr	x1, [x19, #:lo12:currentDir]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 11
+ 511 067c FE2300F9 		str	x30, [sp, 64]
+ 512 0680 00000094 		bl	printf
+ 513 0684 E10319AA 		mov	x1, x25
+ 514 0688 00008052 		mov	w0, 0
+ 515 068c 00000094 		bl	hal_io_serial_puts
+ 516 0690 16008052 		mov	w22, 0
+ 517 0694 E00318AA 		mov	x0, x24
+ 518 0698 17008052 		mov	w23, 0
+ 519 069c 00000094 		bl	strlen
+ 520 06a0 E0830491 		add	x0, sp, 288
+ 521 06a4 016B7438 		ldrb	w1, [x24, x20]
+ 522 06a8 A3021A9B 		madd	x3, x21, x26, x0
+ 523 06ac 20781A12 		and	w0, w1, -33
+ 524 06b0 40020035 		cbnz	w0, .L79
+ 525 06b4 1F2003D5 		.p2align 3
+ 526              	.L108:
+ 527 06b8 73C0338B 		add	x19, x3, x19, sxtw
+ 528 06bc D6060011 		add	w22, w22, 1
+ 529 06c0 94060091 		add	x20, x20, 1
+ 530 06c4 E00318AA 		mov	x0, x24
+ 531 06c8 D57E4093 		sxtw	x21, w22
+ 532 06cc 7F821338 		strb	wzr, [x19, -200]
+ 533 06d0 00000094 		bl	strlen
+ 534 06d4 9F0200EB 		cmp	x20, x0
+ 535 06d8 08020054 		bhi	.L81
+ 536              	.L80:
+ 537 06dc E0830491 		add	x0, sp, 288
+ 538 06e0 016B7438 		ldrb	w1, [x24, x20]
+ 539 06e4 F303172A 		mov	w19, w23
+ 540 06e8 17008052 		mov	w23, 0
+ 541 06ec A3021A9B 		madd	x3, x21, x26, x0
+ 542 06f0 20781A12 		and	w0, w1, -33
+ 543 06f4 20FEFF34 		cbz	w0, .L108
+ 544              	.L79:
+ 545 06f8 77060011 		add	w23, w19, 1
+ 546 06fc 73C0338B 		add	x19, x3, x19, sxtw
+ 547 0700 94060091 		add	x20, x20, 1
+ 548 0704 E00318AA 		mov	x0, x24
+ 549 0708 61821338 		strb	w1, [x19, -200]
+ 550 070c 00000094 		bl	strlen
+ 551 0710 1F0014EB 		cmp	x0, x20
+ 552 0714 42FEFF54 		bcs	.L80
+ 553              	.L81:
+ 554 0718 01000090 		adrp	x1, .LC28
+ 555 071c E0630191 		add	x0, sp, 88
+ 556 0720 21000091 		add	x1, x1, :lo12:.LC28
+ 557 0724 00000094 		bl	strcmp
+ 558 0728 800E0034 		cbz	w0, .L109
+ 559 072c 01000090 		adrp	x1, .LC29
+ 560 0730 21000091 		add	x1, x1, :lo12:.LC29
+ 561 0734 E0630191 		add	x0, sp, 88
+ 562 0738 00000094 		bl	strcmp
+ 563 073c C0100034 		cbz	w0, .L110
+ 564              	.L83:
+ 565 0740 01000090 		adrp	x1, .LC31
+ 566 0744 21000091 		add	x1, x1, :lo12:.LC31
+ 567 0748 E0630191 		add	x0, sp, 88
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 11
 
 
- 567 0750 157C4093 		sxtw	x21, w0
- 568 0754 E00315AA 		mov	x0, x21
- 569 0758 00000094 		bl	strcpy
- 570 075c 810640F9 		ldr	x1, [x20, 8]
- 571 0760 E00315AA 		mov	x0, x21
- 572 0764 00000094 		bl	strcat
- 573 0768 610240F9 		ldr	x1, [x19, #:lo12:currentDir]
- 574 076c 00000090 		adrp	x0, .LC35
- 575 0770 00000091 		add	x0, x0, :lo12:.LC35
- 576              	.L96:
- 577 0774 00000094 		bl	printf
- 578 0778 E10319AA 		mov	x1, x25
- 579 077c 00008052 		mov	w0, 0
- 580 0780 00000094 		bl	hal_io_serial_puts
- 581 0784 E00319AA 		mov	x0, x25
- 582 0788 00000094 		bl	printf
- 583 078c F55B41A9 		ldp	x21, x22, [sp, 16]
- 584 0790 F76342A9 		ldp	x23, x24, [sp, 32]
- 585 0794 F96B43A9 		ldp	x25, x26, [sp, 48]
- 586 0798 FE2340F9 		ldr	x30, [sp, 64]
- 587 079c F353D2A8 		ldp	x19, x20, [sp], 288
- 588 07a0 C0035FD6 		ret
- 589              		.p2align 2
- 590              	.L93:
- 591 07a4 810A40F9 		ldr	x1, [x20, 16]
- 592 07a8 E0F30291 		add	x0, sp, 188
- 593 07ac 00000094 		bl	strcmp
- 594 07b0 40F7FF35 		cbnz	w0, .L78
- 595 07b4 00000090 		adrp	x0, .LC33
- 596 07b8 00000091 		add	x0, x0, :lo12:.LC33
- 597 07bc 00000094 		bl	printf
- 598 07c0 E1FFFF17 		b	.L79
- 599              		.p2align 2
- 600              	.L77:
- 601 07c4 00000090 		adrp	x0, .LC36
- 602 07c8 00000091 		add	x0, x0, :lo12:.LC36
- 603 07cc E1630191 		add	x1, sp, 88
- 604 07d0 E9FFFF17 		b	.L96
- 605              		.p2align 2
- 606              	.L102:
- 607 07d4 E10319AA 		mov	x1, x25
- 608 07d8 00000094 		bl	hal_io_serial_puts
- 609 07dc A4FFFF17 		b	.L76
- 610              		.p2align 2
- 611              	.L101:
- 612 07e0 E0F30291 		add	x0, sp, 188
- 613 07e4 00000094 		bl	ReadFileBinary
- 614 07e8 E10319AA 		mov	x1, x25
- 615 07ec 00008052 		mov	w0, 0
- 616 07f0 00000094 		bl	hal_io_serial_puts
- 617 07f4 E00319AA 		mov	x0, x25
- 618 07f8 00000094 		bl	printf
- 619 07fc 97FFFF17 		b	.L75
- 620              		.p2align 2
- 621              	.L98:
- 622 0800 800C8052 		mov	w0, 100
- 623 0804 00000094 		bl	malloc
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 12
+ 568 074c 00000094 		bl	strcmp
+ 569 0750 60120034 		cbz	w0, .L111
+ 570              	.L84:
+ 571 0754 01000090 		adrp	x1, .LC32
+ 572 0758 21000091 		add	x1, x1, :lo12:.LC32
+ 573 075c E0630191 		add	x0, sp, 88
+ 574 0760 00000094 		bl	strcmp
+ 575 0764 40130034 		cbz	w0, .L112
+ 576              	.L85:
+ 577 0768 01000090 		adrp	x1, .LC33
+ 578 076c 21000091 		add	x1, x1, :lo12:.LC33
+ 579 0770 E0630191 		add	x0, sp, 88
+ 580 0774 00000094 		bl	strcmp
+ 581 0778 20140034 		cbz	w0, .L113
+ 582              	.L86:
+ 583 077c 01000090 		adrp	x1, .LC34
+ 584 0780 21000091 		add	x1, x1, :lo12:.LC34
+ 585 0784 E0630191 		add	x0, sp, 88
+ 586 0788 00000094 		bl	strcmp
+ 587 078c 00150034 		cbz	w0, .L114
+ 588              	.L87:
+ 589 0790 01000090 		adrp	x1, .LC35
+ 590 0794 21000091 		add	x1, x1, :lo12:.LC35
+ 591 0798 E0630191 		add	x0, sp, 88
+ 592 079c 00000094 		bl	strcmp
+ 593 07a0 400A0035 		cbnz	w0, .L88
+ 594 07a4 13000090 		adrp	x19, currentDir
+ 595 07a8 600240F9 		ldr	x0, [x19, #:lo12:currentDir]
+ 596 07ac 15000090 		adrp	x21, .LANCHOR0
+ 597 07b0 B4020091 		add	x20, x21, :lo12:.LANCHOR0
+ 598 07b4 00000094 		bl	strlen
+ 599 07b8 800800B4 		cbz	x0, .L104
+ 600              	.L89:
+ 601 07bc 810A40F9 		ldr	x1, [x20, 16]
+ 602 07c0 F6F30291 		add	x22, sp, 188
+ 603 07c4 E00316AA 		mov	x0, x22
+ 604 07c8 00000094 		bl	strcmp
+ 605 07cc 60130035 		cbnz	w0, .L91
+ 606 07d0 00000090 		adrp	x0, .LC37
+ 607 07d4 00000091 		add	x0, x0, :lo12:.LC37
+ 608 07d8 00000094 		bl	printf
+ 609 07dc 750240F9 		ldr	x21, [x19, #:lo12:currentDir]
+ 610 07e0 00000090 		adrp	x0, .LC13
+ 611 07e4 00000091 		add	x0, x0, :lo12:.LC13
+ 612 07e8 E10315AA 		mov	x1, x21
+ 613 07ec 00000094 		bl	printf
+ 614 07f0 E00315AA 		mov	x0, x21
+ 615 07f4 00000094 		bl	strlen
+ 616 07f8 E403002A 		mov	w4, w0
+ 617 07fc 00040071 		subs	w0, w0, #1
+ 618 0800 C4020054 		bmi	.L93
+ 619 0804 A1CA6038 		ldrb	w1, [x21, w0, sxtw]
+ 620 0808 007C4093 		sxtw	x0, w0
+ 621 080c A502008B 		add	x5, x21, x0
+ 622 0810 3F700171 		cmp	w1, 92
+ 623 0814 00120054 		beq	.L115
+ 624 0818 010400D1 		sub	x1, x0, #1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 12
 
 
- 624 0808 01000090 		adrp	x1, currentDir
- 625 080c 210040F9 		ldr	x1, [x1, #:lo12:currentDir]
- 626 0810 137C4093 		sxtw	x19, w0
- 627 0814 E00313AA 		mov	x0, x19
- 628 0818 00000094 		bl	strcpy
- 629 081c 14000090 		adrp	x20, .LANCHOR0+8
- 630 0820 810240F9 		ldr	x1, [x20, #:lo12:.LANCHOR0+8]
- 631 0824 E00313AA 		mov	x0, x19
- 632 0828 00000094 		bl	strcat
- 633 082c E00313AA 		mov	x0, x19
- 634 0830 00000094 		bl	DisplayDirectory
- 635 0834 E10319AA 		mov	x1, x25
- 636 0838 00008052 		mov	w0, 0
- 637 083c 00000094 		bl	hal_io_serial_puts
- 638 0840 E00319AA 		mov	x0, x25
- 639 0844 00000094 		bl	printf
- 640 0848 01000090 		adrp	x1, .LC27
- 641 084c 21000091 		add	x1, x1, :lo12:.LC27
- 642 0850 E0630191 		add	x0, sp, 88
- 643 0854 00000094 		bl	strcmp
- 644 0858 C0EEFF35 		cbnz	w0, .L73
- 645              	.L99:
- 646 085c 00000090 		adrp	x0, .LC28
- 647 0860 00000091 		add	x0, x0, :lo12:.LC28
- 648 0864 00000094 		bl	printf
- 649 0868 01000090 		adrp	x1, printf
- 650 086c 21000091 		add	x1, x1, :lo12:printf
- 651 0870 22008052 		mov	w2, 1
- 652 0874 E00301AA 		mov	x0, x1
- 653 0878 00000094 		bl	sdInitCard
- 654 087c E10319AA 		mov	x1, x25
- 655 0880 00008052 		mov	w0, 0
- 656 0884 00000094 		bl	hal_io_serial_puts
- 657 0888 E00319AA 		mov	x0, x25
- 658 088c 00000094 		bl	printf
- 659 0890 01000090 		adrp	x1, .LC29
- 660 0894 21000091 		add	x1, x1, :lo12:.LC29
- 661 0898 E0630191 		add	x0, sp, 88
- 662 089c 00000094 		bl	strcmp
- 663 08a0 20EDFF35 		cbnz	w0, .L74
- 664              	.L100:
- 665 08a4 E0F30291 		add	x0, sp, 188
- 666 08a8 00000094 		bl	ReadFile
- 667 08ac E10319AA 		mov	x1, x25
- 668 08b0 00008052 		mov	w0, 0
- 669 08b4 00000094 		bl	hal_io_serial_puts
- 670 08b8 E00319AA 		mov	x0, x25
- 671 08bc 00000094 		bl	printf
- 672 08c0 61FFFF17 		b	.L74
- 673              		.p2align 2
- 674              	.L80:
- 675 08c4 A10240F9 		ldr	x1, [x21, #:lo12:.LANCHOR0]
- 676 08c8 600240F9 		ldr	x0, [x19, #:lo12:currentDir]
- 677 08cc 00000094 		bl	strcat
- 678 08d0 600240F9 		ldr	x0, [x19, #:lo12:currentDir]
- 679 08d4 E10316AA 		mov	x1, x22
- 680 08d8 00000094 		bl	strcat
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 13
+ 625 081c A30600D1 		sub	x3, x21, #1
+ 626 0820 000005CB 		sub	x0, x0, x5
+ 627 0824 84080051 		sub	w4, w4, #2
+ 628 0828 6300008B 		add	x3, x3, x0
+ 629 082c A102018B 		add	x1, x21, x1
+ 630 0830 E00305AA 		mov	x0, x5
+ 631 0834 04000014 		b	.L96
+ 632              		.p2align 2
+ 633              	.L97:
+ 634 0838 22F45F38 		ldrb	w2, [x1], -1
+ 635 083c 5F700171 		cmp	w2, 92
+ 636 0840 C0100054 		beq	.L94
+ 637              	.L96:
+ 638 0844 1F000039 		strb	wzr, [x0]
+ 639 0848 0200054B 		sub	w2, w0, w5
+ 640 084c 5F00042B 		cmn	w2, w4
+ 641 0850 0000038B 		add	x0, x0, x3
+ 642 0854 25FFFF54 		bpl	.L97
+ 643              	.L93:
+ 644 0858 00000090 		adrp	x0, .LC14
+ 645 085c 00000091 		add	x0, x0, :lo12:.LC14
+ 646 0860 E10315AA 		mov	x1, x21
+ 647 0864 00000094 		bl	printf
+ 648              	.L90:
+ 649 0868 800C8052 		mov	w0, 100
+ 650 086c 00000094 		bl	malloc
+ 651 0870 610240F9 		ldr	x1, [x19, #:lo12:currentDir]
+ 652 0874 157C4093 		sxtw	x21, w0
+ 653 0878 E00315AA 		mov	x0, x21
+ 654 087c 00000094 		bl	strcpy
+ 655 0880 810640F9 		ldr	x1, [x20, 8]
+ 656 0884 E00315AA 		mov	x0, x21
+ 657 0888 00000094 		bl	strcat
+ 658 088c 610240F9 		ldr	x1, [x19, #:lo12:currentDir]
+ 659 0890 00000090 		adrp	x0, .LC38
+ 660 0894 00000091 		add	x0, x0, :lo12:.LC38
+ 661              	.L107:
+ 662 0898 00000094 		bl	printf
+ 663 089c E10319AA 		mov	x1, x25
+ 664 08a0 00008052 		mov	w0, 0
+ 665 08a4 00000094 		bl	hal_io_serial_puts
+ 666 08a8 E00319AA 		mov	x0, x25
+ 667 08ac 00000094 		bl	printf
+ 668 08b0 F55B41A9 		ldp	x21, x22, [sp, 16]
+ 669 08b4 F76342A9 		ldp	x23, x24, [sp, 32]
+ 670 08b8 F96B43A9 		ldp	x25, x26, [sp, 48]
+ 671 08bc FE2340F9 		ldr	x30, [sp, 64]
+ 672 08c0 F353D2A8 		ldp	x19, x20, [sp], 288
+ 673 08c4 C0035FD6 		ret
+ 674              		.p2align 2
+ 675              	.L104:
+ 676 08c8 810A40F9 		ldr	x1, [x20, 16]
+ 677 08cc E0F30291 		add	x0, sp, 188
+ 678 08d0 00000094 		bl	strcmp
+ 679 08d4 40F7FF35 		cbnz	w0, .L89
+ 680 08d8 00000090 		adrp	x0, .LC36
+ 681 08dc 00000091 		add	x0, x0, :lo12:.LC36
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 13
 
 
- 681 08dc 9AFFFF17 		b	.L79
- 682              	.L103:
- 683 08e0 E00305AA 		mov	x0, x5
- 684 08e4 1F2003D5 		.p2align 3
- 685              	.L83:
- 686 08e8 1F000039 		strb	wzr, [x0]
- 687 08ec 92FFFF17 		b	.L82
- 688              		.size	execute, .-execute
- 689              		.align	2
- 690              		.p2align 4,,15
- 691              		.global	kernel_main
- 692              		.type	kernel_main, %function
- 693              	kernel_main:
- 694 08f0 F353BBA9 		stp	x19, x20, [sp, -80]!
- 695 08f4 04000090 		adrp	x4, .LC37
- 696 08f8 84000091 		add	x4, x4, :lo12:.LC37
- 697 08fc 13000090 		adrp	x19, printf
- 698 0900 73020091 		add	x19, x19, :lo12:printf
- 699 0904 E30313AA 		mov	x3, x19
- 700 0908 05000090 		adrp	x5, currentDir
- 701 090c 02008052 		mov	w2, 0
- 702 0910 01008052 		mov	w1, 0
- 703 0914 A40000F9 		str	x4, [x5, #:lo12:currentDir]
- 704 0918 00008052 		mov	w0, 0
- 705 091c F55B01A9 		stp	x21, x22, [sp, 16]
- 706 0920 14000090 		adrp	x20, .LC40
- 707 0924 94020091 		add	x20, x20, :lo12:.LC40
- 708 0928 F76302A9 		stp	x23, x24, [sp, 32]
- 709 092c 16000090 		adrp	x22, .LC43
- 710 0930 D6020091 		add	x22, x22, :lo12:.LC43
- 711 0934 F96B03A9 		stp	x25, x26, [sp, 48]
- 712 0938 18000090 		adrp	x24, .LC41
- 713 093c 18030091 		add	x24, x24, :lo12:.LC41
- 714 0940 FB7B04A9 		stp	x27, x30, [sp, 64]
- 715 0944 00000094 		bl	PiConsole_Init
- 716 0948 E00313AA 		mov	x0, x19
- 717 094c 00000094 		bl	ARM_setmaxspeed
- 718 0950 1B0080D2 		mov	x27, 0
- 719 0954 E10313AA 		mov	x1, x19
- 720 0958 E00313AA 		mov	x0, x19
- 721 095c 22008052 		mov	w2, 1
- 722 0960 00000094 		bl	sdInitCard
- 723 0964 06008052 		mov	w6, 0
- 724 0968 05108052 		mov	w5, 128
- 725 096c 24008052 		mov	w4, 1
- 726 0970 03008052 		mov	w3, 0
- 727 0974 02008052 		mov	w2, 0
- 728 0978 0100B052 		mov	w1, -2147483648
- 729 097c 00000090 		adrp	x0, .LC38
- 730 0980 00000091 		add	x0, x0, :lo12:.LC38
- 731 0984 00000094 		bl	sdCreateFile
- 732 0988 13000090 		adrp	x19, .LC39
- 733 098c 73020091 		add	x19, x19, :lo12:.LC39
- 734 0990 00000094 		bl	hal_io_serial_init
- 735 0994 E10313AA 		mov	x1, x19
- 736 0998 F5031BAA 		mov	x21, x27
- 737 099c 00008052 		mov	w0, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 14
+ 682 08e0 00000094 		bl	printf
+ 683 08e4 E1FFFF17 		b	.L90
+ 684              		.p2align 2
+ 685              	.L88:
+ 686 08e8 00000090 		adrp	x0, .LC39
+ 687 08ec 00000091 		add	x0, x0, :lo12:.LC39
+ 688 08f0 E1630191 		add	x1, sp, 88
+ 689 08f4 E9FFFF17 		b	.L107
+ 690              		.p2align 2
+ 691              	.L109:
+ 692 08f8 800C8052 		mov	w0, 100
+ 693 08fc 00000094 		bl	malloc
+ 694 0900 01000090 		adrp	x1, currentDir
+ 695 0904 210040F9 		ldr	x1, [x1, #:lo12:currentDir]
+ 696 0908 137C4093 		sxtw	x19, w0
+ 697 090c E00313AA 		mov	x0, x19
+ 698 0910 00000094 		bl	strcpy
+ 699 0914 14000090 		adrp	x20, .LANCHOR0+8
+ 700 0918 810240F9 		ldr	x1, [x20, #:lo12:.LANCHOR0+8]
+ 701 091c E00313AA 		mov	x0, x19
+ 702 0920 00000094 		bl	strcat
+ 703 0924 E00313AA 		mov	x0, x19
+ 704 0928 00000094 		bl	DisplayDirectory
+ 705 092c E10319AA 		mov	x1, x25
+ 706 0930 00008052 		mov	w0, 0
+ 707 0934 00000094 		bl	hal_io_serial_puts
+ 708 0938 E00319AA 		mov	x0, x25
+ 709 093c 00000094 		bl	printf
+ 710 0940 01000090 		adrp	x1, .LC29
+ 711 0944 21000091 		add	x1, x1, :lo12:.LC29
+ 712 0948 E0630191 		add	x0, sp, 88
+ 713 094c 00000094 		bl	strcmp
+ 714 0950 80EFFF35 		cbnz	w0, .L83
+ 715              	.L110:
+ 716 0954 00000090 		adrp	x0, .LC30
+ 717 0958 00000091 		add	x0, x0, :lo12:.LC30
+ 718 095c 00000094 		bl	printf
+ 719 0960 01000090 		adrp	x1, printf
+ 720 0964 21000091 		add	x1, x1, :lo12:printf
+ 721 0968 22008052 		mov	w2, 1
+ 722 096c E00301AA 		mov	x0, x1
+ 723 0970 00000094 		bl	sdInitCard
+ 724 0974 E10319AA 		mov	x1, x25
+ 725 0978 00008052 		mov	w0, 0
+ 726 097c 00000094 		bl	hal_io_serial_puts
+ 727 0980 E00319AA 		mov	x0, x25
+ 728 0984 00000094 		bl	printf
+ 729 0988 01000090 		adrp	x1, .LC31
+ 730 098c 21000091 		add	x1, x1, :lo12:.LC31
+ 731 0990 E0630191 		add	x0, sp, 88
+ 732 0994 00000094 		bl	strcmp
+ 733 0998 E0EDFF35 		cbnz	w0, .L84
+ 734              	.L111:
+ 735 099c E0F30291 		add	x0, sp, 188
+ 736 09a0 00000094 		bl	ReadFile
+ 737 09a4 E10319AA 		mov	x1, x25
+ 738 09a8 00008052 		mov	w0, 0
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 14
 
 
- 738 09a0 19000090 		adrp	x25, .LC42
- 739 09a4 39030091 		add	x25, x25, :lo12:.LC42
- 740 09a8 00000094 		bl	hal_io_serial_puts
- 741 09ac 77070091 		add	x23, x27, 1
- 742 09b0 E00313AA 		mov	x0, x19
- 743 09b4 13008052 		mov	w19, 0
- 744 09b8 00000094 		bl	printf
- 745 09bc BFF61F38 		strb	wzr, [x21], -1
- 746              		.p2align 3
- 747              	.L105:
- 748 09c0 00008052 		mov	w0, 0
- 749 09c4 00000094 		bl	hal_io_serial_getc
- 750 09c8 1A1C0012 		and	w26, w0, 255
- 751 09cc 5F2B0071 		cmp	w26, 10
- 752 09d0 441B4D7A 		ccmp	w26, 13, 4, ne
- 753 09d4 01020054 		bne	.L106
- 754              	.L123:
- 755 09d8 1B0080D2 		mov	x27, 0
- 756 09dc E0031BAA 		mov	x0, x27
- 757 09e0 00000094 		bl	execute
- 758 09e4 E10314AA 		mov	x1, x20
- 759 09e8 00008052 		mov	w0, 0
- 760 09ec 00000094 		bl	hal_io_serial_puts
- 761 09f0 E00314AA 		mov	x0, x20
- 762 09f4 00000094 		bl	printf
- 763 09f8 7F030039 		strb	wzr, [x27]
- 764 09fc 00008052 		mov	w0, 0
- 765 0a00 00000094 		bl	hal_io_serial_getc
- 766 0a04 1A1C0012 		and	w26, w0, 255
- 767 0a08 5F2B0071 		cmp	w26, 10
- 768 0a0c 441B4D7A 		ccmp	w26, 13, 4, ne
- 769 0a10 40FEFF54 		beq	.L123
- 770              	.L106:
- 771 0a14 5F230071 		cmp	w26, 8
- 772 0a18 A0020054 		beq	.L124
- 773 0a1c 1B0080D2 		mov	x27, 0
- 774 0a20 61034039 		ldrb	w1, [x27]
- 775 0a24 C1040034 		cbz	w1, .L114
- 776 0a28 E20317AA 		mov	x2, x23
- 777 0a2c 1F2003D5 		.p2align 3
- 778              	.L112:
- 779 0a30 E30302AA 		mov	x3, x2
- 780 0a34 6502020B 		add	w5, w19, w2
- 781 0a38 44144038 		ldrb	w4, [x2], 1
- 782 0a3c A4FFFF35 		cbnz	w4, .L112
- 783 0a40 A5040011 		add	w5, w5, 1
- 784 0a44 A57C4093 		sxtw	x5, w5
- 785              	.L111:
- 786 0a48 60000039 		strb	w0, [x3]
- 787 0a4c E103002A 		mov	w1, w0
- 788 0a50 BF000039 		strb	wzr, [x5]
- 789 0a54 00008052 		mov	w0, 0
- 790 0a58 00000094 		bl	hal_io_serial_putc
- 791 0a5c E1031A2A 		mov	w1, w26
- 792 0a60 E00316AA 		mov	x0, x22
- 793 0a64 00000094 		bl	printf
- 794 0a68 D6FFFF17 		b	.L105
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 15
+ 739 09ac 00000094 		bl	hal_io_serial_puts
+ 740 09b0 E00319AA 		mov	x0, x25
+ 741 09b4 00000094 		bl	printf
+ 742 09b8 01000090 		adrp	x1, .LC32
+ 743 09bc 21000091 		add	x1, x1, :lo12:.LC32
+ 744 09c0 E0630191 		add	x0, sp, 88
+ 745 09c4 00000094 		bl	strcmp
+ 746 09c8 00EDFF35 		cbnz	w0, .L85
+ 747              	.L112:
+ 748 09cc E0F30291 		add	x0, sp, 188
+ 749 09d0 00000094 		bl	ReadFileBinary
+ 750 09d4 E10319AA 		mov	x1, x25
+ 751 09d8 00008052 		mov	w0, 0
+ 752 09dc 00000094 		bl	hal_io_serial_puts
+ 753 09e0 E00319AA 		mov	x0, x25
+ 754 09e4 00000094 		bl	printf
+ 755 09e8 01000090 		adrp	x1, .LC33
+ 756 09ec 21000091 		add	x1, x1, :lo12:.LC33
+ 757 09f0 E0630191 		add	x0, sp, 88
+ 758 09f4 00000094 		bl	strcmp
+ 759 09f8 20ECFF35 		cbnz	w0, .L86
+ 760              	.L113:
+ 761 09fc E0F30291 		add	x0, sp, 188
+ 762 0a00 00000094 		bl	loadApp
+ 763 0a04 E10319AA 		mov	x1, x25
+ 764 0a08 00008052 		mov	w0, 0
+ 765 0a0c 00000094 		bl	hal_io_serial_puts
+ 766 0a10 E00319AA 		mov	x0, x25
+ 767 0a14 00000094 		bl	printf
+ 768 0a18 01000090 		adrp	x1, .LC34
+ 769 0a1c 21000091 		add	x1, x1, :lo12:.LC34
+ 770 0a20 E0630191 		add	x0, sp, 88
+ 771 0a24 00000094 		bl	strcmp
+ 772 0a28 40EBFF35 		cbnz	w0, .L87
+ 773              	.L114:
+ 774 0a2c E10319AA 		mov	x1, x25
+ 775 0a30 00000094 		bl	hal_io_serial_puts
+ 776 0a34 57FFFF17 		b	.L87
+ 777              		.p2align 2
+ 778              	.L91:
+ 779 0a38 A10240F9 		ldr	x1, [x21, #:lo12:.LANCHOR0]
+ 780 0a3c 600240F9 		ldr	x0, [x19, #:lo12:currentDir]
+ 781 0a40 00000094 		bl	strcat
+ 782 0a44 600240F9 		ldr	x0, [x19, #:lo12:currentDir]
+ 783 0a48 E10316AA 		mov	x1, x22
+ 784 0a4c 00000094 		bl	strcat
+ 785 0a50 86FFFF17 		b	.L90
+ 786              	.L115:
+ 787 0a54 E00305AA 		mov	x0, x5
+ 788              		.p2align 3
+ 789              	.L94:
+ 790 0a58 1F000039 		strb	wzr, [x0]
+ 791 0a5c 7FFFFF17 		b	.L93
+ 792              		.size	execute, .-execute
+ 793              		.align	2
+ 794              		.p2align 4,,15
+ 795              		.global	kernel_main
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 15
 
 
- 795              		.p2align 2
- 796              	.L124:
- 797 0a6c 000080D2 		mov	x0, 0
- 798 0a70 00000094 		bl	strlen
- 799 0a74 60FAFFB4 		cbz	x0, .L105
- 800 0a78 1B0080D2 		mov	x27, 0
- 801 0a7c 60034039 		ldrb	w0, [x27]
- 802 0a80 00010034 		cbz	w0, .L109
- 803 0a84 210080D2 		mov	x1, 1
- 804 0a88 02000014 		b	.L110
- 805              		.p2align 2
- 806              	.L113:
- 807 0a8c E10300AA 		mov	x1, x0
- 808              	.L110:
- 809 0a90 20040091 		add	x0, x1, 1
- 810 0a94 A26A6038 		ldrb	w2, [x21, x0]
- 811 0a98 A2FFFF35 		cbnz	w2, .L113
- 812 0a9c 3FF01F38 		strb	wzr, [x1, -1]
- 813              	.L109:
- 814 0aa0 E10318AA 		mov	x1, x24
- 815 0aa4 00008052 		mov	w0, 0
- 816 0aa8 00000094 		bl	hal_io_serial_puts
- 817 0aac E10318AA 		mov	x1, x24
- 818 0ab0 E00319AA 		mov	x0, x25
- 819 0ab4 00000094 		bl	printf
- 820 0ab8 C2FFFF17 		b	.L105
- 821              		.p2align 2
- 822              	.L114:
- 823 0abc 030080D2 		mov	x3, 0
- 824 0ac0 250080D2 		mov	x5, 1
- 825 0ac4 E1FFFF17 		b	.L111
- 826              		.size	kernel_main, .-kernel_main
- 827              		.global	dir
- 828              		.global	previousDir
- 829              		.global	allFiles
- 830              		.global	defaultRoot
- 831              		.comm	currentDir,8,8
- 832              		.comm	buffer,500,8
- 833              		.section	.rodata
- 834              		.align	3
- 835              		.set	.LANCHOR1,. + 0
- 836              	.LC23:
- 837 0000 00000000 		.xword	.LC0
- 837      00000000 
- 838 0008 00000000 		.xword	.LC1
- 838      00000000 
- 839 0010 00000000 		.xword	.LC2
- 839      00000000 
- 840 0018 00000000 		.xword	.LC3
- 840      00000000 
- 841 0020 00000000 		.xword	.LC4
- 841      00000000 
- 842 0028 00000000 		.xword	.LC5
- 842      00000000 
- 843 0030 00000000 		.xword	.LC6
- 843      00000000 
- 844 0038 00000000 		.xword	.LC7
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 16
+ 796              		.type	kernel_main, %function
+ 797              	kernel_main:
+ 798 0a60 F353BBA9 		stp	x19, x20, [sp, -80]!
+ 799 0a64 04000090 		adrp	x4, .LC40
+ 800 0a68 84000091 		add	x4, x4, :lo12:.LC40
+ 801 0a6c 13000090 		adrp	x19, printf
+ 802 0a70 73020091 		add	x19, x19, :lo12:printf
+ 803 0a74 E30313AA 		mov	x3, x19
+ 804 0a78 05000090 		adrp	x5, currentDir
+ 805 0a7c 02008052 		mov	w2, 0
+ 806 0a80 01008052 		mov	w1, 0
+ 807 0a84 A40000F9 		str	x4, [x5, #:lo12:currentDir]
+ 808 0a88 00008052 		mov	w0, 0
+ 809 0a8c F55B01A9 		stp	x21, x22, [sp, 16]
+ 810 0a90 14000090 		adrp	x20, .LC43
+ 811 0a94 94020091 		add	x20, x20, :lo12:.LC43
+ 812 0a98 F76302A9 		stp	x23, x24, [sp, 32]
+ 813 0a9c 16000090 		adrp	x22, .LC46
+ 814 0aa0 D6020091 		add	x22, x22, :lo12:.LC46
+ 815 0aa4 F96B03A9 		stp	x25, x26, [sp, 48]
+ 816 0aa8 18000090 		adrp	x24, .LC44
+ 817 0aac 18030091 		add	x24, x24, :lo12:.LC44
+ 818 0ab0 FB7B04A9 		stp	x27, x30, [sp, 64]
+ 819 0ab4 00000094 		bl	PiConsole_Init
+ 820 0ab8 E00313AA 		mov	x0, x19
+ 821 0abc 00000094 		bl	ARM_setmaxspeed
+ 822 0ac0 1B0080D2 		mov	x27, 0
+ 823 0ac4 E10313AA 		mov	x1, x19
+ 824 0ac8 E00313AA 		mov	x0, x19
+ 825 0acc 22008052 		mov	w2, 1
+ 826 0ad0 00000094 		bl	sdInitCard
+ 827 0ad4 06008052 		mov	w6, 0
+ 828 0ad8 05108052 		mov	w5, 128
+ 829 0adc 24008052 		mov	w4, 1
+ 830 0ae0 03008052 		mov	w3, 0
+ 831 0ae4 02008052 		mov	w2, 0
+ 832 0ae8 0100B052 		mov	w1, -2147483648
+ 833 0aec 00000090 		adrp	x0, .LC41
+ 834 0af0 00000091 		add	x0, x0, :lo12:.LC41
+ 835 0af4 00000094 		bl	sdCreateFile
+ 836 0af8 13000090 		adrp	x19, .LC42
+ 837 0afc 73020091 		add	x19, x19, :lo12:.LC42
+ 838 0b00 00000094 		bl	hal_io_serial_init
+ 839 0b04 E10313AA 		mov	x1, x19
+ 840 0b08 F5031BAA 		mov	x21, x27
+ 841 0b0c 00008052 		mov	w0, 0
+ 842 0b10 19000090 		adrp	x25, .LC45
+ 843 0b14 39030091 		add	x25, x25, :lo12:.LC45
+ 844 0b18 00000094 		bl	hal_io_serial_puts
+ 845 0b1c 77070091 		add	x23, x27, 1
+ 846 0b20 E00313AA 		mov	x0, x19
+ 847 0b24 13008052 		mov	w19, 0
+ 848 0b28 00000094 		bl	printf
+ 849 0b2c BFF61F38 		strb	wzr, [x21], -1
+ 850              		.p2align 3
+ 851              	.L117:
+ 852 0b30 00008052 		mov	w0, 0
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 16
 
 
- 844      00000000 
- 845 0040 00000000 		.xword	.LC8
- 845      00000000 
- 846 0048 00000000 		.xword	.LC9
- 846      00000000 
- 847 0050 00000000 		.xword	.LC10
- 847      00000000 
- 848 0058 00000000 		.xword	.LC11
- 848      00000000 
- 849              		.data
- 850              		.align	3
- 851              		.set	.LANCHOR0,. + 0
- 852              		.type	dir, %object
- 853              		.size	dir, 8
- 854              	dir:
- 855 0000 00000000 		.xword	.LC44
- 855      00000000 
- 856              		.type	allFiles, %object
- 857              		.size	allFiles, 8
- 858              	allFiles:
- 859 0008 00000000 		.xword	.LC46
- 859      00000000 
- 860              		.type	previousDir, %object
- 861              		.size	previousDir, 8
- 862              	previousDir:
- 863 0010 00000000 		.xword	.LC45
- 863      00000000 
- 864              		.type	defaultRoot, %object
- 865              		.size	defaultRoot, 8
- 866              	defaultRoot:
- 867 0018 00000000 		.xword	.LC37
- 867      00000000 
- 868              		.section	.rodata.str1.8,"aMS",@progbits,1
- 869              		.align	3
- 870              	.LC13:
- 871 0000 4265666F 		.string	"Before removing last Directory: %s\n"
- 871      72652072 
- 871      656D6F76 
- 871      696E6720 
- 871      6C617374 
- 872 0024 00000000 		.zero	4
- 873              	.LC14:
- 874 0028 41667465 		.string	"After removing last Directory: %s\n"
- 874      72207265 
- 874      6D6F7669 
- 874      6E67206C 
- 874      61737420 
- 875 004b 00000000 		.zero	5
- 875      00
- 876              	.LC15:
- 877 0050 4F50454E 		.string	"OPENING %s\n"
- 877      494E4720 
- 877      25730A00 
- 878 005c 00000000 		.zero	4
- 879              	.LC16:
- 880 0060 46696C65 		.string	"File Contents: %s"
- 880      20436F6E 
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 17
+ 853 0b34 00000094 		bl	hal_io_serial_getc
+ 854 0b38 1A1C0012 		and	w26, w0, 255
+ 855 0b3c 5F2B0071 		cmp	w26, 10
+ 856 0b40 441B4D7A 		ccmp	w26, 13, 4, ne
+ 857 0b44 01020054 		bne	.L118
+ 858              	.L136:
+ 859 0b48 1B0080D2 		mov	x27, 0
+ 860 0b4c E0031BAA 		mov	x0, x27
+ 861 0b50 00000094 		bl	execute
+ 862 0b54 E10314AA 		mov	x1, x20
+ 863 0b58 00008052 		mov	w0, 0
+ 864 0b5c 00000094 		bl	hal_io_serial_puts
+ 865 0b60 E00314AA 		mov	x0, x20
+ 866 0b64 00000094 		bl	printf
+ 867 0b68 7F030039 		strb	wzr, [x27]
+ 868 0b6c 00008052 		mov	w0, 0
+ 869 0b70 00000094 		bl	hal_io_serial_getc
+ 870 0b74 1A1C0012 		and	w26, w0, 255
+ 871 0b78 5F2B0071 		cmp	w26, 10
+ 872 0b7c 441B4D7A 		ccmp	w26, 13, 4, ne
+ 873 0b80 40FEFF54 		beq	.L136
+ 874              	.L118:
+ 875 0b84 5F230071 		cmp	w26, 8
+ 876 0b88 E0020054 		beq	.L120
+ 877 0b8c 1B0080D2 		mov	x27, 0
+ 878 0b90 E20317AA 		mov	x2, x23
+ 879 0b94 030080D2 		mov	x3, 0
+ 880 0b98 250080D2 		mov	x5, 1
+ 881 0b9c 61034039 		ldrb	w1, [x27]
+ 882 0ba0 01010034 		cbz	w1, .L122
+ 883 0ba4 1F2003D5 		.p2align 3
+ 884              	.L125:
+ 885 0ba8 E30302AA 		mov	x3, x2
+ 886 0bac 6502020B 		add	w5, w19, w2
+ 887 0bb0 44144038 		ldrb	w4, [x2], 1
+ 888 0bb4 A4FFFF35 		cbnz	w4, .L125
+ 889 0bb8 A5040011 		add	w5, w5, 1
+ 890 0bbc A57C4093 		sxtw	x5, w5
+ 891              	.L122:
+ 892 0bc0 60000039 		strb	w0, [x3]
+ 893 0bc4 E103002A 		mov	w1, w0
+ 894 0bc8 BF000039 		strb	wzr, [x5]
+ 895 0bcc 00008052 		mov	w0, 0
+ 896 0bd0 00000094 		bl	hal_io_serial_putc
+ 897 0bd4 E1031A2A 		mov	w1, w26
+ 898 0bd8 E00316AA 		mov	x0, x22
+ 899 0bdc 00000094 		bl	printf
+ 900 0be0 D4FFFF17 		b	.L117
+ 901              		.p2align 2
+ 902              	.L120:
+ 903 0be4 000080D2 		mov	x0, 0
+ 904 0be8 00000094 		bl	strlen
+ 905 0bec 20FAFFB4 		cbz	x0, .L117
+ 906 0bf0 1B0080D2 		mov	x27, 0
+ 907 0bf4 60034039 		ldrb	w0, [x27]
+ 908 0bf8 00010034 		cbz	w0, .L123
+ 909 0bfc 210080D2 		mov	x1, 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 17
 
 
- 880      74656E74 
- 880      733A2025 
- 880      7300
- 881 0072 00000000 		.zero	6
- 881      0000
- 882              	.LC17:
- 883 0078 4661696C 		.string	"Failed to read"
- 883      65642074 
- 883      6F207265 
- 883      616400
- 884 0087 00       		.zero	1
- 885              	.LC18:
- 886 0088 53495A45 		.string	"SIZE : %d \n "
- 886      203A2025 
- 886      64200A20 
- 886      00
- 887 0095 000000   		.zero	3
- 888              	.LC19:
- 889 0098 46696C65 		.string	"File Contents: "
- 889      20436F6E 
- 889      74656E74 
- 889      733A2000 
- 890              	.LC20:
- 891 00a8 25642000 		.string	"%d "
- 892 00ac 00000000 		.zero	4
- 893              	.LC21:
- 894 00b0 0A2000   		.string	"\n "
- 895 00b3 00000000 		.zero	5
- 895      00
- 896              	.LC22:
- 897 00b8 0A00     		.string	"\n"
- 898 00ba 00000000 		.zero	6
- 898      0000
- 899              	.LC24:
- 900 00c0 2573203C 		.string	"%s <DIR>\n"
- 900      4449523E 
- 900      0A00
- 901 00ca 00000000 		.zero	6
- 901      0000
- 902              	.LC25:
- 903 00d0 25632563 		.string	"%c%c%c%c%c%c%c%c.%c%c%c Size: %9lu bytes, %2d/%s/%4d, LFN: %s\n"
- 903      25632563 
- 903      25632563 
- 903      25632563 
- 903      2E256325 
- 904 010f 00       		.zero	1
- 905              	.LC26:
- 906 0110 6C7300   		.string	"ls"
- 907 0113 00000000 		.zero	5
- 907      00
- 908              	.LC27:
- 909 0118 73797369 		.string	"sysinfo"
- 909      6E666F00 
- 910              	.LC28:
- 911 0120 0A537973 		.string	"\nSystem Information: \n"
- 911      74656D20 
- 911      496E666F 
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 18
+ 910 0c00 02000014 		b	.L124
+ 911              		.p2align 2
+ 912              	.L126:
+ 913 0c04 E10300AA 		mov	x1, x0
+ 914              	.L124:
+ 915 0c08 20040091 		add	x0, x1, 1
+ 916 0c0c A26A6038 		ldrb	w2, [x21, x0]
+ 917 0c10 A2FFFF35 		cbnz	w2, .L126
+ 918 0c14 3FF01F38 		strb	wzr, [x1, -1]
+ 919              	.L123:
+ 920 0c18 E10318AA 		mov	x1, x24
+ 921 0c1c 00008052 		mov	w0, 0
+ 922 0c20 00000094 		bl	hal_io_serial_puts
+ 923 0c24 E10318AA 		mov	x1, x24
+ 924 0c28 E00319AA 		mov	x0, x25
+ 925 0c2c 00000094 		bl	printf
+ 926 0c30 C0FFFF17 		b	.L117
+ 927              		.size	kernel_main, .-kernel_main
+ 928              		.global	dir
+ 929              		.global	previousDir
+ 930              		.global	allFiles
+ 931              		.global	defaultRoot
+ 932              		.comm	currentDir,8,8
+ 933              		.comm	buffer,500,8
+ 934              		.section	.rodata
+ 935              		.align	3
+ 936              		.set	.LANCHOR1,. + 0
+ 937              	.LC25:
+ 938 0000 00000000 		.xword	.LC0
+ 938      00000000 
+ 939 0008 00000000 		.xword	.LC1
+ 939      00000000 
+ 940 0010 00000000 		.xword	.LC2
+ 940      00000000 
+ 941 0018 00000000 		.xword	.LC3
+ 941      00000000 
+ 942 0020 00000000 		.xword	.LC4
+ 942      00000000 
+ 943 0028 00000000 		.xword	.LC5
+ 943      00000000 
+ 944 0030 00000000 		.xword	.LC6
+ 944      00000000 
+ 945 0038 00000000 		.xword	.LC7
+ 945      00000000 
+ 946 0040 00000000 		.xword	.LC8
+ 946      00000000 
+ 947 0048 00000000 		.xword	.LC9
+ 947      00000000 
+ 948 0050 00000000 		.xword	.LC10
+ 948      00000000 
+ 949 0058 00000000 		.xword	.LC11
+ 949      00000000 
+ 950              		.data
+ 951              		.align	3
+ 952              		.set	.LANCHOR0,. + 0
+ 953              		.type	dir, %object
+ 954              		.size	dir, 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 18
 
 
- 911      726D6174 
- 911      696F6E3A 
- 912 0137 00       		.zero	1
- 913              	.LC29:
- 914 0138 63617400 		.string	"cat"
- 915 013c 00000000 		.zero	4
- 916              	.LC30:
- 917 0140 64756D70 		.string	"dump"
- 917      00
- 918 0145 000000   		.zero	3
- 919              	.LC31:
- 920 0148 636C7300 		.string	"cls"
- 921 014c 00000000 		.zero	4
- 922              	.LC32:
- 923 0150 636400   		.string	"cd"
- 924 0153 00000000 		.zero	5
- 924      00
- 925              	.LC33:
- 926 0158 0A2E2E20 		.string	"\n.. At Root \n"
- 926      41742052 
- 926      6F6F7420 
- 926      0A00
- 927 0166 0000     		.zero	2
- 928              	.LC34:
- 929 0168 0A2E2E20 		.string	"\n.. At Non Root \n"
- 929      4174204E 
- 929      6F6E2052 
- 929      6F6F7420 
- 929      0A00
- 930 017a 00000000 		.zero	6
- 930      0000
- 931              	.LC35:
- 932 0180 4368616E 		.string	"Changed Directory to: %s\n"
- 932      67656420 
- 932      44697265 
- 932      63746F72 
- 932      7920746F 
- 933 019a 00000000 		.zero	6
- 933      0000
- 934              	.LC36:
- 935 01a0 0A25733A 		.string	"\n%s: command not found"
- 935      20636F6D 
- 935      6D616E64 
- 935      206E6F74 
- 935      20666F75 
- 936 01b7 00       		.zero	1
- 937              	.LC37:
- 938 01b8 00       		.string	""
- 939 01b9 00000000 		.zero	7
- 939      000000
- 940              	.LC38:
- 941 01c0 6D656F77 		.string	"meowmeow.txt"
- 941      6D656F77 
- 941      2E747874 
- 941      00
- 942 01cd 000000   		.zero	3
- 943              	.LC39:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 19
+ 955              	dir:
+ 956 0000 00000000 		.xword	.LC47
+ 956      00000000 
+ 957              		.type	allFiles, %object
+ 958              		.size	allFiles, 8
+ 959              	allFiles:
+ 960 0008 00000000 		.xword	.LC49
+ 960      00000000 
+ 961              		.type	previousDir, %object
+ 962              		.size	previousDir, 8
+ 963              	previousDir:
+ 964 0010 00000000 		.xword	.LC48
+ 964      00000000 
+ 965              		.type	defaultRoot, %object
+ 966              		.size	defaultRoot, 8
+ 967              	defaultRoot:
+ 968 0018 00000000 		.xword	.LC40
+ 968      00000000 
+ 969              		.section	.rodata.str1.8,"aMS",@progbits,1
+ 970              		.align	3
+ 971              	.LC13:
+ 972 0000 4265666F 		.string	"Before removing last Directory: %s\n"
+ 972      72652072 
+ 972      656D6F76 
+ 972      696E6720 
+ 972      6C617374 
+ 973 0024 00000000 		.zero	4
+ 974              	.LC14:
+ 975 0028 41667465 		.string	"After removing last Directory: %s\n"
+ 975      72207265 
+ 975      6D6F7669 
+ 975      6E67206C 
+ 975      61737420 
+ 976 004b 00000000 		.zero	5
+ 976      00
+ 977              	.LC15:
+ 978 0050 4F50454E 		.string	"OPENING %s\n"
+ 978      494E4720 
+ 978      25730A00 
+ 979 005c 00000000 		.zero	4
+ 980              	.LC16:
+ 981 0060 46696C65 		.string	"File Contents: %s"
+ 981      20436F6E 
+ 981      74656E74 
+ 981      733A2025 
+ 981      7300
+ 982 0072 00000000 		.zero	6
+ 982      0000
+ 983              	.LC17:
+ 984 0078 4661696C 		.string	"Failed to read"
+ 984      65642074 
+ 984      6F207265 
+ 984      616400
+ 985 0087 00       		.zero	1
+ 986              	.LC18:
+ 987 0088 53495A45 		.string	"SIZE : %d \n "
+ 987      203A2025 
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 19
 
 
- 944 01d0 0A757365 		.string	"\nuser$ "
- 944      72242000 
- 945              	.LC40:
- 946 01d8 75736572 		.string	"user$ "
- 946      242000
- 947 01df 00       		.zero	1
- 948              	.LC41:
- 949 01e0 08200800 		.string	"\b \b"
- 950 01e4 00000000 		.zero	4
- 951              	.LC42:
- 952 01e8 257300   		.string	"%s"
- 953 01eb 00000000 		.zero	5
- 953      00
- 954              	.LC43:
- 955 01f0 256300   		.string	"%c"
- 956 01f3 00000000 		.zero	5
- 956      00
- 957              	.LC0:
- 958 01f8 4A616E00 		.string	"Jan"
- 959 01fc 00000000 		.zero	4
- 960              	.LC1:
- 961 0200 46656200 		.string	"Feb"
- 962 0204 00000000 		.zero	4
- 963              	.LC2:
- 964 0208 4D617200 		.string	"Mar"
- 965 020c 00000000 		.zero	4
- 966              	.LC3:
- 967 0210 41707200 		.string	"Apr"
- 968 0214 00000000 		.zero	4
- 969              	.LC4:
- 970 0218 4D617900 		.string	"May"
- 971 021c 00000000 		.zero	4
- 972              	.LC5:
- 973 0220 4A756E00 		.string	"Jun"
- 974 0224 00000000 		.zero	4
- 975              	.LC6:
- 976 0228 4A756C00 		.string	"Jul"
- 977 022c 00000000 		.zero	4
- 978              	.LC7:
- 979 0230 41756700 		.string	"Aug"
- 980 0234 00000000 		.zero	4
- 981              	.LC8:
- 982 0238 53657000 		.string	"Sep"
- 983 023c 00000000 		.zero	4
- 984              	.LC9:
- 985 0240 4F637400 		.string	"Oct"
- 986 0244 00000000 		.zero	4
- 987              	.LC10:
- 988 0248 4E6F7600 		.string	"Nov"
- 989 024c 00000000 		.zero	4
- 990              	.LC11:
- 991 0250 44656300 		.string	"Dec"
- 992 0254 00000000 		.zero	4
- 993              	.LC44:
- 994 0258 5C00     		.string	"\\"
- 995 025a 00000000 		.zero	6
- 995      0000
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 20
+ 987      64200A20 
+ 987      00
+ 988 0095 000000   		.zero	3
+ 989              	.LC19:
+ 990 0098 46696C65 		.string	"File Contents: "
+ 990      20436F6E 
+ 990      74656E74 
+ 990      733A2000 
+ 991              	.LC20:
+ 992 00a8 25642000 		.string	"%d "
+ 993 00ac 00000000 		.zero	4
+ 994              	.LC21:
+ 995 00b0 0A2000   		.string	"\n "
+ 996 00b3 00000000 		.zero	5
+ 996      00
+ 997              	.LC22:
+ 998 00b8 52756E6E 		.string	"Running App...\n"
+ 998      696E6720 
+ 998      4170702E 
+ 998      2E2E0A00 
+ 999              	.LC23:
+ 1000 00c8 0A417070 		.string	"\nApp returned: %d\n"
+ 1000      20726574 
+ 1000      75726E65 
+ 1000      643A2025 
+ 1000      640A00
+ 1001 00db 00000000 		.zero	5
+ 1001      00
+ 1002              	.LC24:
+ 1003 00e0 0A00     		.string	"\n"
+ 1004 00e2 00000000 		.zero	6
+ 1004      0000
+ 1005              	.LC26:
+ 1006 00e8 2573203C 		.string	"%s <DIR>\n"
+ 1006      4449523E 
+ 1006      0A00
+ 1007 00f2 00000000 		.zero	6
+ 1007      0000
+ 1008              	.LC27:
+ 1009 00f8 25632563 		.string	"%c%c%c%c%c%c%c%c.%c%c%c Size: %9lu bytes, %2d/%s/%4d, LFN: %s\n"
+ 1009      25632563 
+ 1009      25632563 
+ 1009      25632563 
+ 1009      2E256325 
+ 1010 0137 00       		.zero	1
+ 1011              	.LC28:
+ 1012 0138 6C7300   		.string	"ls"
+ 1013 013b 00000000 		.zero	5
+ 1013      00
+ 1014              	.LC29:
+ 1015 0140 73797369 		.string	"sysinfo"
+ 1015      6E666F00 
+ 1016              	.LC30:
+ 1017 0148 0A537973 		.string	"\nSystem Information: \n"
+ 1017      74656D20 
+ 1017      496E666F 
+ 1017      726D6174 
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 20
 
 
- 996              	.LC45:
- 997 0260 2E2E00   		.string	".."
- 998 0263 00000000 		.zero	5
- 998      00
- 999              	.LC46:
- 1000 0268 5C2A2E2A 		.string	"\\*.*"
- 1000      00
- 1001              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 21
+ 1017      696F6E3A 
+ 1018 015f 00       		.zero	1
+ 1019              	.LC31:
+ 1020 0160 63617400 		.string	"cat"
+ 1021 0164 00000000 		.zero	4
+ 1022              	.LC32:
+ 1023 0168 64756D70 		.string	"dump"
+ 1023      00
+ 1024 016d 000000   		.zero	3
+ 1025              	.LC33:
+ 1026 0170 2400     		.string	"$"
+ 1027 0172 00000000 		.zero	6
+ 1027      0000
+ 1028              	.LC34:
+ 1029 0178 636C7300 		.string	"cls"
+ 1030 017c 00000000 		.zero	4
+ 1031              	.LC35:
+ 1032 0180 636400   		.string	"cd"
+ 1033 0183 00000000 		.zero	5
+ 1033      00
+ 1034              	.LC36:
+ 1035 0188 0A2E2E20 		.string	"\n.. At Root \n"
+ 1035      41742052 
+ 1035      6F6F7420 
+ 1035      0A00
+ 1036 0196 0000     		.zero	2
+ 1037              	.LC37:
+ 1038 0198 0A2E2E20 		.string	"\n.. At Non Root \n"
+ 1038      4174204E 
+ 1038      6F6E2052 
+ 1038      6F6F7420 
+ 1038      0A00
+ 1039 01aa 00000000 		.zero	6
+ 1039      0000
+ 1040              	.LC38:
+ 1041 01b0 4368616E 		.string	"Changed Directory to: %s\n"
+ 1041      67656420 
+ 1041      44697265 
+ 1041      63746F72 
+ 1041      7920746F 
+ 1042 01ca 00000000 		.zero	6
+ 1042      0000
+ 1043              	.LC39:
+ 1044 01d0 0A25733A 		.string	"\n%s: command not found"
+ 1044      20636F6D 
+ 1044      6D616E64 
+ 1044      206E6F74 
+ 1044      20666F75 
+ 1045 01e7 00       		.zero	1
+ 1046              	.LC40:
+ 1047 01e8 00       		.string	""
+ 1048 01e9 00000000 		.zero	7
+ 1048      000000
+ 1049              	.LC41:
+ 1050 01f0 6D656F77 		.string	"meowmeow.txt"
+ 1050      6D656F77 
+ 1050      2E747874 
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 21
+
+
+ 1050      00
+ 1051 01fd 000000   		.zero	3
+ 1052              	.LC42:
+ 1053 0200 0A757365 		.string	"\nuser$ "
+ 1053      72242000 
+ 1054              	.LC43:
+ 1055 0208 6E757365 		.string	"nuser$ "
+ 1055      72242000 
+ 1056              	.LC44:
+ 1057 0210 08200800 		.string	"\b \b"
+ 1058 0214 00000000 		.zero	4
+ 1059              	.LC45:
+ 1060 0218 257300   		.string	"%s"
+ 1061 021b 00000000 		.zero	5
+ 1061      00
+ 1062              	.LC46:
+ 1063 0220 256300   		.string	"%c"
+ 1064 0223 00000000 		.zero	5
+ 1064      00
+ 1065              	.LC0:
+ 1066 0228 4A616E00 		.string	"Jan"
+ 1067 022c 00000000 		.zero	4
+ 1068              	.LC1:
+ 1069 0230 46656200 		.string	"Feb"
+ 1070 0234 00000000 		.zero	4
+ 1071              	.LC2:
+ 1072 0238 4D617200 		.string	"Mar"
+ 1073 023c 00000000 		.zero	4
+ 1074              	.LC3:
+ 1075 0240 41707200 		.string	"Apr"
+ 1076 0244 00000000 		.zero	4
+ 1077              	.LC4:
+ 1078 0248 4D617900 		.string	"May"
+ 1079 024c 00000000 		.zero	4
+ 1080              	.LC5:
+ 1081 0250 4A756E00 		.string	"Jun"
+ 1082 0254 00000000 		.zero	4
+ 1083              	.LC6:
+ 1084 0258 4A756C00 		.string	"Jul"
+ 1085 025c 00000000 		.zero	4
+ 1086              	.LC7:
+ 1087 0260 41756700 		.string	"Aug"
+ 1088 0264 00000000 		.zero	4
+ 1089              	.LC8:
+ 1090 0268 53657000 		.string	"Sep"
+ 1091 026c 00000000 		.zero	4
+ 1092              	.LC9:
+ 1093 0270 4F637400 		.string	"Oct"
+ 1094 0274 00000000 		.zero	4
+ 1095              	.LC10:
+ 1096 0278 4E6F7600 		.string	"Nov"
+ 1097 027c 00000000 		.zero	4
+ 1098              	.LC11:
+ 1099 0280 44656300 		.string	"Dec"
+ 1100 0284 00000000 		.zero	4
+ 1101              	.LC47:
+ 1102 0288 5C00     		.string	"\\"
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 22
+
+
+ 1103 028a 00000000 		.zero	6
+ 1103      0000
+ 1104              	.LC48:
+ 1105 0290 2E2E00   		.string	".."
+ 1106 0293 00000000 		.zero	5
+ 1106      00
+ 1107              	.LC49:
+ 1108 0298 5C2A2E2A 		.string	"\\*.*"
+ 1108      00
+ 1109              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4      .text:0000000000000000 $x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:8      .text:0000000000000000 removeLastDirectory
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:64     .text:00000000000000b0 clear_screen
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:71     .text:00000000000000c0 concatenate
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:100    .text:0000000000000110 backspace
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:122    .text:0000000000000140 str_len
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:143    .text:0000000000000170 ReadFile
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4      .text:0000000000000000 $x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:8      .text:0000000000000000 removeLastDirectory
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:64     .text:00000000000000b0 clear_screen
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:71     .text:00000000000000c0 concatenate
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:100    .text:0000000000000110 backspace
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:122    .text:0000000000000140 str_len
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:143    .text:0000000000000170 ReadFile
                             *COM*:0000000000000008 currentDir
                             *COM*:00000000000001f4 buffer
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:213    .text:0000000000000260 ReadFileBinary
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:331    .text:0000000000000400 DisplayDirectory
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:420    .text:0000000000000540 execute
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:693    .text:00000000000008f0 kernel_main
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:854    .data:0000000000000000 dir
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:862    .data:0000000000000010 previousDir
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:858    .data:0000000000000008 allFiles
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:866    .data:0000000000000018 defaultRoot
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:834    .rodata:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:850    .data:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:869    .rodata.str1.8:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:213    .text:0000000000000260 ReadFileBinary
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:329    .text:00000000000003f0 loadApp
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:410    .text:0000000000000510 DisplayDirectory
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:499    .text:0000000000000650 execute
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:797    .text:0000000000000a60 kernel_main
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:955    .data:0000000000000000 dir
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:963    .data:0000000000000010 previousDir
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:959    .data:0000000000000008 allFiles
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:967    .data:0000000000000018 defaultRoot
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:935    .rodata:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:951    .data:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:970    .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 printf
@@ -1196,7 +1319,7 @@ ARM_setmaxspeed
 hal_io_serial_init
 hal_io_serial_getc
 hal_io_serial_putc
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              	# 1 "./src/boot/SmartStart64.S"
@@ -1256,7 +1379,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   52 0034 210D0058 		ldr x1, =RPi_CpuId						// Address of RPi_CpuId
   53 0038 200000B9 		str w0, [x1]							// Store the CPU id 
   54              	
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   55              	//"================================================================"
@@ -1316,7 +1439,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  109 00c8 7F111CD5 		msr	hstr_el2, xzr						// Disable coprocessor traps to EL2
  110 00cc 0006A0D2 		mov	x0, #3 << 20
  111 00d0 401018D5 		msr	cpacr_el1, x0						// Enable FP/SIMD at EL1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  112              	
@@ -1376,7 +1499,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  166 0134 1F0003EB 		cmp	x0, x3
  167 0138 82000054 		bcs	.bss_cleared
  168              	.bss_zero_loop:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  169 013c 1F4400B8 		str	wzr, [x0], 4
@@ -1436,7 +1559,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  219      00000000 
  220              	
  221              	
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  222              	/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++}
@@ -1496,7 +1619,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  274 02e0 051B80D2 		mov x5, #spin_cpu0						// Load address of spins
  275 02e4 A17826F8 		str x1, [x5, x6, lsl #3]				// Save caller address
  276 02e8 9F3F03D5 		dsb sy
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  277 02ec 9F2003D5 		sev
@@ -1556,7 +1679,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  330              	c_irq_handler:
  331 000c C0035FD6 		ret
  332              	
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
  333              	/* Provide weak reference c_irq_identify_and_clear_source so if user does not use it functions as d
@@ -1616,7 +1739,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  387 00bc E0039FD6 		eret
  388              	
  389              	/* macro to align handlers every 0x80 bytes */
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
  390              	.macro	vector handler
@@ -1676,7 +1799,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  411      1F2003D5 
  411      1F2003D5 
  411      1F2003D5 
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
  411      1F2003D5 
@@ -1736,7 +1859,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  435              	.globl RPi_IO_Base_Addr;				// Make sure Pi_IO_Base_Addr label is global
  436 0000 00000000 	RPi_IO_Base_Addr : .4byte 0;			// Peripheral Base addr is 4 byte variable in 64bit mode
  437              	
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 10
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 10
 
 
  438              	.globl RPi_BootAddr;					// Make sure RPi_BootAddr label is global
@@ -1753,7 +1876,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  449              	
  450              	.globl RPi_CompileMode;					// Make sure RPi_CompileMode label is global
  451 0014 00000000 	RPi_CompileMode : .4byte 0;				// Compile mode is 4 byte variable in 64bit mode
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 11
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 11
 
 
 DEFINED SYMBOLS
@@ -1813,12 +1936,12 @@ __EL2_stack_core3
 __EL1_stack_core3
 __EL0_stack_core3
 __bss_end__
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 12
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 12
 
 
 __bss_start__
 kernel_main
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              		.arch armv8-a
@@ -1878,7 +2001,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   55 00b0 E0030CAA 		mov	x0, x12
   56 00b4 1F2003D5 		.p2align 3
   57              	.L7:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   58 00b8 02004039 		ldrb	w2, [x0]
@@ -1938,7 +2061,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  111 0174 E77C0353 		lsr	w7, w7, 3
  112 0178 6300058B 		add	x3, x3, x5
  113 017c 41050034 		cbz	w1, .L34
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  114 0180 087D7FD3 		ubfiz	x8, x8, 1, 32
@@ -1998,7 +2121,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  168              		.p2align 2
  169              	.L39:
  170 0238 E903062A 		mov	w9, w6
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  171              	.L27:
@@ -2058,7 +2181,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  224 02f4 E7781F53 		lsl	w7, w7, 1
  225 02f8 83C0238B 		add	x3, x4, x3, sxtw
  226 02fc 6B7D0353 		lsr	w11, w11, 3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  227 0300 4A7D0253 		lsr	w10, w10, 2
@@ -2118,7 +2241,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  281              		.type	DiagLine16, %function
  282              	DiagLine16:
  283 03b0 10C44229 		ldp	w16, w17, [x0, 20]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  284 03b4 3F00026B 		cmp	w1, w2
@@ -2178,7 +2301,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  337 0470 020840B9 		ldr	w2, [x0, 8]
  338 0474 211C1E53 		ubfiz	w1, w1, 2, 8
  339 0478 F37BBFA9 		stp	x19, x30, [sp, -16]!
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
  340 047c 12000090 		adrp	x18, BitFont
@@ -2238,7 +2361,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  394 0548 21040011 		add	w1, w1, 1
  395 054c 3F00136B 		cmp	w1, w19
  396 0550 61FCFF54 		bne	.L65
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
  397 0554 DE230011 		add	w30, w30, 8
@@ -2298,7 +2421,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  449              	.L70:
  450 0614 FF430091 		add	sp, sp, 16
  451 0618 C0035FD6 		ret
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
  452              		.size	PutImage16, .-PutImage16
@@ -2358,7 +2481,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  504 06c4 060840B9 		ldr	w6, [x0, 8]
  505 06c8 070C4029 		ldp	w7, w3, [x0]
  506 06cc 8404040B 		add	w4, w4, w4, lsl 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 10
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 10
 
 
  507 06d0 057D061B 		mul	w5, w8, w6
@@ -2418,7 +2541,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  560 0788 6304030B 		add	w3, w3, w3, lsl 1
  561 078c A4C0248B 		add	x4, x5, x4, sxtw
  562 0790 6300048B 		add	x3, x3, x4
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 11
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 11
 
 
  563 0794 E1010034 		cbz	w1, .L108
@@ -2478,7 +2601,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  617 084c 09094039 		ldrb	w9, [x8, 2]
  618 0850 A9080039 		strb	w9, [x5, 2]
  619 0854 A5000B8B 		add	x5, x5, x11
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 12
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 12
 
 
  620 0858 68000054 		bhi	.L116
@@ -2538,7 +2661,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  674 0908 A8040039 		strb	w8, [x5, 1]
  675 090c 7F800071 		cmp	w3, 32
  676 0910 A7080039 		strb	w7, [x5, 2]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 13
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 13
 
 
  677 0914 A1FDFF54 		bne	.L124
@@ -2598,7 +2721,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  731 09d0 6300088B 		add	x3, x3, x8
  732 09d4 5F00096B 		cmp	w2, w9
  733 09d8 81FDFF54 		bne	.L131
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 14
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 14
 
 
  734              	.L128:
@@ -2658,7 +2781,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  786 0a78 A3C0238B 		add	x3, x5, x3, sxtw
  787 0a7c 84741E53 		lsl	w4, w4, 2
  788 0a80 6300048B 		add	x3, x3, x4
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 15
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 15
 
 
  789 0a84 A1010034 		cbz	w1, .L158
@@ -2718,7 +2841,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  843 0b30 04008052 		mov	w4, 0
  844 0b34 1F2003D5 		.p2align 3
  845              	.L171:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 16
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 16
 
 
  846 0b38 C50040B9 		ldr	w5, [x6]
@@ -2778,7 +2901,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  900              		.size	DiagLine32, .-DiagLine32
  901              		.align	2
  902 0be8 1F2003D5 		.p2align 4,,15
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 17
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 17
 
 
  902      1F2003D5 
@@ -2838,7 +2961,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  956              		.align	2
  957 0c94 1F2003D5 		.p2align 4,,15
  957      1F2003D5 
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 18
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 18
 
 
  957      1F2003D5 
@@ -2898,7 +3021,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1011 0d50 E9030C2A 		mov	w9, w12
  1012 0d54 F30300AA 		mov	x19, x0
  1013 0d58 E8830391 		add	x8, sp, 224
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 19
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 19
 
 
  1014 0d5c EEC30291 		add	x14, sp, 176
@@ -2958,7 +3081,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1068 0e14 02001D32 		orr	w2, w0, 8
  1069 0e18 00109752 		mov	w0, 47232
  1070 0e1c 2100000B 		add	w1, w1, w0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 20
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 20
 
 
  1071              		.p2align 3
@@ -3018,7 +3141,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1124 0ecc E20F0729 		stp	w2, w3, [sp, 56]
  1125 0ed0 E4170829 		stp	w4, w5, [sp, 64]
  1126 0ed4 E67F0929 		stp	w6, wzr, [sp, 72]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 21
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 21
 
 
  1127 0ed8 E28F0BA9 		stp	x2, x3, [sp, 184]
@@ -3078,7 +3201,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1181 0f88 E0C30091 		add	x0, sp, 48
  1182 0f8c E82301A9 		stp	x8, x8, [sp, 16]
  1183 0f90 E71300F9 		str	x7, [sp, 32]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 22
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 22
 
 
  1184 0f94 E67F0529 		stp	w6, wzr, [sp, 40]
@@ -3138,7 +3261,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1236 1044 06008052 		mov	w6, 0
  1237 1048 2298477A 		ccmp	w1, 7, 2, ls
  1238 104c 88020054 		bhi	.L316
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 23
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 23
 
 
  1239 1050 A3999952 		mov	w3, 52429
@@ -3198,7 +3321,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1291              		.p2align 2
  1292              	.L321:
  1293 1108 01008052 		mov	w1, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 24
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 24
 
 
  1294 110c E003012A 		mov	w0, w1
@@ -3258,7 +3381,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1346              		.global	gpio_clearEvent
  1347              		.type	gpio_clearEvent, %function
  1348              	gpio_clearEvent:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 25
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 25
 
 
  1349 11a0 1FD80071 		cmp	w0, 54
@@ -3318,7 +3441,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1402              		.p2align 2
  1403              	.L335:
  1404 124c A5000191 		add	x5, x5, 64
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 26
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 26
 
 
  1405 1250 E203012A 		mov	w2, w1
@@ -3378,7 +3501,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1459 12f4 2020C01A 		lsl	w0, w1, w0
  1460 12f8 C508058B 		add	x5, x6, x5, lsl 2
  1461 12fc A09800B9 		str	w0, [x5, 152]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 27
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 27
 
 
  1462              		.p2align 3
@@ -3438,7 +3561,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1514 1398 210C4011 		add	w1, w1, 12288
  1515 139c 1F2003D5 		.p2align 3
  1516              	.L358:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 28
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 28
 
 
  1517 13a0 220840B9 		ldr	w2, [x1, 8]
@@ -3498,7 +3621,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1569 1438 C0035FD6 		ret
  1570              		.size	mailbox_write, .-mailbox_write
  1571              		.align	2
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 29
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 29
 
 
  1572 143c 1F2003D5 		.p2align 4,,15
@@ -3558,7 +3681,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1624 14e8 E203082A 		mov	w2, w8
  1625 14ec E503082A 		mov	w5, w8
  1626 14f0 E403082A 		mov	w4, w8
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 30
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 30
 
 
  1627 14f4 E3C30391 		add	x3, sp, 240
@@ -3618,7 +3741,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1681 15ac 4200000B 		add	w2, w2, w0
  1682              		.p2align 3
  1683              	.L379:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 31
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 31
 
 
  1684 15b0 403840B9 		ldr	w0, [x2, 56]
@@ -3678,7 +3801,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1738 165c 13008052 		mov	w19, 0
  1739              	.L417:
  1740 1660 E003132A 		mov	w0, w19
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 32
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 32
 
 
  1741 1664 F37BC2A8 		ldp	x19, x30, [sp], 32
@@ -3738,7 +3861,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1795 1714 33008052 		mov	w19, 1
  1796 1718 E003132A 		mov	w0, w19
  1797 171c F37BC2A8 		ldp	x19, x30, [sp], 32
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 33
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 33
 
 
  1798 1720 C0035FD6 		ret
@@ -3798,7 +3921,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1850 17c4 82008052 		mov	w2, 4
  1851 17c8 6200A072 		movk	w2, 0x3, lsl 16
  1852 17cc 06008052 		mov	w6, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 34
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 34
 
 
  1853 17d0 65008052 		mov	w5, 3
@@ -3858,7 +3981,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1907 1880 01000090 		adrp	x1, RPi_CoresReady
  1908 1884 E40313AA 		mov	x4, x19
  1909 1888 F37BC1A8 		ldp	x19, x30, [sp], 16
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 35
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 35
 
 
  1910 188c 02000090 		adrp	x2, RPi_CpuId
@@ -3918,7 +4041,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1964 1934 00140011 		add	w0, w0, 5
  1965 1938 E203006B 		negs	w2, w0
  1966 193c 03040012 		and	w3, w0, 3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 36
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 36
 
 
  1967 1940 42040012 		and	w2, w2, 3
@@ -3978,7 +4101,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2021 19e8 E00314AA 		mov	x0, x20
  2022 19ec 7F340071 		cmp	w3, 13
  2023 19f0 41FDFF54 		bne	.L478
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 37
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 37
 
 
  2024 19f4 BF2200B9 		str	wzr, [x21, 32]
@@ -4038,7 +4161,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2077              	.L482:
  2078 1a84 C0035FD6 		ret
  2079              		.size	SetDCBrushColor, .-SetDCBrushColor
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 38
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 38
 
 
  2080              		.align	2
@@ -4098,7 +4221,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2133 1b14 CA020054 		bge	.L515
  2134 1b18 6100024B 		sub	w1, w3, w2
  2135 1b1c 02008012 		mov	w2, -1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 39
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 39
 
 
  2136 1b20 E403022A 		mov	w4, w2
@@ -4158,7 +4281,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2190 1bb8 4D020054 		ble	.L520
  2191 1bbc 13000090 		adrp	x19, .LANCHOR0
  2192 1bc0 73020091 		add	x19, x19, :lo12:.LANCHOR0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 40
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 40
 
 
  2193 1bc4 73120091 		add	x19, x19, 4
@@ -4218,7 +4341,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2246 1c60 100482D2 		mov	x16, 4128
  2247 1c64 FF6330CB 		sub	sp, sp, x16
  2248 1c68 E6830091 		add	x6, sp, 32
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 41
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 41
 
 
  2249 1c6c FE0300F9 		str	x30, [sp]
@@ -4278,7 +4401,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2303 1d2c E80305AA 		mov	x8, x5
  2304 1d30 E10306AA 		mov	x1, x6
  2305 1d34 1F2003D5 		.p2align 3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 42
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 42
 
 
  2306              	.L550:
@@ -4338,7 +4461,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2360              	.L557:
  2361 1df0 42100091 		add	x2, x2, 4
  2362 1df4 41C05F38 		ldrb	w1, [x2, -4]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 43
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 43
 
 
  2363 1df8 C1340038 		strb	w1, [x6], 3
@@ -4398,7 +4521,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2417 1ebc C4F01F38 		strb	w4, [x6, -1]
  2418 1ec0 01FFFF54 		bne	.L548
  2419 1ec4 7CFFFF17 		b	.L543
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 44
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 44
 
 
  2420              		.p2align 2
@@ -4458,7 +4581,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2474 1f7c E40306AA 		mov	x4, x6
  2475 1f80 A804098B 		add	x8, x5, x9, lsl 1
  2476 1f84 1F2003D5 		.p2align 3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 45
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 45
 
 
  2477              	.L560:
@@ -4518,7 +4641,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2531 2020 06144629 		ldp	w6, w5, [x0, 48]
  2532 2024 C58005AA 		orr	x5, x6, x5, lsl 32
  2533 2028 A0003FD6 		blr	x5
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 46
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 46
 
 
  2534 202c 20008052 		mov	w0, 1
@@ -4578,7 +4701,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2587 20e4 E83300B9 		str	w8, [sp, 48]
  2588 20e8 E603152A 		mov	w6, w21
  2589 20ec F33B00B9 		str	w19, [sp, 56]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 47
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 47
 
 
  2590 20f0 62009052 		mov	w2, 32771
@@ -4638,7 +4761,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2644 21b4 C0035FD6 		ret
  2645              		.p2align 2
  2646              	.L626:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 48
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 48
 
 
  2647 21b8 62008052 		mov	w2, 3
@@ -4698,7 +4821,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2701 2274 84000091 		add	x4, x4, :lo12:HorzLine32
  2702 2278 03000090 		adrp	x3, DiagLine32
  2703 227c 63000091 		add	x3, x3, :lo12:DiagLine32
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 49
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 49
 
 
  2704 2280 02000090 		adrp	x2, WriteChar32
@@ -4758,7 +4881,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2757              	GetConsole_Height:
  2758 2300 00000090 		adrp	x0, .LANCHOR0+16
  2759 2304 000040B9 		ldr	w0, [x0, #:lo12:.LANCHOR0+16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 50
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 50
 
 
  2760 2308 C0035FD6 		ret
@@ -4818,7 +4941,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2810              	_close:
  2811 2380 00008012 		mov	w0, -1
  2812 2384 C0035FD6 		ret
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 51
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 51
 
 
  2813              		.size	_close, .-_close
@@ -4878,7 +5001,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2862 23f0 15000090 		adrp	x21, .LANCHOR0
  2863 23f4 B5020091 		add	x21, x21, :lo12:.LANCHOR0
  2864 23f8 F40301AA 		mov	x20, x1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 52
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 52
 
 
  2865 23fc 3600168B 		add	x22, x1, x22
@@ -4938,7 +5061,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2919 24ac E2FFFF17 		b	.L652
  2920              		.size	_write, .-_write
  2921              		.global	console
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 53
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 53
 
 
  2922              		.global	BitFontEnd
@@ -4998,7 +5121,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2976 00c0 663C0000 		.word	15462
  2977 00c4 3C666666 		.word	1717986876
  2978 00c8 18187E18 		.word	410916888
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 54
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 54
 
 
  2979 00cc 00000000 		.word	0
@@ -5058,7 +5181,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3033 01a4 FE0C1800 		.word	1576190
  3034 01a8 0000180C 		.word	202899456
  3035 01ac 00000000 		.word	0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 55
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 55
 
 
  3036 01b0 00000000 		.word	0
@@ -5118,7 +5241,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3090 0288 0C183030 		.word	808458252
  3091 028c 00000000 		.word	0
  3092 0290 18300000 		.word	12312
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 56
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 56
 
 
  3093 0294 0C0C0C0C 		.word	202116108
@@ -5178,7 +5301,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3147 036c 00000000 		.word	0
  3148 0370 C6FE0000 		.word	65222
  3149 0374 180C0606 		.word	101059608
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 57
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 57
 
 
  3150 0378 30303030 		.word	808464432
@@ -5238,7 +5361,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3204 0450 66FE0000 		.word	65126
  3205 0454 68786862 		.word	1651013736
  3206 0458 FE666260 		.word	1617061630
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 58
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 58
 
 
  3207 045c 00000000 		.word	0
@@ -5298,7 +5421,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3261 0534 0C3860C6 		.word	-966772724
  3262 0538 7CC6C606 		.word	113690236
  3263 053c 00000000 		.word	0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 59
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 59
 
 
  3264 0540 7E7E0000 		.word	32382
@@ -5358,7 +5481,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3318 0618 76CCCCCC 		.word	-858993546
  3319 061c 00000000 		.word	0
  3320 0620 60E00000 		.word	57440
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 60
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 60
 
 
  3321 0624 666C7860 		.word	1618504806
@@ -5418,7 +5541,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3375 06fc 00000000 		.word	0
  3376 0700 00000000 		.word	0
  3377 0704 6666DC00 		.word	14444134
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 61
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 61
 
 
  3378 0708 7C666666 		.word	1717986940
@@ -5478,7 +5601,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3432 07e0 DC760000 		.word	30428
  3433 07e4 00000000 		.word	0
  3434 07e8 00000000 		.word	0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 62
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 62
 
 
  3435 07ec 00000000 		.word	0
@@ -5538,7 +5661,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3489 08c4 18183800 		.word	3676184
  3490 08c8 3C181818 		.word	404232252
  3491 08cc 00000000 		.word	0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 63
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 63
 
 
  3492 08d0 18306000 		.word	6303768
@@ -5598,7 +5721,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3546 09a8 7CC6C6C6 		.word	-960051588
  3547 09ac 00000000 		.word	0
  3548 09b0 3C181800 		.word	1579068
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 64
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 64
 
 
  3549 09b4 60606066 		.word	1717592160
@@ -5658,7 +5781,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3603 0a8c 00000000 		.word	0
  3604 0a90 00000000 		.word	0
  3605 0a94 C0FE0000 		.word	65216
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 65
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 65
 
 
  3606 0a98 00C0C0C0 		.word	-1061109760
@@ -5718,7 +5841,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3660 0b70 00000000 		.word	0
  3661 0b74 FE000000 		.word	254
  3662 0b78 36363636 		.word	909522486
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 66
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 66
 
 
  3663 0b7c 36363636 		.word	909522486
@@ -5778,7 +5901,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3717 0c54 FF181818 		.word	404232447
  3718 0c58 18181818 		.word	404232216
  3719 0c5c 18181818 		.word	404232216
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 67
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 67
 
 
  3720 0c60 18181818 		.word	404232216
@@ -5838,7 +5961,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3774 0d38 00000000 		.word	0
  3775 0d3c 00000000 		.word	0
  3776 0d40 18181818 		.word	404232216
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 68
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 68
 
 
  3777 0d44 1F181F18 		.word	404690975
@@ -5898,7 +6021,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3831 0e1c 00000000 		.word	0
  3832 0e20 C6FE0000 		.word	65222
  3833 0e24 C0C0C0C6 		.word	-960446272
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 69
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 69
 
 
  3834 0e28 C0C0C0C0 		.word	-1061109568
@@ -5958,7 +6081,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3888 0f00 00000000 		.word	0
  3889 0f04 FE0000FE 		.word	-33554178
  3890 0f08 00FE0000 		.word	65024
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 70
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 70
 
 
  3891 0f0c 00000000 		.word	0
@@ -6018,7 +6141,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3945 0fe4 7C7C7C7C 		.word	2088533116
  3946 0fe8 007C7C7C 		.word	2088532992
  3947 0fec 00000000 		.word	0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 71
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 71
 
 
  3948 0ff0 00000000 		.word	0
@@ -6078,7 +6201,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3989 0067 00       		.zero	1
  3990              	.LC2:
  3991 0068 44657465 		.string	"Detected %s CPU, part id: 0x%03X, Cores made ready for use: %u\n"
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 72
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 72
 
 
  3991      63746564 
@@ -6099,89 +6222,89 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3996      7574696F 
  3996      6E202569 
  3997              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 73
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 73
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 rpi-SmartStart.c
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4      .text:0000000000000000 $x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:7      .text:0000000000000000 ClearArea16
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:97     .text:0000000000000140 VertLine16
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:214    .text:00000000000002d0 HorzLine16
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:282    .text:00000000000003b0 DiagLine16
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:336    .text:0000000000000470 WriteChar16
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2927   .rodata:0000000000000000 BitFont
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:405    .text:0000000000000570 PutImage16
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:456    .text:0000000000000620 ClearArea24
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:502    .text:00000000000006c0 VertLine24
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:553    .text:0000000000000770 HorzLine24
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:588    .text:00000000000007e0 DiagLine24
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:635    .text:0000000000000880 WriteChar24
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:688    .text:0000000000000930 PutImage24
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:741    .text:00000000000009f0 ClearArea32
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:779    .text:0000000000000a60 VertLine32
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:830    .text:0000000000000b00 HorzLine32
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:861    .text:0000000000000b60 DiagLine32
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:904    .text:0000000000000bf0 WriteChar32
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:913    .text:0000000000000c00 PutImage32
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:959    .text:0000000000000ca0 mailbox_tag_message.constprop.4
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1006   .text:0000000000000d40 mailbox_tag_message.constprop.7
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1112   .text:0000000000000ea0 mailbox_tag_message.constprop.5
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1174   .text:0000000000000f70 mailbox_tag_message.constprop.6
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1234   .text:0000000000001040 gpio_setup
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1266   .text:00000000000010b0 gpio_output
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1301   .text:0000000000001120 gpio_input
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1325   .text:0000000000001160 gpio_checkEvent
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1348   .text:00000000000011a0 gpio_clearEvent
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1370   .text:00000000000011e0 gpio_edgeDetect
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1423   .text:0000000000001280 gpio_fixResistor
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1492   .text:0000000000001360 timer_getTickCount
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1511   .text:0000000000001390 timer_wait
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1542   .text:00000000000013f0 tick_difference
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1550   .text:0000000000001400 mailbox_write
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1575   .text:0000000000001440 mailbox_read
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1601   .text:0000000000001490 mailbox_tag_message
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1726   .text:0000000000001630 set_Activity_LED
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1844   .text:00000000000017b0 ARM_setmaxspeed
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1890   .text:0000000000001840 displaySmartStart
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1926   .text:00000000000018b0 Embedded_Console_WriteChar
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1982   .text:0000000000001960 WriteText
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2058   .text:0000000000001a50 SetDCPenColor
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2071   .text:0000000000001a70 SetDCBrushColor
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2084   .text:0000000000001a90 MoveToEx
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2105   .text:0000000000001ac0 LineTo
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2177   .text:0000000000001b90 TextOut
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2219   .text:0000000000001c10 BmpOut
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2245   .text:0000000000001c60 CvtBmpLine
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2514   .text:0000000000002000 SmartStartPutPixelRaw
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2524   .text:0000000000002010 Rectangle
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2542   .text:0000000000002040 PiConsole_Init
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2729   .text:00000000000022d0 GetConsoleDC
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2739   .text:00000000000022e0 GetConsole_FrameBuffer
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2748   .text:00000000000022f0 GetConsole_Width
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 74
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4      .text:0000000000000000 $x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:7      .text:0000000000000000 ClearArea16
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:97     .text:0000000000000140 VertLine16
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:214    .text:00000000000002d0 HorzLine16
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:282    .text:00000000000003b0 DiagLine16
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:336    .text:0000000000000470 WriteChar16
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2927   .rodata:0000000000000000 BitFont
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:405    .text:0000000000000570 PutImage16
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:456    .text:0000000000000620 ClearArea24
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:502    .text:00000000000006c0 VertLine24
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:553    .text:0000000000000770 HorzLine24
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:588    .text:00000000000007e0 DiagLine24
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:635    .text:0000000000000880 WriteChar24
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:688    .text:0000000000000930 PutImage24
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:741    .text:00000000000009f0 ClearArea32
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:779    .text:0000000000000a60 VertLine32
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:830    .text:0000000000000b00 HorzLine32
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:861    .text:0000000000000b60 DiagLine32
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:904    .text:0000000000000bf0 WriteChar32
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:913    .text:0000000000000c00 PutImage32
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:959    .text:0000000000000ca0 mailbox_tag_message.constprop.4
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1006   .text:0000000000000d40 mailbox_tag_message.constprop.7
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1112   .text:0000000000000ea0 mailbox_tag_message.constprop.5
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1174   .text:0000000000000f70 mailbox_tag_message.constprop.6
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1234   .text:0000000000001040 gpio_setup
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1266   .text:00000000000010b0 gpio_output
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1301   .text:0000000000001120 gpio_input
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1325   .text:0000000000001160 gpio_checkEvent
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1348   .text:00000000000011a0 gpio_clearEvent
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1370   .text:00000000000011e0 gpio_edgeDetect
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1423   .text:0000000000001280 gpio_fixResistor
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1492   .text:0000000000001360 timer_getTickCount
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1511   .text:0000000000001390 timer_wait
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1542   .text:00000000000013f0 tick_difference
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1550   .text:0000000000001400 mailbox_write
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1575   .text:0000000000001440 mailbox_read
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1601   .text:0000000000001490 mailbox_tag_message
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1726   .text:0000000000001630 set_Activity_LED
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1844   .text:00000000000017b0 ARM_setmaxspeed
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1890   .text:0000000000001840 displaySmartStart
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1926   .text:00000000000018b0 Embedded_Console_WriteChar
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1982   .text:0000000000001960 WriteText
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2058   .text:0000000000001a50 SetDCPenColor
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2071   .text:0000000000001a70 SetDCBrushColor
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2084   .text:0000000000001a90 MoveToEx
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2105   .text:0000000000001ac0 LineTo
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2177   .text:0000000000001b90 TextOut
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2219   .text:0000000000001c10 BmpOut
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2245   .text:0000000000001c60 CvtBmpLine
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2514   .text:0000000000002000 SmartStartPutPixelRaw
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2524   .text:0000000000002010 Rectangle
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2542   .text:0000000000002040 PiConsole_Init
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2729   .text:00000000000022d0 GetConsoleDC
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2739   .text:00000000000022e0 GetConsole_FrameBuffer
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2748   .text:00000000000022f0 GetConsole_Width
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 74
 
 
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2757   .text:0000000000002300 GetConsole_Height
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2766   .text:0000000000002310 _sbrk
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2783   .text:0000000000002340 _kill
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2794   .text:0000000000002360 _getpid
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2802   .text:0000000000002370 _read
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2810   .text:0000000000002380 _close
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2818   .text:0000000000002390 _lseek
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2826   .text:00000000000023a0 _isatty
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2834   .text:00000000000023b0 _fstat
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2844   .text:00000000000023c0 _exit
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2853   .text:00000000000023d0 _write
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3969   .bss:0000000000000004 console
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3980   .rodata:0000000000001000 BitFontEnd
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2924   .rodata:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3953   .data:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3957   .data:0000000000000000 ActivityGPIOPort
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3960   .bss:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3964   .bss:0000000000000000 ModelCheckHasRun
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3974   .bss:0000000000000068 heap_end.4634
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3983   .rodata.str1.8:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2757   .text:0000000000002300 GetConsole_Height
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2766   .text:0000000000002310 _sbrk
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2783   .text:0000000000002340 _kill
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2794   .text:0000000000002360 _getpid
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2802   .text:0000000000002370 _read
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2810   .text:0000000000002380 _close
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2818   .text:0000000000002390 _lseek
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2826   .text:00000000000023a0 _isatty
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2834   .text:00000000000023b0 _fstat
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2844   .text:00000000000023c0 _exit
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2853   .text:00000000000023d0 _write
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3969   .bss:0000000000000004 console
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3980   .rodata:0000000000001000 BitFontEnd
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2924   .rodata:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3953   .data:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3957   .data:0000000000000000 ActivityGPIOPort
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3960   .bss:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3964   .bss:0000000000000000 ModelCheckHasRun
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3974   .bss:0000000000000068 heap_end.4634
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3983   .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 ARMaddrToGPUaddr
@@ -6195,7 +6318,7 @@ hal_io_serial_puts
 GPUaddrToARMaddr
 _end
 errno
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              		.arch armv8-a
@@ -6255,7 +6378,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   55 00a4 1F2003D5 		.p2align 3
   56              	.L14:
   57 00a8 26140038 		strb	w6, [x1], 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   58 00ac 7F0001EB 		cmp	x3, x1
@@ -6315,7 +6438,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  112 0160 02000014 		b	.L24
  113              		.p2align 2
  114              	.L60:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  115 0164 C5F05F38 		ldrb	w5, [x6, -1]
@@ -6375,7 +6498,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  169              		.p2align 2
  170              	.L31:
  171 0214 E803092A 		mov	w8, w9
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  172              	.L11:
@@ -6435,7 +6558,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  224              		.type	vsprintf, %function
  225              	vsprintf:
  226 02b0 F353B9A9 		stp	x19, x20, [sp, -112]!
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  227 02b4 F30301AA 		mov	x19, x1
@@ -6495,7 +6618,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  281 0374 3FAC0071 		cmp	w1, 43
  282 0378 C1FEFF54 		bne	.L216
  283              	.L66:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  284 037c 9C031E32 		orr	w28, w28, 4
@@ -6555,7 +6678,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  338              	.L236:
  339 042c E13E0091 		add	x1, x23, 15
  340 0430 E00317AA 		mov	x0, x23
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
  341 0434 37F07D92 		and	x23, x1, -8
@@ -6615,7 +6738,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  395 04d8 BFB00171 		cmp	w5, 108
  396 04dc A1FDFF54 		bne	.L135
  397              	.L223:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
  398 04e0 5826F837 		tbnz	w24, #31, .L136
@@ -6675,7 +6798,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  452 058c F40313AA 		mov	x20, x19
  453 0590 1F300171 		cmp	w0, 76
  454 0594 04008052 		mov	w4, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
  455 0598 24105A7A 		ccmp	w1, w26, 4, ne
@@ -6735,7 +6858,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  509 0644 3F600171 		cmp	w1, 88
  510 0648 05008012 		mov	w5, -1
  511 064c 01FCFF54 		bne	.L97
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 10
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 10
 
 
  512 0650 02028052 		mov	w2, 16
@@ -6795,7 +6918,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  566 06f4 80FFFF17 		b	.L139
  567              		.p2align 2
  568              	.L95:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 11
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 11
 
 
  569 06f8 A0048052 		mov	w0, 37
@@ -6855,7 +6978,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  623 07a4 2DF2FF54 		ble	.L214
  624              		.p2align 3
  625              	.L120:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 12
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 12
 
 
  626 07a8 A4160038 		strb	w4, [x21], 1
@@ -6915,7 +7038,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  680 085c F803052A 		mov	w24, w5
  681 0860 F7F07D92 		and	x23, x7, -8
  682 0864 9FFFFF17 		b	.L141
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 13
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 13
 
 
  683              	.L145:
@@ -6975,7 +7098,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  737 0924 19028052 		mov	w25, 16
  738 0928 38D8FF36 		tbz	w24, #31, .L236
  739 092c EDFFFF17 		b	.L122
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 14
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 14
 
 
  740              	.L234:
@@ -7035,7 +7158,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  794 09d8 E00317AA 		mov	x0, x23
  795 09dc 37F07D92 		and	x23, x1, -8
  796              	.L127:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 15
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 15
 
 
  797 09e0 000040F9 		ldr	x0, [x0]
@@ -7095,7 +7218,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  851 0a98 F803012A 		mov	w24, w1
  852 0a9c 57F07D92 		and	x23, x2, -8
  853 0aa0 DCFFFF17 		b	.L130
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 16
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 16
 
 
  854              	.L232:
@@ -7155,7 +7278,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  908              	.L87:
  909 0b58 01230011 		add	w1, w24, 8
  910 0b5c 3F000071 		cmp	w1, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 17
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 17
 
 
  911 0b60 0D030054 		ble	.L89
@@ -7215,7 +7338,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  965 0c08 E82744A9 		ldp	x8, x9, [sp, 64]
  966 0c0c EA2F01A9 		stp	x10, x11, [sp, 16]
  967 0c10 E82702A9 		stp	x8, x9, [sp, 32]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 18
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 18
 
 
  968 0c14 E017803D 		str	q0, [sp, 80]
@@ -7275,7 +7398,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1020 0cd8 E68B01F9 		str	x6, [sp, 784]
  1021 0cdc E78F01F9 		str	x7, [sp, 792]
  1022 0ce0 00000094 		bl	vsprintf
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 19
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 19
 
 
  1023 0ce4 F503002A 		mov	w21, w0
@@ -7309,24 +7432,24 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1049      38394142 
  1049      43444546 
  1050              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 20
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 emb-stdio.c
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4      .text:0000000000000000 $x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:7      .text:0000000000000000 number
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:225    .text:00000000000002b0 vsprintf
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:954    .text:0000000000000be0 sprintf
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:989    .text:0000000000000c60 printf
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1044   .rodata:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1048   .rodata:0000000000000000 digits.3946
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4      .text:0000000000000000 $x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:7      .text:0000000000000000 number
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:225    .text:00000000000002b0 vsprintf
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:954    .text:0000000000000be0 sprintf
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:989    .text:0000000000000c60 printf
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1044   .rodata:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1048   .rodata:0000000000000000 digits.3946
 
 UNDEFINED SYMBOLS
 __locale_ctype_ptr
 strnlen
 Embedded_Console_WriteChar
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              		.arch armv8-a
@@ -7386,7 +7509,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   55 00b0 A1010054 		bne	.L9
   56 00b4 00008052 		mov	w0, 0
   57 00b8 F55B41A9 		ldp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   58 00bc F76342A9 		ldp	x23, x24, [sp, 32]
@@ -7446,7 +7569,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  112 016c FE2300F9 		str	x30, [sp, 64]
  113              		.p2align 3
  114              	.L18:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  115 0170 C00240B9 		ldr	w0, [x22]
@@ -7506,7 +7629,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  169 0230 00000090 		adrp	x0, .LC2
  170 0234 E203132A 		mov	w2, w19
  171 0238 00000091 		add	x0, x0, :lo12:.LC2
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  172 023c 210040B9 		ldr	w1, [x1]
@@ -7566,7 +7689,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  225 02f0 F4020091 		add	x20, x23, :lo12:RPi_IO_Base_Addr
  226 02f4 F803002A 		mov	w24, w0
  227 02f8 F55B01A9 		stp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  228 02fc 96048052 		mov	w22, 36
@@ -7626,7 +7749,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  282 03a8 E2D390D2 		mov	x2, 34463
  283 03ac 2200A0F2 		movk	x2, 0x1, lsl 16
  284 03b0 BF0202EB 		cmp	x21, x2
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  285 03b4 48FDFF54 		bhi	.L64
@@ -7686,7 +7809,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  339 0480 F30300AA 		mov	x19, x0
  340 0484 800240B9 		ldr	w0, [x20]
  341 0488 0000160B 		add	w0, w0, w22
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
  342 048c 000040B9 		ldr	w0, [x0]
@@ -7746,7 +7869,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  395              	SetFindDataFromFATEntry.part.0:
  396 0530 022C4039 		ldrb	w2, [x0, 11]
  397 0534 226C00B9 		str	w2, [x1, 108]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
  398 0538 03604039 		ldrb	w3, [x0, 24]
@@ -7806,7 +7929,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  452 0610 02004039 		ldrb	w2, [x0]
  453 0614 22E00539 		strb	w2, [x1, 376]
  454 0618 02044039 		ldrb	w2, [x0, 1]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
  455 061c 22E40539 		strb	w2, [x1, 377]
@@ -7866,7 +7989,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  509 06dc 61010054 		bne	.L84
  510 06e0 9F0314EB 		cmp	x28, x20
  511 06e4 C80A0054 		bhi	.L86
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 10
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 10
 
 
  512 06e8 F30900B5 		cbnz	x19, .L82
@@ -7926,7 +8049,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  566 07b8 1F4400B9 		str	wzr, [x0, 68]
  567 07bc 26004C11 		add	w6, w1, 3145728
  568 07c0 25004C11 		add	w5, w1, 3145728
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 11
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 11
 
 
  569 07c4 A41240B9 		ldr	w4, [x21, 16]
@@ -7986,7 +8109,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  623 0888 FE2B40F9 		ldr	x30, [sp, 80]
  624 088c F353C6A8 		ldp	x19, x20, [sp], 96
  625 0890 C0035FD6 		ret
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 12
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 12
 
 
  626              		.p2align 2
@@ -8046,7 +8169,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  680 0940 5F03026B 		cmp	w26, w2
  681 0944 9F4E00B9 		str	wzr, [x20, 76]
  682 0948 F3079F1A 		cset	w19, ne
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 13
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 13
 
 
  683 094c AEFFFF17 		b	.L80
@@ -8106,7 +8229,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  737 0a1c 46041F53 		ubfiz	w6, w2, 1, 2
  738 0a20 A108010B 		add	w1, w5, w1, lsl 2
  739 0a24 03091D33 		bfi	w3, w8, 3, 3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 14
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 14
 
 
  740 0a28 03600039 		strb	w3, [x0, 24]
@@ -8166,7 +8289,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  794 0afc 85010033 		bfi	w5, w12, 0, 1
  795 0b00 21001A12 		and	w1, w1, 64
  796 0b04 13008052 		mov	w19, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 15
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 15
 
 
  797 0b08 60010033 		bfi	w0, w11, 0, 1
@@ -8226,7 +8349,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  851              	.L119:
  852 0bc4 94220091 		add	x20, x20, 8
  853 0bc8 F96B03A9 		stp	x25, x26, [sp, 48]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 16
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 16
 
 
  854 0bcc D9820D91 		add	x25, x22, 864
@@ -8286,7 +8409,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  908 0c80 E0031AAA 		mov	x0, x26
  909 0c84 7BFEFF97 		bl	sdSendCommandP
  910 0c88 80010035 		cbnz	w0, .L123
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 17
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 17
 
 
  911 0c8c 804640B9 		ldr	w0, [x20, 68]
@@ -8346,7 +8469,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  965              		.align	2
  966              		.p2align 4,,15
  967              		.type	sdResetCard, %function
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 18
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 18
 
 
  968              	sdResetCard:
@@ -8406,7 +8529,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1022 0df4 42000032 		orr	w2, w2, 1
  1023 0df8 220000B9 		str	w2, [x1]
  1024 0dfc 00000094 		bl	timer_wait
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 19
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 19
 
 
  1025 0e00 00508352 		mov	w0, 6784
@@ -8466,7 +8589,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1079 0ebc F77B42A9 		ldp	x23, x30, [sp, 32]
  1080 0ec0 F353C3A8 		ldp	x19, x20, [sp], 48
  1081 0ec4 C0035FD6 		ret
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 20
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 20
 
 
  1082              		.size	sdResetCard, .-sdResetCard
@@ -8526,7 +8649,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1135 0f88 F91B40F9 		ldr	x25, [sp, 48]
  1136              	.L160:
  1137 0f8c E003162A 		mov	w0, w22
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 21
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 21
 
 
  1138 0f90 F55B41A9 		ldp	x21, x22, [sp, 16]
@@ -8586,7 +8709,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1192              	.L168:
  1193 1048 25084039 		ldrb	w5, [x1, 2]
  1194 104c 21040091 		add	x1, x1, 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 22
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 22
 
 
  1195 1050 430040B9 		ldr	w3, [x2]
@@ -8646,7 +8769,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1248      1F2003D5 
  1248      1F2003D5 
  1249              		.type	LoadDrivePartition, %function
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 23
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 23
 
 
  1250              	LoadDrivePartition:
@@ -8706,7 +8829,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1304 11dc 00008052 		mov	w0, 0
  1305 11e0 F35340A9 		ldp	x19, x20, [sp]
  1306 11e4 F55B41A9 		ldp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 24
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 24
 
 
  1307 11e8 FE1340F9 		ldr	x30, [sp, 32]
@@ -8766,7 +8889,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1361 12ac 007C061B 		mul	w0, w0, w6
  1362 12b0 42840051 		sub	w2, w2, #33
  1363 12b4 45008052 		mov	w5, 2
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 25
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 25
 
 
  1364 12b8 21040011 		add	w1, w1, 1
@@ -8826,7 +8949,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1417 1360 F353BAA9 		stp	x19, x20, [sp, -96]!
  1418 1364 741C0012 		and	w20, w3, 255
  1419 1368 F55B01A9 		stp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 26
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 26
 
 
  1420 136c F76302A9 		stp	x23, x24, [sp, 32]
@@ -8886,7 +9009,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1474 1438 F76342A9 		ldp	x23, x24, [sp, 32]
  1475 143c F96B43A9 		ldp	x25, x26, [sp, 48]
  1476 1440 FB7344A9 		ldp	x27, x28, [sp, 64]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 27
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 27
 
 
  1477 1444 FE2B40F9 		ldr	x30, [sp, 80]
@@ -8946,7 +9069,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1531 14f8 417C1053 		lsr	w1, w2, 16
  1532 14fc 427C1853 		lsr	w2, w2, 24
  1533 1500 03000039 		strb	w3, [x0]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 28
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 28
 
 
  1534 1504 01040039 		strb	w1, [x0, 1]
@@ -9006,7 +9129,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1588 15b8 410340B9 		ldr	w1, [x26]
  1589 15bc 21001B0B 		add	w1, w1, w27
  1590 15c0 210040B9 		ldr	w1, [x1]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 29
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 29
 
 
  1591 15c4 014400B8 		str	w1, [x0], 4
@@ -9066,7 +9189,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1645 1688 C0EAFF34 		cbz	w0, .L240
  1646 168c 68FFFF17 		b	.L296
  1647              	.L301:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 30
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 30
 
 
  1648 1690 F4ECFF34 		cbz	w20, .L296
@@ -9126,7 +9249,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1701 174c 40000036 		tbz	x0, 0, .L308
  1702 1750 E14640B9 		ldr	w1, [x23, 68]
  1703              	.L308:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 31
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 31
 
 
  1704 1754 60220A91 		add	x0, x19, 648
@@ -9186,7 +9309,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1758 1804 54008052 		mov	w20, 2
  1759 1808 E003142A 		mov	w0, w20
  1760 180c F55B41A9 		ldp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 32
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 32
 
 
  1761 1810 F77B42A9 		ldp	x23, x30, [sp, 32]
@@ -9246,7 +9369,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1814 18d0 815A1753 		lsl	w1, w20, 9
  1815 18d4 620040B9 		ldr	w2, [x3]
  1816 18d8 2100941A 		csel	w1, w1, w20, eq
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 33
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 33
 
 
  1817 18dc 40430591 		add	x0, x26, 336
@@ -9306,7 +9429,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1871              		.p2align 2
  1872              	.L332:
  1873 1998 E04240B9 		ldr	w0, [x23, 64]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 34
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 34
 
 
  1874 199c F7220091 		add	x23, x23, 8
@@ -9366,7 +9489,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1928 1a68 00000091 		add	x0, x0, :lo12:.LC8
  1929 1a6c 20003FD6 		blr	x1
  1930 1a70 01008012 		mov	w1, -1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 35
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 35
 
 
  1931 1a74 FB7344A9 		ldp	x27, x28, [sp, 64]
@@ -9426,7 +9549,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  1985 1b20 0000398B 		add	x0, x0, x25, uxtb
  1986 1b24 00044039 		ldrb	w0, [x0, 1]
  1987 1b28 00040012 		and	w0, w0, 3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 36
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 36
 
 
  1988 1b2c 1F080071 		cmp	w0, 2
@@ -9486,7 +9609,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2042 1bdc F50313AA 		mov	x21, x19
  2043 1be0 15F7FFB5 		cbnz	x21, .L372
  2044 1be4 E3FFFF17 		b	.L380
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 37
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 37
 
 
  2045              		.p2align 2
@@ -9546,7 +9669,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2099 1c90 E1FFA172 		movk	w1, 0xfff, lsl 16
  2100 1c94 00040051 		sub	w0, w0, #1
  2101 1c98 1F00016B 		cmp	w0, w1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 38
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 38
 
 
  2102 1c9c 68360054 		bhi	.L461
@@ -9606,7 +9729,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2156 1d6c 801B4039 		ldrb	w0, [x28, 6]
  2157 1d70 01781A12 		and	w1, w0, -33
  2158 1d74 61280034 		cbz	w1, .L546
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 39
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 39
 
 
  2159 1d78 401B0039 		strb	w0, [x26, 6]
@@ -9666,7 +9789,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2213 1e34 FB7344A9 		ldp	x27, x28, [sp, 64]
  2214 1e38 FE2B40F9 		ldr	x30, [sp, 80]
  2215 1e3c F353C9A8 		ldp	x19, x20, [sp], 144
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 40
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 40
 
 
  2216 1e40 C0035FD6 		ret
@@ -9726,7 +9849,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2270 1ef4 025C40B9 		ldr	w2, [x0, 92]
  2271              	.L459:
  2272 1ef8 9C070011 		add	w28, w28, 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 41
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 41
 
 
  2273 1efc 7C0B00B9 		str	w28, [x27, 8]
@@ -9786,7 +9909,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2327              	.L540:
  2328 1fcc F50313AA 		mov	x21, x19
  2329 1fd0 96070091 		add	x22, x28, 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 42
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 42
 
 
  2330 1fd4 18008052 		mov	w24, 0
@@ -9846,7 +9969,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2384 20a4 424B2038 		strb	w2, [x26, w0, uxtw]
  2385 20a8 00060054 		beq	.L433
  2386 20ac A0208052 		mov	w0, 261
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 43
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 43
 
 
  2387 20b0 0000194B 		sub	w0, w0, w25
@@ -9906,7 +10029,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2441 217c 01070011 		add	w1, w24, 1
  2442 2180 D60A0091 		add	x22, x22, 2
  2443 2184 381C0012 		and	w24, w1, 255
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 44
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 44
 
 
  2444 2188 1F170071 		cmp	w24, 5
@@ -9966,7 +10089,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2498 2244 D8FEFF17 		b	.L435
  2499              	.L544:
  2500 2248 40130091 		add	x0, x26, 4
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 45
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 45
 
 
  2501 224c 0A0180D2 		mov	x10, 8
@@ -10026,7 +10149,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2555 2308 21000091 		add	x1, x1, :lo12:.LANCHOR0
  2556 230c 38200091 		add	x24, x1, 8
  2557 2310 02008052 		mov	w2, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 46
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 46
 
 
  2558 2314 61430091 		add	x1, x27, 16
@@ -10086,7 +10209,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2612              		.global	sdFindFirstFile
  2613              		.type	sdFindFirstFile, %function
  2614              	sdFindFirstFile:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 47
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 47
 
 
  2615 23d0 F353A7A9 		stp	x19, x20, [sp, -400]!
@@ -10146,7 +10269,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2669 2488 441B4B29 		ldp	w4, w6, [x26, 88]
  2670 248c E13B00F9 		str	x1, [sp, 112]
  2671 2490 43030291 		add	x3, x26, 128
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 48
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 48
 
 
  2672 2494 454340B9 		ldr	w5, [x26, 64]
@@ -10206,7 +10329,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2726 2564 3554009B 		madd	x21, x1, x0, x21
  2727 2568 810B8052 		mov	w1, 92
  2728 256c E00314AA 		mov	x0, x20
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 49
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 49
 
 
  2729 2570 00000094 		bl	strchr
@@ -10266,7 +10389,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2783 2644 BBF6FF97 		bl	sdWaitForInterrupt
  2784 2648 C0040035 		cbnz	w0, .L611
  2785 264c 000340B9 		ldr	w0, [x24, #:lo12:RPi_IO_Base_Addr]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 50
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 50
 
 
  2786 2650 E10317AA 		mov	x1, x23
@@ -10326,7 +10449,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2840 2708 00000091 		add	x0, x0, :lo12:.LC8
  2841 270c 20003FD6 		blr	x1
  2842 2710 00008052 		mov	w0, 0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 51
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 51
 
 
  2843 2714 F55B41A9 		ldp	x21, x22, [sp, 16]
@@ -10386,7 +10509,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2895              		.type	sdFindNextFile, %function
  2896              	sdFindNextFile:
  2897 27c0 F353BCA9 		stp	x19, x20, [sp, -64]!
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 52
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 52
 
 
  2898 27c4 02040051 		sub	w2, w0, #1
@@ -10446,7 +10569,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  2952              		.global	sdFindClose
  2953              		.type	sdFindClose, %function
  2954              	sdFindClose:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 53
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 53
 
 
  2955 2880 00040051 		sub	w0, w0, #1
@@ -10506,7 +10629,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3008 292c 9416949A 		cinc	x20, x20, eq
  3009 2930 60170034 		cbz	w0, .L677
  3010 2934 002343B9 		ldr	w0, [x24, 800]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 54
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 54
 
 
  3011 2938 A0170034 		cbz	w0, .L653
@@ -10566,7 +10689,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3065 2a08 63001032 		orr	w3, w3, 65536
  3066 2a0c 430000B9 		str	w3, [x2]
  3067 2a10 430040B9 		ldr	w3, [x2]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 55
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 55
 
 
  3068 2a14 83240033 		bfi	w3, w4, 0, 10
@@ -10626,7 +10749,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3122 2ae4 1450041B 		madd	w20, w0, w4, w20
  3123 2ae8 D40600B9 		str	w20, [x22, 4]
  3124 2aec 23060034 		cbz	w3, .L689
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 56
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 56
 
 
  3125 2af0 44F5FF97 		bl	sdWaitForData
@@ -10686,7 +10809,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3179 2bb4 F76342A9 		ldp	x23, x24, [sp, 32]
  3180 2bb8 F96B43A9 		ldp	x25, x26, [sp, 48]
  3181 2bbc FB7344A9 		ldp	x27, x28, [sp, 64]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 57
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 57
 
 
  3182              	.L641:
@@ -10746,7 +10869,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3236 2c60 07684039 		ldrb	w7, [x0, 26]
  3237 2c64 267C069B 		mul	x6, x1, x6
  3238 2c68 056C4039 		ldrb	w5, [x0, 27]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 58
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 58
 
 
  3239 2c6c E10317AA 		mov	x1, x23
@@ -10806,7 +10929,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3293 2d2c 24080034 		cbz	w4, .L696
  3294 2d30 F55B01A9 		stp	x21, x22, [sp, 16]
  3295 2d34 F50301AA 		mov	x21, x1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 59
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 59
 
 
  3296 2d38 010280D2 		mov	x1, 16
@@ -10866,7 +10989,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3350 2dfc E13F40F9 		ldr	x1, [sp, 120]
  3351 2e00 20008052 		mov	w0, 1
  3352 2e04 211100B4 		cbz	x1, .L746
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 60
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 60
 
 
  3353              	.L757:
@@ -10926,7 +11049,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3407 2ebc 1F0C0071 		cmp	w0, 3
  3408 2ec0 20581753 		lsl	w0, w1, 9
  3409 2ec4 430040B9 		ldr	w3, [x2]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 61
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 61
 
 
  3410 2ec8 0100811A 		csel	w1, w0, w1, eq
@@ -10986,7 +11109,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3464 2f8c 63001032 		orr	w3, w3, 65536
  3465 2f90 E03740F9 		ldr	x0, [sp, 104]
  3466 2f94 430000B9 		str	w3, [x2]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 62
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 62
 
 
  3467 2f98 430040B9 		ldr	w3, [x2]
@@ -11046,7 +11169,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3521 3044 1F1C0071 		cmp	w0, 7
  3522 3048 48010054 		bhi	.L765
  3523 304c E103002A 		uxtw	x1, w0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 63
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 63
 
 
  3524 3050 02000090 		adrp	x2, intFileIORecord
@@ -11106,7 +11229,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3576 3100 437C019B 		mul	x3, x2, x1
  3577 3104 0203038B 		add	x2, x24, x3
  3578 3108 441443B9 		ldr	w4, [x2, 788]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 64
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 64
 
 
  3579 310c 9F00136B 		cmp	w4, w19
@@ -11166,7 +11289,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3633              	.L778:
  3634 31e0 410040B9 		ldr	w1, [x2]
  3635 31e4 014400B8 		str	w1, [x0], 4
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 65
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 65
 
 
  3636 31e8 1F0016EB 		cmp	x0, x22
@@ -11226,7 +11349,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3690              	.L783:
  3691 32b8 020040B9 		ldr	w2, [x0]
  3692 32bc 224400B8 		str	w2, [x1], 4
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 66
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 66
 
 
  3693 32c0 DF0201EB 		cmp	x22, x1
@@ -11286,7 +11409,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3747 336c 1C080051 		sub	w28, w0, #2
  3748 3370 455740B9 		ldr	w5, [x26, 84]
  3749 3374 415F40B9 		ldr	w1, [x26, 92]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 67
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 67
 
 
  3750 3378 423B40B9 		ldr	w2, [x26, 56]
@@ -11346,7 +11469,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3804 3440 20003FD6 		blr	x1
  3805 3444 00008012 		mov	w0, -1
  3806 3448 F55B41A9 		ldp	x21, x22, [sp, 16]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 68
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 68
 
 
  3807 344c F76342A9 		ldp	x23, x24, [sp, 32]
@@ -11406,7 +11529,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3858              		.global	sdInitCard
  3859              		.type	sdInitCard, %function
  3860              	sdInitCard:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 69
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 69
 
 
  3861 34e0 FF0303D1 		sub	sp, sp, #192
@@ -11466,7 +11589,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3915 35a4 C14640B9 		ldr	w1, [x22, 68]
  3916              	.L858:
  3917 35a8 80C20091 		add	x0, x20, 48
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 70
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 70
 
 
  3918 35ac 31F4FF97 		bl	sdSendCommandP
@@ -11526,7 +11649,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  3972 3674 F303002A 		mov	w19, w0
  3973 3678 40160035 		cbnz	w0, .L924
  3974 367c C14640B9 		ldr	w1, [x22, 68]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 71
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 71
 
 
  3975 3680 61000034 		cbz	w1, .L866
@@ -11586,7 +11709,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4029 3748 0A40012A 		orr	w10, w0, w1, lsl 16
  4030 374c C5224039 		ldrb	w5, [x22, 8]
  4031 3750 00000090 		adrp	x0, .LC16
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 72
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 72
 
 
  4032 3754 00000091 		add	x0, x0, :lo12:.LC16
@@ -11646,7 +11769,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4086 381c F303002A 		mov	w19, w0
  4087 3820 80E7FF35 		cbnz	w0, .L849
  4088              	.L856:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 73
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 73
 
 
  4089 3824 E0231132 		mov	w0, 16744448
@@ -11706,7 +11829,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4143 38e4 F96B48A9 		ldp	x25, x26, [sp, 128]
  4144 38e8 0AFFFF17 		b	.L849
  4145              	.L933:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 74
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 74
 
 
  4146 38ec B93E40B9 		ldr	w25, [x21, 60]
@@ -11766,7 +11889,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4200 39a8 FB7349A9 		ldp	x27, x28, [sp, 144]
  4201 39ac CDFFFF17 		b	.L878
  4202              	.L928:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 75
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 75
 
 
  4203 39b0 FB7349A9 		ldp	x27, x28, [sp, 144]
@@ -11826,7 +11949,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4249 0013 00       		.byte	0
  4250 0014 00       		.byte	0
  4251 0015 00       		.zero	1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 76
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 76
 
 
  4252 0016 0000     		.hword	0
@@ -11886,7 +12009,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4293      5F49465F 
  4293      434F4E44 
  4293      00
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 77
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 77
 
 
  4294 009d 000000   		.zero	3
@@ -11946,7 +12069,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4335 0118 0000     		.zero	2
  4336 011a 02       		.byte	2
  4337 011b 0D       		.byte	13
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 78
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 78
 
 
  4338 011c 01       		.byte	1
@@ -12006,7 +12129,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4380 0194 00       		.byte	0
  4381 0195 00       		.zero	1
  4382 0196 0000     		.hword	0
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 79
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 79
 
 
  4383 0198 53504545 		.string	"SPEED_CLASS"
@@ -12066,7 +12189,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4424      57524954 
  4424      455F5052 
  4424      00
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 80
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 80
 
 
  4425 021d 000000   		.zero	3
@@ -12126,7 +12249,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4465      0000
  4466 0298 0000     		.zero	2
  4467 029a 03       		.byte	3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 81
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 81
 
 
  4468 029b 26       		.byte	38
@@ -12186,7 +12309,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4511 0316 0000     		.hword	0
  4512 0318 53445F53 		.string	"SD_STATUS"
  4512      54415455 
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 82
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 82
 
 
  4512      5300
@@ -12246,7 +12369,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4552      00
  4553 0399 00000000 		.zero	7
  4553      000000
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 83
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 83
 
 
  4554 03a0 10       		.byte	16
@@ -12306,7 +12429,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4587 0067 00       		.zero	1
  4588              	.LC2:
  4589 0068 454D4D43 		.string	"EMMC: Error waiting for interrupt: %08x %08x %08x\n"
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 84
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 84
 
 
  4589      3A204572 
@@ -12366,7 +12489,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4609      74207761 
  4609      6974696E 
  4610 01ed 000000   		.zero	3
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 85
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 85
 
 
  4611              	.LC10:
@@ -12426,7 +12549,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4634              	.LC18:
  4635 0370 4D4D4300 		.string	"MMC"
  4636 0374 00000000 		.zero	4
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 86
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 86
 
 
  4637              	.LC19:
@@ -12444,46 +12567,46 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  4644      20322048 
  4644      4300
  4645              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 87
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 87
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 SDCard.c
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4      .text:0000000000000000 $x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:7      .text:0000000000000000 sdWaitForData
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:96     .text:0000000000000130 sdWaitForInterrupt
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:220    .text:00000000000002e0 sdSetClock
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:395    .text:0000000000000530 SetFindDataFromFATEntry.part.0
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:479    .text:0000000000000670 sdSendCommandP
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:824    .text:0000000000000b60 sdAppSendOpCond
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:968    .text:0000000000000d30 sdResetCard
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1086   .text:0000000000000ed0 sdTransferBlocks.constprop.7
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1250   .text:0000000000001110 LoadDrivePartition
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1416   .text:0000000000001360 sdTransferBlocks
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1668   .text:00000000000016d0 sdClearBlocks
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1781   .text:0000000000001850 getSetNextCluster
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:1948   .text:0000000000001aa0 WildcardMatch
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2081   .text:0000000000001c50 LocateFATEntry
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2614   .text:00000000000023d0 sdFindFirstFile
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2896   .text:00000000000027c0 sdFindNextFile
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2954   .text:0000000000002880 sdFindClose
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:2982   .text:00000000000028d0 sdCreateFile
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4578   .bss:0000000000000cc0 intFileIORecord
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3281   .text:0000000000002d00 sdReadFile
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3519   .text:0000000000003040 sdCloseHandle
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3546   .text:0000000000003090 sdSetFilePointer
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3836   .text:00000000000034a0 sdGetFileSize
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:3860   .text:00000000000034e0 sdInitCard
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4218   .text:00000000000039d0 sdCardCSD
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4566   .bss:0000000000000000 LOG_ERROR
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4229   .rodata:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4233   .rodata:0000000000000000 SD_TYPE_NAME
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4240   .data:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4244   .data:0000000000000000 sdCommandTable
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4562   .bss:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4570   .bss:0000000000000008 sdCard
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4574   .bss:0000000000000080 intSearchRecord
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4581   .rodata.str1.8:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4      .text:0000000000000000 $x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:7      .text:0000000000000000 sdWaitForData
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:96     .text:0000000000000130 sdWaitForInterrupt
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:220    .text:00000000000002e0 sdSetClock
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:395    .text:0000000000000530 SetFindDataFromFATEntry.part.0
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:479    .text:0000000000000670 sdSendCommandP
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:824    .text:0000000000000b60 sdAppSendOpCond
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:968    .text:0000000000000d30 sdResetCard
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1086   .text:0000000000000ed0 sdTransferBlocks.constprop.7
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1250   .text:0000000000001110 LoadDrivePartition
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1416   .text:0000000000001360 sdTransferBlocks
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1668   .text:00000000000016d0 sdClearBlocks
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1781   .text:0000000000001850 getSetNextCluster
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:1948   .text:0000000000001aa0 WildcardMatch
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2081   .text:0000000000001c50 LocateFATEntry
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2614   .text:00000000000023d0 sdFindFirstFile
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2896   .text:00000000000027c0 sdFindNextFile
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2954   .text:0000000000002880 sdFindClose
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:2982   .text:00000000000028d0 sdCreateFile
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4578   .bss:0000000000000cc0 intFileIORecord
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3281   .text:0000000000002d00 sdReadFile
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3519   .text:0000000000003040 sdCloseHandle
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3546   .text:0000000000003090 sdSetFilePointer
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3836   .text:00000000000034a0 sdGetFileSize
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:3860   .text:00000000000034e0 sdInitCard
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4218   .text:00000000000039d0 sdCardCSD
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4566   .bss:0000000000000000 LOG_ERROR
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4229   .rodata:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4233   .rodata:0000000000000000 SD_TYPE_NAME
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4240   .data:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4244   .data:0000000000000000 sdCommandTable
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4562   .bss:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4570   .bss:0000000000000008 sdCard
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4574   .bss:0000000000000080 intSearchRecord
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4581   .rodata.str1.8:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 RPi_IO_Base_Addr
@@ -12493,7 +12616,7 @@ timer_wait
 __locale_ctype_ptr
 wctob
 strchr
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              		.arch armv8-a
@@ -12553,7 +12676,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   52 0090 F100C0F2 		movk	x17, 0x7, lsl 32
   53 0094 412C09A9 		stp	x1, x11, [x2, 144]
   54 0098 0B001091 		add	x11, x0, 1024
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   55 009c 4301C0D2 		mov	x3, 42949672960
@@ -12613,7 +12736,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  109 0174 0CA02891 		add	x12, x0, 2600
  110 0178 108403F9 		str	x16, [x0, 1800]
  111 017c F0777EB2 		mov	x16, 4294967292
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  112 0180 5001C0F2 		movk	x16, 0xa, lsl 32
@@ -12673,7 +12796,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  166 0258 1F4C04F9 		str	xzr, [x0, 2200]
  167 025c 015004F9 		str	x1, [x0, 2208]
  168 0260 105404F9 		str	x16, [x0, 2216]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  169 0264 0F5804F9 		str	x15, [x0, 2224]
@@ -12733,7 +12856,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  223 033c 710E09A9 		stp	x17, x3, [x19, 144]
  224 0340 6E4A0AA9 		stp	x14, x18, [x19, 160]
  225 0344 8F420BA9 		stp	x15, x16, [x20, 176]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  226 0348 8A2A0CA9 		stp	x10, x10, [x20, 192]
@@ -12793,7 +12916,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  260      00000000 
  261 05ac 00000000 		.zero	4
  262              		.type	H, %object
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  263              		.size	H, 100
@@ -12853,7 +12976,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  293              		.size	P, 100
  294              	P:
  295 0820 00000000 		.zero	100
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
  295      00000000 
@@ -12913,42 +13036,42 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  325      00000000 
  325      00000000 
  325      00000000 
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
  325      00000000 
  326              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 fonts.c
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4      .text:0000000000000000 $x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:8      .text:0000000000000000 fonts_is_implemented
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:19     .text:0000000000000020 fonts_char_to_font
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:31     .text:0000000000000040 fonts_init
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:236    .bss:0000000000000000 $d
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:240    .bss:0000000000000000 char_is_implemented
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:245    .bss:0000000000000080 char_font_map
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:249    .bss:0000000000000478 A
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:254    .bss:00000000000004e0 C
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:259    .bss:0000000000000548 E
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:264    .bss:00000000000005b0 H
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:269    .bss:0000000000000618 I
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:274    .bss:0000000000000680 L
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:279    .bss:00000000000006e8 M
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:284    .bss:0000000000000750 N
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:289    .bss:00000000000007b8 O
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:294    .bss:0000000000000820 P
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:299    .bss:0000000000000888 R
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:304    .bss:00000000000008f0 S
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:309    .bss:0000000000000958 T
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:314    .bss:00000000000009c0 W
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:319    .bss:0000000000000a28 Z
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:324    .bss:0000000000000a90 DOLLAR_SIGN
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4      .text:0000000000000000 $x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:8      .text:0000000000000000 fonts_is_implemented
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:19     .text:0000000000000020 fonts_char_to_font
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:31     .text:0000000000000040 fonts_init
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:236    .bss:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:240    .bss:0000000000000000 char_is_implemented
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:245    .bss:0000000000000080 char_font_map
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:249    .bss:0000000000000478 A
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:254    .bss:00000000000004e0 C
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:259    .bss:0000000000000548 E
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:264    .bss:00000000000005b0 H
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:269    .bss:0000000000000618 I
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:274    .bss:0000000000000680 L
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:279    .bss:00000000000006e8 M
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:284    .bss:0000000000000750 N
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:289    .bss:00000000000007b8 O
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:294    .bss:0000000000000820 P
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:299    .bss:0000000000000888 R
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:304    .bss:00000000000008f0 S
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:309    .bss:0000000000000958 T
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:314    .bss:00000000000009c0 W
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:319    .bss:0000000000000a28 Z
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:324    .bss:0000000000000a90 DOLLAR_SIGN
 
 NO UNDEFINED SYMBOLS
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 1
 
 
    1              		.arch armv8-a
@@ -13008,7 +13131,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
   52              	.L11:
   53 0090 1A000090 		adrp	x26, printf
   54 0094 5A030091 		add	x26, x26, :lo12:printf
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 2
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 2
 
 
   55 0098 F803174B 		neg	w24, w23
@@ -13068,7 +13191,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  109 0138 9F370071 		cmp	w28, 13
  110 013c E0110054 		beq	.L51
  111 0140 F303012A 		mov	w19, w1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 3
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 3
 
 
  112 0144 F96B03A9 		stp	x25, x26, [sp, 48]
@@ -13128,7 +13251,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  166 020c 665E061B 		madd	w6, w19, w6, w23
  167 0210 BF020071 		cmp	w21, 0
  168 0214 A57C131B 		mul	w5, w5, w19
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 4
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 4
 
 
  169 0218 55B0951A 		csel	w21, w2, w21, lt
@@ -13188,7 +13311,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  223              	.L34:
  224 02d8 600140B9 		ldr	w0, [x11]
  225 02dc 4A050011 		add	w10, w10, 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 5
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 5
 
 
  226 02e0 E7400091 		add	x7, x7, 16
@@ -13248,7 +13371,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  280              	.L50:
  281 0394 02000090 		adrp	x2, .LANCHOR0
  282 0398 530040B9 		ldr	w19, [x2, #:lo12:.LANCHOR0]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 6
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 6
 
 
  283 039c 20619952 		mov	w0, 51977
@@ -13308,7 +13431,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  337 0448 E0430291 		add	x0, sp, 144
  338 044c E1630291 		add	x1, sp, 152
  339 0450 18070011 		add	w24, w24, 1
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 7
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 7
 
 
  340 0454 73420091 		add	x19, x19, 16
@@ -13368,7 +13491,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  394 0524 23A7995A 		csneg	w3, w25, w25, ge
  395 0528 BF02166B 		cmp	w21, w22
  396 052c 2C060054 		bgt	.L64
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 8
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 8
 
 
  397 0530 F303164B 		neg	w19, w22
@@ -13428,7 +13551,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  451 05ec C0035FD6 		ret
  452              		.p2align 2
  453              	.L64:
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 9
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 9
 
 
  454 05f0 B37E550B 		add	w19, w21, w21, lsr 31
@@ -13488,7 +13611,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  506              	.L91:
  507 06a0 830240B9 		ldr	w3, [x20]
  508 06a4 0201261E 		fmov	w2, s8
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 10
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 10
 
 
  509 06a8 E0830291 		add	x0, sp, 160
@@ -13548,7 +13671,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  563 0774 7C1E011B 		madd	w28, w19, w1, w7
  564 0778 3F030071 		cmp	w25, 0
  565 077c 19B0991A 		csel	w25, w0, w25, lt
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 11
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 11
 
 
  566 0780 7F031C6B 		cmp	w27, w28
@@ -13608,7 +13731,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  620              	.L87:
  621 083c 231A8052 		mov	w3, 209
  622 0840 A301BA72 		movk	w3, 0xd00d, lsl 16
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 12
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 12
 
 
  623 0844 E00640B9 		ldr	w0, [x23, 4]
@@ -13668,7 +13791,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  676 08ec 00000090 		adrp	x0, printf
  677 08f0 00000091 		add	x0, x0, :lo12:printf
  678 08f4 64044029 		ldp	w4, w1, [x3]
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 13
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 13
 
 
  679 08f8 2110051B 		madd	w1, w1, w5, w4
@@ -13728,7 +13851,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  729 0994 42FE8052 		mov	w2, 2034
  730 0998 021400B9 		str	w2, [x0, 20]
  731 099c 20608052 		mov	w0, 769
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 14
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 14
 
 
  732 09a0 200000B9 		str	w0, [x1]
@@ -13788,7 +13911,7 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  783              		.type	hal_io_serial_getc, %function
  784              	hal_io_serial_getc:
  785 0a20 010382D2 		mov	x1, 4120
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 15
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 15
 
 
  786 0a24 01E4A7F2 		movk	x1, 0x3f20, lsl 16
@@ -13822,28 +13945,28 @@ AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 1
  814              	curr_x:
  815 0004 0A000000 		.word	10
  816              		.ident	"GCC: (GNU Toolchain for the A-profile Architecture 8.2-2019.01 (arm-rel-8.28)) 8.2.1 20180
-AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s 			page 16
+AARCH64 GAS  C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_io.c
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:4      .text:0000000000000000 $x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:8      .text:0000000000000000 hal_io_init
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:15     .text:0000000000000010 hal_io_video_init
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:23     .text:0000000000000020 hal_io_video_line
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:102    .text:0000000000000120 hal_io_video_putc
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:301    .text:00000000000003d0 hal_io_video_putc_x_y
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:466    .text:0000000000000610 hal_io_video_puts
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:672    .text:00000000000008e0 hal_io_video_put_pixel
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:687    .text:0000000000000910 hal_io_serial_init
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:698    .text:0000000000000930 __delay_881
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:708    .text:0000000000000948 __delay_886
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:739    .text:00000000000009b0 hal_io_serial_puts
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:765    .text:00000000000009f0 hal_io_serial_putc
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:784    .text:0000000000000a20 hal_io_serial_getc
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:810    .data:0000000000000000 curr_y
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:814    .data:0000000000000004 curr_x
-C:\Users\dldms\AppData\Local\Temp\ccT45Jla.s:806    .data:0000000000000000 $d
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:4      .text:0000000000000000 $x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:8      .text:0000000000000000 hal_io_init
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:15     .text:0000000000000010 hal_io_video_init
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:23     .text:0000000000000020 hal_io_video_line
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:102    .text:0000000000000120 hal_io_video_putc
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:301    .text:00000000000003d0 hal_io_video_putc_x_y
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:466    .text:0000000000000610 hal_io_video_puts
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:672    .text:00000000000008e0 hal_io_video_put_pixel
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:687    .text:0000000000000910 hal_io_serial_init
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:698    .text:0000000000000930 __delay_881
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:708    .text:0000000000000948 __delay_886
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:739    .text:00000000000009b0 hal_io_serial_puts
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:765    .text:00000000000009f0 hal_io_serial_putc
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:784    .text:0000000000000a20 hal_io_serial_getc
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:810    .data:0000000000000000 curr_y
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:814    .data:0000000000000004 curr_x
+C:\Users\dldms\AppData\Local\Temp\ccxVfEh7.s:806    .data:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 fonts_init

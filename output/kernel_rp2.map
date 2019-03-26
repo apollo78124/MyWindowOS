@@ -1,41 +1,47 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
-                              C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o (_ctype_)
+                              C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o (_ctype_)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+                              C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o (malloc)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o) (_malloc_r)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
-                              C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o (memcpy)
+                              C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
+                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o) (__malloc_lock)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
-                              C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o (errno)
+                              C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o (errno)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
+                              C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o (strcat)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
-                              C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o (strchr)
+                              C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o (strchr)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
-                              C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o (strcmp)
+                              C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o (strcmp)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
+                              C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o (strcpy)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
-                              C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o (strlen)
+                              C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o (strlen)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strnlen.o)
-                              C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o (strnlen)
+                              C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o (strnlen)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o)
-                              C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o (wctob)
+                              C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o (wctob)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
-                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o) (_free_r)
+                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o) (_free_r)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
-                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o) (_impure_ptr)
+                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o) (_impure_ptr)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
                               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o) (__global_locale)
-c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
-                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o) (__malloc_current_mallinfo)
+c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
+                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
                               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o) (__ascii_mbtowc)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
                               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o) (memset)
-c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
-                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o) (__malloc_lock)
-c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
-                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o) (_sbrk_r)
 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
                               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o) (__ascii_wctomb)
-c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
-                              c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
 
 Allocating common symbols
 Common symbol       size              file
@@ -51,7 +57,8 @@ __lock___sinit_recursive_mutex
                     0x1               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
 __lock___malloc_recursive_mutex
                     0x1               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
-buffer              0x1f4             C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
+buffer              0x1f4             C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+currentDir          0x4               C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
 __lock___at_quick_exit_mutex
                     0x1               c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
 __lock___dd_hash_mutex
@@ -62,32 +69,43 @@ __lock___sfp_recursive_mutex
 
 Discarded input sections
 
- .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
- .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
- .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
- .text          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
- .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
- .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
- .text._sbrk    0x00000000       0x2c C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
- .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
- .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
- .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
- .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
- .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
- .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc5r38xY.o
- .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\cc5r38xY.o
- .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccd1bfuf.o
- .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccd1bfuf.o
- .text          0x00000000      0x144 C:\Users\dldms\AppData\Local\Temp\ccTThf2y.o
- .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccTThf2y.o
- .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccTThf2y.o
+ .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+ .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+ .text          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+ .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+ .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+ .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+ .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
+ .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
+ .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
+ .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
+ .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccz0oeBz.o
+ .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccz0oeBz.o
+ .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\ccxJW47b.o
+ .comment       0x00000000       0x76 C:\Users\dldms\AppData\Local\Temp\ccxJW47b.o
+ .text          0x00000000      0x144 C:\Users\dldms\AppData\Local\Temp\cc1wqSMT.o
+ .data          0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc1wqSMT.o
+ .bss           0x00000000        0x0 C:\Users\dldms\AppData\Local\Temp\cc1wqSMT.o
  .ARM.attributes
-                0x00000000       0x27 C:\Users\dldms\AppData\Local\Temp\ccTThf2y.o
+                0x00000000       0x27 C:\Users\dldms\AppData\Local\Temp\cc1wqSMT.o
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+ .text.free     0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000000       0x54 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
@@ -96,6 +114,14 @@ Discarded input sections
  .text._reclaim_reent
                 0x00000000       0x88 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
  .debug_frame   0x00000000       0x60 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
@@ -103,6 +129,10 @@ Discarded input sections
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
  .debug_frame   0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
@@ -118,12 +148,7 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
- .text._malloc_trim_r
-                0x00000000       0xac c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
- .text._free_r  0x00000000      0x1f0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
  .debug_frame   0x00000000       0x80 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
- .ARM.attributes
-                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
@@ -141,61 +166,6 @@ Discarded input sections
  .bss._PathLocale
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
  .debug_frame   0x00000000       0x54 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .text._malloc_r
-                0x00000000      0x5a4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .bss.__malloc_current_mallinfo
-                0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .bss.__malloc_max_sbrked_mem
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .bss.__malloc_max_total_mem
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .bss.__malloc_top_pad
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .data.__malloc_av_
-                0x00000000      0x408 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .data.__malloc_sbrk_base
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .data.__malloc_trim_threshold
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .debug_frame   0x00000000       0x54 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .ARM.attributes
-                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
- .text._mbtowc_r
-                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
- .debug_frame   0x00000000       0x48 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
- .debug_frame   0x00000000       0x38 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .text.__malloc_lock
-                0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .text.__malloc_unlock
-                0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .ARM.attributes
-                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
- .text._sbrk_r  0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
- .ARM.attributes
-                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
- .text._wctomb_r
-                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
- .debug_frame   0x00000000       0x3c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
@@ -209,20 +179,29 @@ Discarded input sections
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_acquire
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
- .text.__retarget_lock_acquire_recursive
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire_recursive
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_release
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
- .text.__retarget_lock_release_recursive
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
  .debug_frame   0x00000000       0xb0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
- .ARM.attributes
-                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
- COMMON         0x00000000       0x21 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00000000       0x48 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x38 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00000000       0x3c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
 
 Memory Configuration
 
@@ -233,370 +212,461 @@ RAM              0x00008000         0x08000000         xrw
 Linker script and memory map
 
 
-.text           0x00008000     0x8228
+.text           0x00008000     0x918c
                 0x00008000                . = ALIGN (0x4)
                 0x00008000                __text_start__ = .
                 0x00008000                _start = .
  *(.text.startup)
- .text.startup  0x00008000      0x43c C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
+ .text.startup  0x00008000      0x43c C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
                 0x0000839c                RPi_CpuIdString
                 0x000083f4                EnableInterrupts
                 0x000083fc                DisableInterrupts
                 0x00008404                CoreExecute
  *(.text .text.* .gnu.linkonce.t.*)
- .text          0x0000843c      0x60c C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
-                0x00008560                kernel_main
-                0x00008860                DisplayDirectory
-                0x00008984                print_system_info
-                0x00008990                print_current_directory
-                0x000089a8                print_file_content
+ .text          0x0000843c      0xbb0 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+                0x0000843c                removeLastDirectory
+                0x000084d8                clear_screen
+                0x000084dc                concatenate
+                0x00008538                backspace
+                0x00008564                str_len
+                0x00008594                ReadFile
+                0x00008688                ReadFileBinary
+                0x000087f0                loadApp
+                0x00008910                DisplayDirectory
+                0x00008a40                execute
+                0x00008e14                kernel_main
  .text.ARMaddrToGPUaddr
-                0x00008a48       0x14 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
-                0x00008a48                ARMaddrToGPUaddr
+                0x00008fec       0x14 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+                0x00008fec                ARMaddrToGPUaddr
  .text.GPUaddrToARMaddr
-                0x00008a5c       0x5c C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
-                0x00008a5c                GPUaddrToARMaddr
-                0x00008a70                c_irq_handler
-                0x00008a74                c_irq_identify_and_clear_source
- .text          0x00008ab8     0x22fc C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
-                0x00009a28                gpio_setup
-                0x00009a8c                gpio_output
-                0x00009ae4                gpio_input
-                0x00009b2c                gpio_checkEvent
-                0x00009b70                gpio_clearEvent
-                0x00009bb0                gpio_edgeDetect
-                0x00009c2c                gpio_fixResistor
-                0x00009d24                timer_getTickCount
-                0x00009d68                timer_wait
-                0x00009dd8                tick_difference
-                0x00009de4                mailbox_write
-                0x00009e28                mailbox_read
-                0x00009e74                mailbox_tag_message
-                0x00009f80                set_Activity_LED
-                0x0000a0ec                ARM_setmaxspeed
-                0x0000a18c                displaySmartStart
-                0x0000a204                Embedded_Console_WriteChar
-                0x0000a2c0                WriteText
-                0x0000a3a8                SetDCPenColor
-                0x0000a3bc                SetDCBrushColor
-                0x0000a3d0                MoveToEx
-                0x0000a408                LineTo
-                0x0000a4e0                TextOut
-                0x0000a550                BmpOut
-                0x0000a5a4                CvtBmpLine
-                0x0000a948                SmartStartPutPixelRaw
-                0x0000a958                Rectangle
-                0x0000a98c                PiConsole_Init
-                0x0000ac30                GetConsoleDC
-                0x0000ac3c                GetConsole_FrameBuffer
-                0x0000ac4c                GetConsole_Width
-                0x0000ac5c                GetConsole_Height
-                0x0000ac98                _kill
-                0x0000acb0                _getpid
-                0x0000acb8                _read
-                0x0000acc0                _close
-                0x0000acc8                _lseek
-                0x0000acd0                _isatty
-                0x0000acd8                _fstat
-                0x0000ace8                _exit
-                0x0000acec                _write
- .text          0x0000adb4      0xaac C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
-                0x0000b060                vsprintf
-                0x0000b7e0                sprintf
-                0x0000b80c                printf
- .text          0x0000b860     0x35bc C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
-                0x0000caac                sdTransferBlocks
-                0x0000cda8                sdClearBlocks
-                0x0000ced8                getSetNextCluster
-                0x0000d0a0                WildcardMatch
-                0x0000d934                sdFindFirstFile
-                0x0000dce0                sdFindNextFile
-                0x0000dd94                sdFindClose
-                0x0000ddd0                sdCreateFile
-                0x0000e22c                sdReadFile
-                0x0000e580                sdCloseHandle
-                0x0000e5bc                sdSetFilePointer
-                0x0000e930                sdGetFileSize
-                0x0000e964                sdInitCard
-                0x0000ee00                sdCardCSD
- .text          0x0000ee1c      0x4fc C:\Users\dldms\AppData\Local\Temp\cc5r38xY.o
-                0x0000ee1c                fonts_is_implemented
-                0x0000ee2c                fonts_char_to_font
-                0x0000ee40                fonts_init
- .text          0x0000f318      0x9b8 C:\Users\dldms\AppData\Local\Temp\ccd1bfuf.o
-                0x0000f318                hal_io_init
-                0x0000f31c                hal_io_video_init
-                0x0000f324                hal_io_video_line
-                0x0000f418                hal_io_video_putc
-                0x0000f6bc                hal_io_video_putc_x_y
-                0x0000f8c4                hal_io_video_puts
-                0x0000fb9c                hal_io_video_put_pixel
-                0x0000fbcc                hal_io_serial_init
-                0x0000fc40                hal_io_serial_puts
-                0x0000fc74                hal_io_serial_putc
-                0x0000fc98                hal_io_serial_getc
- .text          0x0000fcd0       0xec c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
-                0x0000fcd0                memcpy
- .text.strchr   0x0000fdbc       0xe4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
-                0x0000fdbc                strchr
- .text          0x0000fea0      0x1bc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
-                0x0000fea0                strcmp
- .text.strlen   0x0001005c       0x5c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
-                0x0001005c                strlen
- .text.strnlen  0x000100b8       0x48 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strnlen.o)
-                0x000100b8                strnlen
- .text.wctob    0x00010100       0x4c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o)
-                0x00010100                wctob
+                0x00009000       0x5c C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+                0x00009000                GPUaddrToARMaddr
+                0x00009014                c_irq_handler
+                0x00009018                c_irq_identify_and_clear_source
+ .text._sbrk    0x0000905c       0x2c C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+                0x0000905c                _sbrk
+ .text          0x00009088     0x22fc C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+                0x00009ff8                gpio_setup
+                0x0000a05c                gpio_output
+                0x0000a0b4                gpio_input
+                0x0000a0fc                gpio_checkEvent
+                0x0000a140                gpio_clearEvent
+                0x0000a180                gpio_edgeDetect
+                0x0000a1fc                gpio_fixResistor
+                0x0000a2f4                timer_getTickCount
+                0x0000a338                timer_wait
+                0x0000a3a8                tick_difference
+                0x0000a3b4                mailbox_write
+                0x0000a3f8                mailbox_read
+                0x0000a444                mailbox_tag_message
+                0x0000a550                set_Activity_LED
+                0x0000a6bc                ARM_setmaxspeed
+                0x0000a75c                displaySmartStart
+                0x0000a7d4                Embedded_Console_WriteChar
+                0x0000a890                WriteText
+                0x0000a978                SetDCPenColor
+                0x0000a98c                SetDCBrushColor
+                0x0000a9a0                MoveToEx
+                0x0000a9d8                LineTo
+                0x0000aab0                TextOut
+                0x0000ab20                BmpOut
+                0x0000ab74                CvtBmpLine
+                0x0000af18                SmartStartPutPixelRaw
+                0x0000af28                Rectangle
+                0x0000af5c                PiConsole_Init
+                0x0000b200                GetConsoleDC
+                0x0000b20c                GetConsole_FrameBuffer
+                0x0000b21c                GetConsole_Width
+                0x0000b22c                GetConsole_Height
+                0x0000b268                _kill
+                0x0000b280                _getpid
+                0x0000b288                _read
+                0x0000b290                _close
+                0x0000b298                _lseek
+                0x0000b2a0                _isatty
+                0x0000b2a8                _fstat
+                0x0000b2b8                _exit
+                0x0000b2bc                _write
+ .text          0x0000b384      0xaac C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
+                0x0000b630                vsprintf
+                0x0000bdb0                sprintf
+                0x0000bddc                printf
+ .text          0x0000be30     0x35bc C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
+                0x0000d07c                sdTransferBlocks
+                0x0000d378                sdClearBlocks
+                0x0000d4a8                getSetNextCluster
+                0x0000d670                WildcardMatch
+                0x0000df04                sdFindFirstFile
+                0x0000e2b0                sdFindNextFile
+                0x0000e364                sdFindClose
+                0x0000e3a0                sdCreateFile
+                0x0000e7fc                sdReadFile
+                0x0000eb50                sdCloseHandle
+                0x0000eb8c                sdSetFilePointer
+                0x0000ef00                sdGetFileSize
+                0x0000ef34                sdInitCard
+                0x0000f3d0                sdCardCSD
+ .text          0x0000f3ec      0x4fc C:\Users\dldms\AppData\Local\Temp\ccz0oeBz.o
+                0x0000f3ec                fonts_is_implemented
+                0x0000f3fc                fonts_char_to_font
+                0x0000f410                fonts_init
+ .text          0x0000f8e8      0x9b8 C:\Users\dldms\AppData\Local\Temp\ccxJW47b.o
+                0x0000f8e8                hal_io_init
+                0x0000f8ec                hal_io_video_init
+                0x0000f8f4                hal_io_video_line
+                0x0000f9e8                hal_io_video_putc
+                0x0000fc8c                hal_io_video_putc_x_y
+                0x0000fe94                hal_io_video_puts
+                0x0001016c                hal_io_video_put_pixel
+                0x0001019c                hal_io_serial_init
+                0x00010210                hal_io_serial_puts
+                0x00010244                hal_io_serial_putc
+                0x00010268                hal_io_serial_getc
+ .text.malloc   0x000102a0       0x10 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
+                0x000102a0                malloc
+ .text._malloc_r
+                0x000102b0      0x5a4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x000102b0                _malloc_r
+ .text          0x00010854       0xec c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
+                0x00010854                memcpy
+ .text.__malloc_lock
+                0x00010940        0xc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
+                0x00010940                __malloc_lock
+ .text.__malloc_unlock
+                0x0001094c        0xc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
+                0x0001094c                __malloc_unlock
+ .text._sbrk_r  0x00010958       0x28 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
+                0x00010958                _sbrk_r
+ .text.strcat   0x00010980       0x40 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
+                0x00010980                strcat
+ .text.strchr   0x000109c0       0xe4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
+                0x000109c0                strchr
+ .text          0x00010aa4      0x1bc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
+                0x00010aa4                strcmp
+ .text.strcpy   0x00010c60       0xbc c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
+                0x00010c60                strcpy
+ .text.strlen   0x00010d1c       0x5c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
+                0x00010d1c                strlen
+ .text.strnlen  0x00010d78       0x48 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strnlen.o)
+                0x00010d78                strnlen
+ .text.wctob    0x00010dc0       0x4c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o)
+                0x00010dc0                wctob
+ .text._malloc_trim_r
+                0x00010e0c       0xac c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
+                0x00010e0c                _malloc_trim_r
+ .text._free_r  0x00010eb8      0x1f0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
+                0x00010eb8                _free_r
+ .text.__retarget_lock_acquire_recursive
+                0x000110a8        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
+                0x000110a8                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x000110ac        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
+                0x000110ac                __retarget_lock_release_recursive
  .text.__ascii_mbtowc
-                0x0001014c       0x24 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
-                0x0001014c                __ascii_mbtowc
- .text.memset   0x00010170       0xa0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
-                0x00010170                memset
+                0x000110b0       0x24 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+                0x000110b0                __ascii_mbtowc
+ .text.memset   0x000110d4       0xa0 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+                0x000110d4                memset
  .text.__ascii_wctomb
-                0x00010210       0x18 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
-                0x00010210                __ascii_wctomb
+                0x00011174       0x18 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
+                0x00011174                __ascii_wctomb
  *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
  *(.init .init.*)
-                0x00010228                . = ALIGN (0x4)
-                0x00010228                __text_end__ = .
+                0x0001118c                . = ALIGN (0x4)
+                0x0001118c                __text_end__ = .
 
-.glue_7         0x00010228        0x0
- .glue_7        0x00010228        0x0 linker stubs
+.glue_7         0x0001118c        0x0
+ .glue_7        0x0001118c        0x0 linker stubs
 
-.glue_7t        0x00010228        0x0
- .glue_7t       0x00010228        0x0 linker stubs
+.glue_7t        0x0001118c        0x0
+ .glue_7t       0x0001118c        0x0 linker stubs
 
-.vfp11_veneer   0x00010228        0x0
- .vfp11_veneer  0x00010228        0x0 linker stubs
+.vfp11_veneer   0x0001118c        0x0
+ .vfp11_veneer  0x0001118c        0x0 linker stubs
 
-.v4_bx          0x00010228        0x0
- .v4_bx         0x00010228        0x0 linker stubs
+.v4_bx          0x0001118c        0x0
+ .v4_bx         0x0001118c        0x0 linker stubs
 
-.iplt           0x00010228        0x0
- .iplt          0x00010228        0x0 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
+.iplt           0x0001118c        0x0
+ .iplt          0x0001118c        0x0 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
 
-.bss            0x00010228     0x30a4
-                0x00010228                . = ALIGN (0x4)
-                0x00010228                __bss_start__ = .
+.bss            0x00011190     0x3100
+                0x00011190                . = ALIGN (0x4)
+                0x00011190                __bss_start__ = .
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00010228       0x4c C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
-                0x0001022c                console
- *fill*         0x00010274        0x4 
- .bss           0x00010278     0x25a0 C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
-                0x00010278                LOG_ERROR
- .bss           0x00012818      0x8bc C:\Users\dldms\AppData\Local\Temp\cc5r38xY.o
+ .bss           0x00011190       0x4c C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+                0x00011194                console
+ *fill*         0x000111dc        0x4 
+ .bss           0x000111e0     0x25a0 C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
+                0x000111e0                LOG_ERROR
+ .bss           0x00013780      0x8bc C:\Users\dldms\AppData\Local\Temp\ccz0oeBz.o
+ .bss.__malloc_current_mallinfo
+                0x0001403c       0x28 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x0001403c                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0x00014064        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x00014064                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0x00014068        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x00014068                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0x0001406c        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x0001406c                __malloc_top_pad
  *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
  *(COMMON)
- COMMON         0x000130d4      0x1f4 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
-                0x000130d4                buffer
- COMMON         0x000132c8        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
-                0x000132c8                errno
-                0x000132cc                . = ALIGN (0x4)
-                0x000132cc                __bss_end__ = .
+ COMMON         0x00014070      0x1f8 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+                0x00014070                buffer
+                0x00014264                currentDir
+ COMMON         0x00014268        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
+                0x00014268                errno
+ COMMON         0x0001426c       0x21 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
+                0x0001426c                __lock___atexit_recursive_mutex
+                0x00014270                __lock___arc4random_mutex
+                0x00014274                __lock___env_recursive_mutex
+                0x00014278                __lock___sinit_recursive_mutex
+                0x0001427c                __lock___malloc_recursive_mutex
+                0x00014280                __lock___at_quick_exit_mutex
+                0x00014284                __lock___dd_hash_mutex
+                0x00014288                __lock___tz_mutex
+                0x0001428c                __lock___sfp_recursive_mutex
+                0x00014290                . = ALIGN (0x4)
+ *fill*         0x0001428d        0x3 
+                0x00014290                __bss_end__ = .
 
-.rodata         0x000132cc     0x16f4
-                0x000132cc                . = ALIGN (0x4)
-                0x000132cc                __rodata_start__ = .
+.rodata         0x00014290     0x180c
+                0x00014290                . = ALIGN (0x4)
+                0x00014290                __rodata_start__ = .
  *(.rodata .rodata.*)
- .rodata        0x000132cc       0x30 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
+ .rodata        0x00014290       0x30 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
  .rodata.str1.4
-                0x000132fc      0x100 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
-                                0x104 (size before relaxing)
- .rodata.cpuid  0x000133fc       0x36 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
- *fill*         0x00013432        0x2 
- .rodata        0x00013434     0x1004 C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
-                0x00014434                BitFontEnd
+                0x000142c0      0x215 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+                                0x21d (size before relaxing)
+ *fill*         0x000144d5        0x3 
+ .rodata.cpuid  0x000144d8       0x36 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+ *fill*         0x0001450e        0x2 
+ .rodata        0x00014510     0x1004 C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+                0x00015510                BitFontEnd
  .rodata.str1.4
-                0x00014438       0xe8 C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
- .rodata        0x00014520       0x10 C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
- .rodata        0x00014530       0x14 C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
+                0x00015514       0xe8 C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+ .rodata        0x000155fc       0x10 C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
+ .rodata        0x0001560c       0x14 C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
  .rodata.str1.4
-                0x00014544      0x36a C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
- *fill*         0x000148ae        0x2 
+                0x00015620      0x36a C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
+ *fill*         0x0001598a        0x2 
  .rodata._ctype_
-                0x000148b0      0x101 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
-                0x000148b0                _ctype_
- *fill*         0x000149b1        0x3 
+                0x0001598c      0x101 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
+                0x0001598c                _ctype_
+ *fill*         0x00015a8d        0x3 
  .rodata._setlocale_r.str1.4
-                0x000149b4        0x6 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
+                0x00015a90        0x6 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
                                   0xd (size before relaxing)
- *fill*         0x000149ba        0x2 
+ *fill*         0x00015a96        0x2 
  .rodata.str1.4
-                0x000149bc        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
+                0x00015a98        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
                                   0x2 (size before relaxing)
  *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
-                0x000149c0                . = ALIGN (0x4)
-                0x000149c0                __rodata_end__ = .
+                0x00015a9c                . = ALIGN (0x4)
+                0x00015a9c                __rodata_end__ = .
 
-.rel.dyn        0x000149c0        0x0
- .rel.iplt      0x000149c0        0x0 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
+.rel.dyn        0x00015a9c        0x0
+ .rel.iplt      0x00015a9c        0x0 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
 
-.data           0x000149c0      0x974
-                0x000149c0                . = ALIGN (0x4)
-                0x000149c0                __data_start__ = .
+.data           0x00015aa0      0xd94
+                0x00015aa0                . = ALIGN (0x4)
+                0x00015aa0                __data_start__ = .
  *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00015aa0       0x10 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+                0x00015aa0                dir
+                0x00015aa4                allFiles
+                0x00015aa8                previousDir
+                0x00015aac                defaultRoot
  .data.smartstart
-                0x000149c0        0xc C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
-                0x000149c4                RPi_CPUCurrentMode
-                0x000149c8                RPi_Heap
+                0x00015ab0        0xc C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+                0x00015ab4                RPi_CPUCurrentMode
+                0x00015ab8                RPi_Heap
  .data.smartstart32
-                0x000149cc       0x18 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
-                0x000149cc                RPi_IO_Base_Addr
-                0x000149d0                RPi_BootAddr
-                0x000149d4                RPi_CoresReady
-                0x000149d8                RPi_CPUBootMode
-                0x000149dc                RPi_CpuId
-                0x000149e0                RPi_CompileMode
- .data          0x000149e4        0x4 C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
- .data          0x000149e8      0x3a8 C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
- .data          0x00014d90        0x8 C:\Users\dldms\AppData\Local\Temp\ccd1bfuf.o
-                0x00014d90                curr_y
-                0x00014d94                curr_x
+                0x00015abc       0x18 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+                0x00015abc                RPi_IO_Base_Addr
+                0x00015ac0                RPi_BootAddr
+                0x00015ac4                RPi_CoresReady
+                0x00015ac8                RPi_CPUBootMode
+                0x00015acc                RPi_CpuId
+                0x00015ad0                RPi_CompileMode
+ .data          0x00015ad4        0x4 C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+ .data          0x00015ad8      0x3a8 C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
+ .data          0x00015e80        0x8 C:\Users\dldms\AppData\Local\Temp\ccxJW47b.o
+                0x00015e80                curr_y
+                0x00015e84                curr_x
+ .data.__malloc_av_
+                0x00015e88      0x408 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x00015e88                __malloc_av_
+ .data.__malloc_sbrk_base
+                0x00016290        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x00016290                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x00016294        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
+                0x00016294                __malloc_trim_threshold
  .data._impure_ptr
-                0x00014d98        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
-                0x00014d98                _impure_ptr
- *fill*         0x00014d9c        0x4 
+                0x00016298        0x4 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
+                0x00016298                _impure_ptr
+ *fill*         0x0001629c        0x4 
  .data.impure_data
-                0x00014da0      0x428 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
+                0x000162a0      0x428 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
  .data.__global_locale
-                0x000151c8      0x16c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
-                0x000151c8                __global_locale
+                0x000166c8      0x16c c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
+                0x000166c8                __global_locale
  *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
-                0x00015334                . = ALIGN (0x4)
-                0x00015334                __data_end__ = .
+                0x00016834                . = ALIGN (0x4)
+                0x00016834                __data_end__ = .
 
-.igot.plt       0x00015334        0x0
- .igot.plt      0x00015334        0x0 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
+.igot.plt       0x00016834        0x0
+ .igot.plt      0x00016834        0x0 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
 
-.data1          0x00015334        0xc
-                0x00015340                . = ALIGN (0x10)
- *fill*         0x00015334        0xc 
-                0x00015340                __data1_start__ = .
+.data1          0x00016834        0xc
+                0x00016840                . = ALIGN (0x10)
+ *fill*         0x00016834        0xc 
+                0x00016840                __data1_start__ = .
  *(.data1 .data1.*)
  *(.rel.data1 .rel.data1.*)
-                0x00015340                . = ALIGN (0x10)
-                0x00015340                __data1_end__ = .
+                0x00016840                . = ALIGN (0x10)
+                0x00016840                __data1_end__ = .
 
-.stack          0x00015340     0xa200
-                0x00015340                . = ALIGN (0x8)
-                0x00015340                __stack_start__core0 = .
-                0x00015540                . = (. + 0x200)
- *fill*         0x00015340      0x200 
-                0x00015540                __HYP_stack_core0 = .
-                0x0001d540                . = (. + 0x8000)
- *fill*         0x00015540     0x8000 
-                0x0001d540                __SVC_stack_core0 = .
-                0x0001e540                . = (. + 0x1000)
- *fill*         0x0001d540     0x1000 
-                0x0001e540                __IRQ_stack_core0 = .
-                0x0001f540                . = (. + 0x1000)
- *fill*         0x0001e540     0x1000 
-                0x0001f540                __FIQ_stack_core0 = .
-                0x0001f540                . = ALIGN (0x8)
-                0x0001f540                __stack_end__core0 = .
+.stack          0x00016840     0xa200
+                0x00016840                . = ALIGN (0x8)
+                0x00016840                __stack_start__core0 = .
+                0x00016a40                . = (. + 0x200)
+ *fill*         0x00016840      0x200 
+                0x00016a40                __HYP_stack_core0 = .
+                0x0001ea40                . = (. + 0x8000)
+ *fill*         0x00016a40     0x8000 
+                0x0001ea40                __SVC_stack_core0 = .
+                0x0001fa40                . = (. + 0x1000)
+ *fill*         0x0001ea40     0x1000 
+                0x0001fa40                __IRQ_stack_core0 = .
+                0x00020a40                . = (. + 0x1000)
+ *fill*         0x0001fa40     0x1000 
+                0x00020a40                __FIQ_stack_core0 = .
+                0x00020a40                . = ALIGN (0x8)
+                0x00020a40                __stack_end__core0 = .
 
-.stack_core1    0x0001f540     0x1600
-                0x0001f540                . = ALIGN (0x8)
-                0x0001f540                __stack_start__core1 = .
-                0x0001f740                . = (. + 0x200)
- *fill*         0x0001f540      0x200 
-                0x0001f740                __HYP_stack_core1 = .
-                0x00020740                . = (. + 0x1000)
- *fill*         0x0001f740     0x1000 
-                0x00020740                __SVC_stack_core1 = .
-                0x00020940                . = (. + 0x200)
- *fill*         0x00020740      0x200 
-                0x00020940                __IRQ_stack_core1 = .
-                0x00020b40                . = (. + 0x200)
- *fill*         0x00020940      0x200 
-                0x00020b40                __FIQ_stack_core1 = .
-                0x00020b40                . = ALIGN (0x8)
-                0x00020b40                __stack_end__core1 = .
+.stack_core1    0x00020a40     0x1600
+                0x00020a40                . = ALIGN (0x8)
+                0x00020a40                __stack_start__core1 = .
+                0x00020c40                . = (. + 0x200)
+ *fill*         0x00020a40      0x200 
+                0x00020c40                __HYP_stack_core1 = .
+                0x00021c40                . = (. + 0x1000)
+ *fill*         0x00020c40     0x1000 
+                0x00021c40                __SVC_stack_core1 = .
+                0x00021e40                . = (. + 0x200)
+ *fill*         0x00021c40      0x200 
+                0x00021e40                __IRQ_stack_core1 = .
+                0x00022040                . = (. + 0x200)
+ *fill*         0x00021e40      0x200 
+                0x00022040                __FIQ_stack_core1 = .
+                0x00022040                . = ALIGN (0x8)
+                0x00022040                __stack_end__core1 = .
 
-.stack_core2    0x00020b40     0x1600
-                0x00020b40                . = ALIGN (0x8)
-                0x00020b40                __stack_start__core2 = .
-                0x00020d40                . = (. + 0x200)
- *fill*         0x00020b40      0x200 
-                0x00020d40                __HYP_stack_core2 = .
-                0x00021d40                . = (. + 0x1000)
- *fill*         0x00020d40     0x1000 
-                0x00021d40                __SVC_stack_core2 = .
-                0x00021f40                . = (. + 0x200)
- *fill*         0x00021d40      0x200 
-                0x00021f40                __IRQ_stack_core2 = .
-                0x00022140                . = (. + 0x200)
- *fill*         0x00021f40      0x200 
-                0x00022140                __FIQ_stack_core2 = .
-                0x00022140                . = ALIGN (0x8)
-                0x00022140                __stack_end__core2 = .
+.stack_core2    0x00022040     0x1600
+                0x00022040                . = ALIGN (0x8)
+                0x00022040                __stack_start__core2 = .
+                0x00022240                . = (. + 0x200)
+ *fill*         0x00022040      0x200 
+                0x00022240                __HYP_stack_core2 = .
+                0x00023240                . = (. + 0x1000)
+ *fill*         0x00022240     0x1000 
+                0x00023240                __SVC_stack_core2 = .
+                0x00023440                . = (. + 0x200)
+ *fill*         0x00023240      0x200 
+                0x00023440                __IRQ_stack_core2 = .
+                0x00023640                . = (. + 0x200)
+ *fill*         0x00023440      0x200 
+                0x00023640                __FIQ_stack_core2 = .
+                0x00023640                . = ALIGN (0x8)
+                0x00023640                __stack_end__core2 = .
 
-.stack_core3    0x00022140     0x1600
-                0x00022140                . = ALIGN (0x8)
-                0x00022140                __stack_start__core3 = .
-                0x00022340                . = (. + 0x200)
- *fill*         0x00022140      0x200 
-                0x00022340                __HYP_stack_core3 = .
-                0x00023340                . = (. + 0x1000)
- *fill*         0x00022340     0x1000 
-                0x00023340                __SVC_stack_core3 = .
-                0x00023540                . = (. + 0x200)
- *fill*         0x00023340      0x200 
-                0x00023540                __IRQ_stack_core3 = .
-                0x00023740                . = (. + 0x200)
- *fill*         0x00023540      0x200 
-                0x00023740                __FIQ_stack_core3 = .
-                0x00023740                . = ALIGN (0x8)
-                0x00023740                __stack_end__core3 = .
+.stack_core3    0x00023640     0x1600
+                0x00023640                . = ALIGN (0x8)
+                0x00023640                __stack_start__core3 = .
+                0x00023840                . = (. + 0x200)
+ *fill*         0x00023640      0x200 
+                0x00023840                __HYP_stack_core3 = .
+                0x00024840                . = (. + 0x1000)
+ *fill*         0x00023840     0x1000 
+                0x00024840                __SVC_stack_core3 = .
+                0x00024a40                . = (. + 0x200)
+ *fill*         0x00024840      0x200 
+                0x00024a40                __IRQ_stack_core3 = .
+                0x00024c40                . = (. + 0x200)
+ *fill*         0x00024a40      0x200 
+                0x00024c40                __FIQ_stack_core3 = .
+                0x00024c40                . = ALIGN (0x8)
+                0x00024c40                __stack_end__core3 = .
 
 .ARM.attributes
                 0x00000000       0x39
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x39 C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
+                0x00000000       0x39 C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
  .ARM.attributes
-                0x00000039       0x27 C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
+                0x00000039       0x27 C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
  .ARM.attributes
-                0x00000060       0x39 C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
+                0x00000060       0x39 C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
  .ARM.attributes
-                0x00000099       0x39 C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
+                0x00000099       0x39 C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
  .ARM.attributes
-                0x000000d2       0x39 C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
+                0x000000d2       0x39 C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
  .ARM.attributes
-                0x0000010b       0x39 C:\Users\dldms\AppData\Local\Temp\cc5r38xY.o
+                0x0000010b       0x39 C:\Users\dldms\AppData\Local\Temp\ccz0oeBz.o
  .ARM.attributes
-                0x00000144       0x39 C:\Users\dldms\AppData\Local\Temp\ccd1bfuf.o
+                0x00000144       0x39 C:\Users\dldms\AppData\Local\Temp\ccxJW47b.o
  .ARM.attributes
                 0x0000017d       0x2b c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x000001a8       0x17 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
+                0x000001a8       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000001bf       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
+                0x000001d5       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x000001ec       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
+                0x00000202       0x17 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x00000219       0x17 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
+                0x00000219       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000230       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
+                0x00000246       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000025d       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strnlen.o)
+                0x00000273       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000028a       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o)
+                0x000002a0       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcat.o)
  .ARM.attributes
-                0x000002b7       0x2b c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
+                0x000002cd       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strchr.o)
  .ARM.attributes
-                0x000002e2       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
+                0x000002fa       0x17 c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x0000030f       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+                0x00000311       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strcpy.o)
  .ARM.attributes
-                0x0000033c       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+                0x0000033e       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strlen-stub.o)
  .ARM.attributes
-                0x00000369       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
+                0x0000036b       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-strnlen.o)
+ .ARM.attributes
+                0x00000398       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctob.o)
+ .ARM.attributes
+                0x000003c5       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000003f2       0x2b c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000041d       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000044a       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000477       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000004a4       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004d1       0x2d c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a(lib_a-wctomb_r.o)
 
-.Heap           0x00023740        0x0
-                0x00023740                . = ALIGN (0x4)
-                0x00023740                __heap_start__ = .
-                0x00023740                _end = .
+.Heap           0x00024c40        0x0
+                0x00024c40                . = ALIGN (0x4)
+                0x00024c40                __heap_start__ = .
+                0x00024c40                _end = .
                 [!provide]                PROVIDE (end = .)
 
 /DISCARD/
@@ -613,14 +683,14 @@ Linker script and memory map
  *(.note.GNU-stack)
  *(.gnu_debuglink)
  *(.gnu.lto_*)
-LOAD C:\Users\dldms\AppData\Local\Temp\ccOzBJmf.o
-LOAD C:\Users\dldms\AppData\Local\Temp\cc3he17A.o
-LOAD C:\Users\dldms\AppData\Local\Temp\ccpxYrHP.o
-LOAD C:\Users\dldms\AppData\Local\Temp\ccRD0GQq.o
-LOAD C:\Users\dldms\AppData\Local\Temp\cc2Qm0gT.o
-LOAD C:\Users\dldms\AppData\Local\Temp\cc5r38xY.o
-LOAD C:\Users\dldms\AppData\Local\Temp\ccd1bfuf.o
-LOAD C:\Users\dldms\AppData\Local\Temp\ccTThf2y.o
+LOAD C:\Users\dldms\AppData\Local\Temp\cctNvm6c.o
+LOAD C:\Users\dldms\AppData\Local\Temp\cc28WLFR.o
+LOAD C:\Users\dldms\AppData\Local\Temp\ccW2y0Ju.o
+LOAD C:\Users\dldms\AppData\Local\Temp\ccomZG8q.o
+LOAD C:\Users\dldms\AppData\Local\Temp\ccHuOhFi.o
+LOAD C:\Users\dldms\AppData\Local\Temp\ccz0oeBz.o
+LOAD C:\Users\dldms\AppData\Local\Temp\ccxJW47b.o
+LOAD C:\Users\dldms\AppData\Local\Temp\cc1wqSMT.o
 LOAD c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libc.a
 LOAD c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libm.a
 LOAD c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7+fp/hard\libg.a
